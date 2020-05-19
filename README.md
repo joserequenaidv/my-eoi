@@ -15,11 +15,11 @@ On this repository, I share my experience in the Spain's School for Industrial O
 Every course has a branch for itself. The content of these branches will be up to date and merged with the master branch, but not necessarily erased. 
 
 ### List of branches:
-    - master: It is in charge of the updates in the main directory related to the content of the README file, the images and the guidelines of how to dive through this repository.
-   
-## Icons
-The icons I use in all my documents and commits are in the complete list of GitHub emoji markup :relaxed:.
+    · master: It is in charge of the updates in the main directory related to the content of the README file, the images and the guidelines of how to dive through this repository.
 
+## Icons
+The icons I use in all my documents and commits are in [the complete list of GitHub emoji markup](https://gist.github.com/rxaviers/7360908).
+   
 ### List: 
 
 - Directories:
@@ -37,5 +37,5 @@ The icons I use in all my documents and commits are in the complete list of GitH
     - :books: - Creation, customisation and organization of directories.
 
 **The way I name my commits follows a simple logic:**
-- Directory + Subdirectory + Activity
+- Directory + Subdirectory + Activity.
 - If the changes are in the main directory, just the activity will be mentioned.
