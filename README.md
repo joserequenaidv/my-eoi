@@ -1,5 +1,5 @@
 #My EOI experience
-On this repository, I share my experience in the Spain's School for Industrial Organisation.
+On this repository, I share my experience in the Spain's School for Industrial Organization.
 
 ##Index
 - My EOI experience
@@ -34,6 +34,7 @@ List:
     - :art: - Design and style updates.
     - :black_nib: - Content updates. 
     - :penci12: - Correcting mistakes.
+    - :books: - Creation, customisation and organization of directories.
 
 **The way I name my commits follows a simple logic:**
 - Directory + Subdirectory + Activity
