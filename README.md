@@ -1,26 +1,26 @@
-#My EOI experience
+# My EOI experience
 On this repository, I share my experience in the Spain's School for Industrial Organization.
 
-##Index
+## Index
 - My EOI experience
 - Courses
     - Specialisation in Python
 - Branches
 - Icons
 
-##Courses
+## Courses
 - SP. Specialisation in Python
 
-##Branches
+## Branches
 Every course has a branch for itself. The content of these branches will be up to date and merged with the master branch, but not necessarily erased. 
 
-###List of branches:
+### List of branches:
     - master: It is in charge of the updates in the main directory related to the content of the README file, the images and the guidelines of how to dive through this repository.
    
-##Icons
+## Icons
 The icons I use in all my documents and commits are in the complete list of GitHub emoji markup :relaxed:.
 
-List: 
+### List: 
 
 - Directories:
     - :snake: - Specialisation in Python.
@@ -33,7 +33,7 @@ List:
     - :notebook: - README updates.
     - :art: - Design and style updates.
     - :black_nib: - Content updates. 
-    - :penci12: - Correcting mistakes.
+    - :pencil2: - Correcting mistakes.
     - :books: - Creation, customisation and organization of directories.
 
 **The way I name my commits follows a simple logic:**
