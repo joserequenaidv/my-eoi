@@ -9,19 +9,12 @@ In this repository, I share what I've learned and created while at [Spain's Scho
 - Icons
 
 ## Courses
-- [Specialization in Python](https://github.com/jsrq/my-eoi/tree/master/courses/py-spec)
-
-## Branches
-Every course has a branch for itself. The content of these branches will be up to date and merged with the master branch, but not necessarily erased. 
-
-### List of branches:
-    · master: It is in charge of the updates in the main directory related to the content of the README file, the images and the guidelines of how to dive through this repository.
+- [Python Specialization Course](https://github.com/jsrq/my-eoi/tree/master/py-spec-course)
 
 ## Icons
 The icons I use in all my documents and commits are found in [the complete list of GitHub emoji markup](https://gist.github.com/rxaviers/7360908).
    
 ### List: 
-
 - Directories:
     - :snake: - Specialization in Python.
 
