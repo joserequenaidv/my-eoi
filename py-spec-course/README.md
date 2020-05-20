@@ -3,26 +3,26 @@ This is the [Python Specialization Course](https://www.eoi.es/es/cursos/34426/cu
 
 ## Modules
 There are twelve modules:
-· [Environment](./01-environment/) :deciduous_tree:
-· [Core](./02-core/) :abc:
-· [Employability](./03-employability) :necktie:
-· [Design Patterns](./04-patterns) :wrench:
-· [Libraries](./05-libs) :aerial_tramway:
-· [Web Development](./06-web) :globe_with_meridians:
-· [System Administration](./07-sysadmin) :cloud:
-· Desktop Apps
-· Data Science
-· Internet of Things
-· Videogames
+- [Environment](./01-environment/) :deciduous_tree:
+- [Core](./02-core/) :abc:
+- [Employability](./03-employability) :necktie:
+- [Design Patterns](./04-patterns) :wrench:
+- [Libraries](./05-libs) :aerial_tramway:
+- [Web Development](./06-web) :globe_with_meridians:
+- [System Administration](./07-sysadmin) :cloud:
+- Desktop Apps
+- Data Science
+- Internet of Things
+- Videogames
 
 ## Teachers
-· Alejandro Samarín
-· Carlos Blé
-· Daniel Álvarez
-· Juan Ignacio Rodríguez
-· Luis Antón 
-· Sergio Delgado
-· Xiomara Méndez 
+- Alejandro Samarín
+- Carlos Blé
+- Daniel Álvarez
+- Juan Ignacio Rodríguez
+- Luis Antón 
+- Sergio Delgado
+- Xiomara Méndez 
 ## Links
 The following are some important links about this course:
 
