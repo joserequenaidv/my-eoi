@@ -1,20 +1,20 @@
-# Specialization in Python
+# Specialization in Python :snake:
 This is the [Python Specialization Course](https://www.eoi.es/es/cursos/34426/curso-de-especializacion-en-python-la-laguna-santa-cruz-de-tenerife) funded by the Spain's School for Industrial Organization and given by the Python Canarias organization. 
 
 ## Modules
 There are twelve modules:
-· [Environment](./01-environment/)
-· [Core](./02-core/)
-· [Employability](./03-employability)
-· [Design Patterns](./04-patterns)
-· [Libraries](./05-libs)
-· [Web Development](./06-web)
-· [System Administration](./07-sysadmin)
+· [Environment](./01-environment/) :deciduous_tree:
+· [Core](./02-core/) :abc:
+· [Employability](./03-employability) :necktie:
+· [Design Patterns](./04-patterns) :wrench:
+· [Libraries](./05-libs) :aerial_tramway:
+· [Web Development](./06-web) :globe_with_meridians:
+· [System Administration](./07-sysadmin) :cloud:
 · Desktop Apps
 · Data Science
 · Internet of Things
 · Videogames
-· Testing
+
 ## Teachers
 · Alejandro Samarín
 · Carlos Blé
