@@ -1,10 +1,10 @@
 # Specialization in Python :snake:
-This is the [Python Specialization Course](https://www.eoi.es/es/cursos/34426/curso-de-especializacion-en-python-la-laguna-santa-cruz-de-tenerife) funded by the Spain's School for Industrial Organization and given by the Python Canarias organization. 
+This is the [Python Specialization Course](https://www.eoi.es/es/cursos/34426/curso-de-especializacion-en-python-la-laguna-santa-cruz-de-tenerife) funded by the Spain's School for Industrial Organization and given by Python Canarias. 
 
 ## Modules
 There are twelve modules:
 - [Environment](./01-environment/) :deciduous_tree:
-- [Core](./02-core/) :abc:
+- [Core](https://github.com/pythoncanarias/eoi/blob/master/02-core/README.md) :abc: - (Content in :es:)
 - [Employability](./03-employability) :necktie:
 - [Design Patterns](./04-patterns) :wrench:
 - [Libraries](./05-libs) :aerial_tramway:
@@ -14,15 +14,33 @@ There are twelve modules:
 - Data Science
 - Internet of Things
 - Videogames
+- Testing
 
-## Teachers
-- Alejandro Samarín
-- Carlos Blé
-- Daniel Álvarez
-- Juan Ignacio Rodríguez
-- Luis Antón 
-- Sergio Delgado
-- Xiomara Méndez 
+## Faculty
+#### Alejandro Samarín
+![](https://avatars2.githubusercontent.com/u/2415715?s=400&u=399e55459f06bc8c5404d251c4ee17a825638020&v=4)
+#### Carlos Blé
+#### Daniel Álvarez
+#### Juan Ignacio Rodríguez
+#### Luis Antón
+#### Sergio Delgado
+#### Xiomara Méndez
+
+Course | Teacher
+---------- | ----------
+Environment | Alejandro Samarín
+Core | Sergio Delgado
+Employability | Xiomara Méndez
+Design Patterns | Juan Ignacio Rodríguez
+Libraries | Juan Ignacio Rodríguez
+Web Development | Juan Ignacio Rodríguez
+System Administration | Alejandro Samarín
+Desktop Apps | Alejandro Samarín
+Data Science | Alejandro Samarín
+Internet of Things | Daniel Álvarez
+Videogames | Luis Antón
+Testing | Carlos Blé
+
 ## Links
 The following are some important links about this course:
 
