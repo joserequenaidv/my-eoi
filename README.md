@@ -4,9 +4,8 @@ In this repository, I share what I've learned and created while at [Spain's Scho
 ## Index
 - My EOI experience
 - Courses
-    - Specialization in Python
 - Icons
-
+- To-dos
 ## Courses
 - [Python Specialization Course](./py-spec-course/)
 
@@ -20,3 +19,21 @@ The icons I use in all my documents and commits are found in [the complete list 
 - :books: - Creation, customisation and organization of directories.
 - :speech_balloon: - Coding.
 - :no_entry_sign: - .gitignore updates.
+
+## To-dos
+- :snake:
+ - Add faculty's information, one by one, including:
+   - Description
+   - Picture
+   - Social media / Personal web / Where to contact them
+
+ - Add more content to index
+   - Language
+   - Employability
+   - Design Patterns
+   - Web Development
+   - System Administration
+   - Desktop Apps
+
+ - Correct indentation of index
+   - Libraries
