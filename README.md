@@ -21,7 +21,7 @@ The icons I use in all my documents and commits are found in [the complete list 
 - :no_entry_sign: - .gitignore updates.
 
 ## To-dos
-###:snake:
+### :snake:
 - Add faculty's information, one by one, including:
   - Description
   - Picture
