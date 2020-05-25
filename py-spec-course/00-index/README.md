@@ -4,7 +4,7 @@ This is the Unofficial Course Content Index (from now on, 'UCCI') of the online 
 
 #### - Core
 #### - Employability
-#### - [Libs](05-libs.md) :aerial_tramway:
+#### - [Libs](../05-libs/05-libs.md) :aerial_tramway:
 #### - Design Patterns
 #### - Web Development
 #### - System Administration
