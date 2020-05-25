@@ -19,3 +19,4 @@ The icons I use in all my documents and commits are found in [the complete list 
 - :pencil2: - Correcting mistakes.
 - :books: - Creation, customisation and organization of directories.
 - :speech_balloon: - Coding.
+- :no_entry_sign: - .gitignore updates.
