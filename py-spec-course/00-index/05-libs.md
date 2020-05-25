@@ -1,10 +1,10 @@
-#LD. Librerías destacadas / libs :aerial_tramway:
-##Martes, 14 de abril
+# LD. Librerías destacadas / libs :aerial_tramway:
+## Martes, 14 de abril
 
-#### [Enlace a la sesión grabada :beginner:](https://us.bbcollab.com/recording/57d0753cbfa34416befb24c342e70206).
+#### [Enlace a la sesión grabada :beginner:](https://us.bbcollab.com/recording/57d0753cbfa34416befb24c342e70206)
 
-###Contenido:
-####Librerías estándar
+### Contenido:
+#### Librerías estándar
 
 - Librería **os** (05:40 – 01:30:10)
 *(Llamadas al sistema operativo)*
@@ -34,12 +34,12 @@
 ◦ open
 ◦ writelines()
 
-##Miércoles, 15 de abril
+## Miércoles, 15 de abril
 
 #### [Enlace a la sesión grabada :beginner:](https://us.bbcollab.com/recording/6a5eccadc94248d39f73e587677f7442)
 
-###Contenido:
-####Librerías estándar
+### Contenido:
+#### Librerías estándar
 - Librería **zipfile** (01:00 – 42:20)
 *(Librería de comprensión)*
 ◦ is_zipfile()
@@ -79,12 +79,12 @@
 ◦ b64encode
 ◦ decode
 
-##Jueves, 16 de abril
+## Jueves, 16 de abril
 
 #### [Enlace a la sesión grabada :beginner:](https://us.bbcollab.com/recording/c9a64768efd04e05b72af6afdb5647a1)
 
-###Contenido:
-####Librerías estándar
+### Contenido:
+#### Librerías estándar
 - Librería **base64** (04:00 – 16:00) *(parte II)*
 *(Codificar y decodificar información binaria usando ASCII)*
 ◦ Módulo HTML
@@ -114,11 +114,11 @@
 *(Expresiones regulares)*
 ◦ compile
 
-##Viernes, 17 de abril
+## Viernes, 17 de abril
 
 #### [Enlace a la sesión grabada :beginner:](https://us.bbcollab.com/recording/022e4743fea4480793cb5ffa3b9b19d4)
 
-###Contenido:
+### Contenido:
 - Librería **re** (02:45 - 01:29:40) *(parte II)*
 *(Expresiones regulares)*
 ◦ Caracteres especiales
@@ -156,11 +156,11 @@
 - Librería **threading** (03:20:45 – 03:59:20)
 *(Gestionar operaciones concurrentes dentro de un proceso)*
 
-##Lunes, 20 de abril
-####[Enlace a la sesión grabada :beginner:](https://us.bbcollab.com/recording/a27814b5362f40ac9e7a30adad68d1b5)
+## Lunes, 20 de abril
+#### [Enlace a la sesión grabada :beginner:](https://us.bbcollab.com/recording/a27814b5362f40ac9e7a30adad68d1b5)
 
-###Contenido:
-####Librerías externas
+### Contenido:
+#### Librerías externas
 - Librería **arrow** (03:30 – 01:30:15)
 *(Facilita el trabajo con fechas)*
 ◦ get
@@ -195,11 +195,11 @@
 ◦ barh
 ◦ scatter
 
-##Martes, 21 de abril
+## Martes, 21 de abril
 
 #### [Enlace a la sesión grabada :beginner:](https://us.bbcollab.com/recording/1fbd9ff57ac946099a24fa27213ad203 )
 
-###Contenido:
+### Contenido:
 - Librería **matplotlib** (28:20 – 01:08:40) *(parte II)*
 *(Herramienta para visualización de datos)*
 ◦ title
@@ -226,19 +226,19 @@
 ◦ options
 ◦ Session()
 
-##Miércoles, 22 de abril
+## Miércoles, 22 de abril
 
 #### [Enlace a la sesión grabada :beginner:](https://us.bbcollab.com/recording/9b6b74c1e54f49da92b2fb87f0893f88)
 
-###Contenido:
-####Librería estándar
+### Contenido:
+#### Librería estándar
 - Librería **json** (05:30 – 56:00)
 *(Trabajar con ficheros en formato JSON)*
 ◦ dumps
 ◦ APIs públicas (56:55 – 02:00:00)
   *(Interfaz de programación de aplicaciones)*
 
-####Librerías externas
+#### Librerías externas
 - Librería **pillow** (02:01:17 – 04:01:05) *(parte I)*
 *(Proceso de imágenes)*
 ◦ format, size y mode
@@ -252,11 +252,11 @@
 ◦ merge
 ◦ resize
 
-##Jueves, 23 de abril
+## Jueves, 23 de abril
 
 #### [Enlace a la sesión grabada :beginner:](https://us.bbcollab.com/recording/f17c2054875241678981d2312edeee87)
 
-###Contenido:
+### Contenido:
 - Librería **pillow** (08:00 – 02:27:50) *(parte II)*
 *(Proceso de imágenes)*
 ◦ rotate
@@ -301,11 +301,11 @@
 
 - **Miniproyecto:** Copia de seguridad (03:45:00 – 04:01:50)
 
-##Viernes, 24 de abril
+## Viernes, 24 de abril
 
 #### [Enlace a la sesión grabada :beginner:](https://us.bbcollab.com/recording/e531751ef17f44589223fbfd4f7de5e8)
 
-###Contenido:
+### Contenido:
 - Librería **pandas** (05:20 - 02:25:10)
 *(Extensión de NumPy para manipulación y análisis de datos)*
 ◦ read_csv()
