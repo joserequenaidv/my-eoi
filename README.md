@@ -21,19 +21,19 @@ The icons I use in all my documents and commits are found in [the complete list 
 - :no_entry_sign: - .gitignore updates.
 
 ## To-dos
-- :snake:
- - Add faculty's information, one by one, including:
-   - Description
-   - Picture
-   - Social media / Personal web / Where to contact them
+###:snake:
+- Add faculty's information, one by one, including:
+  - Description
+  - Picture
+  - Social media / Personal web / Where to contact them
 
- - Add more content to index
-   - Language
-   - Employability
-   - Design Patterns
-   - Web Development
-   - System Administration
-   - Desktop Apps
+- Add more content to index
+  - Language
+  - Employability
+  - Design Patterns
+  - Web Development
+  - System Administration
+  - Desktop Apps
 
- - Correct indentation of index
-   - Libraries
+- Correct indentation of index
+  - Libraries
