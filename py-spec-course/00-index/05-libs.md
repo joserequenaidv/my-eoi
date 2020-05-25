@@ -36,7 +36,7 @@
 
 ##Miércoles, 15 de abril
 
-#### [Enlace a la sesión grabada :beginner:](https://us.bbcollab.com/recording/6a5eccadc94248d39f73e587677f7442) 
+#### [Enlace a la sesión grabada :beginner:](https://us.bbcollab.com/recording/6a5eccadc94248d39f73e587677f7442)
 
 ###Contenido:
 ####Librerías estándar
@@ -199,7 +199,7 @@
 
 #### [Enlace a la sesión grabada :beginner:](https://us.bbcollab.com/recording/1fbd9ff57ac946099a24fa27213ad203 )
 
-###Contenido: 
+###Contenido:
 - Librería **matplotlib** (28:20 – 01:08:40) *(parte II)*
 *(Herramienta para visualización de datos)*
 ◦ title
