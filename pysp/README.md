@@ -3,14 +3,14 @@ This is the [Python Specialization Course](https://www.eoi.es/es/cursos/34426/cu
 
 ## Modules
 There are twelve modules:
-- [Environment](./01-environment/) :deciduous_tree:
+- [Environment](./01-environment/README.md) :deciduous_tree:
 - [Core](https://github.com/pythoncanarias/eoi/blob/master/02-core/README.md) :abc: - (Content in :es:)
-- [Employability](./03-employability) :necktie:
-- [Design Patterns](./04-patterns) :wrench:
-- [Libraries](./05-libs) :aerial_tramway:
-- [Web Development](./06-web) :globe_with_meridians:
-- [System Administration](./07-sysadmin) :cloud:
-- Desktop Apps
+- [Employability](./03-employability/README.md) :necktie:
+- [Design Patterns](./04-patterns/README.md) :wrench:
+- [Libraries](./05-libs/README.md) :aerial_tramway:
+- [Web Development](./06-web/README.md) :globe_with_meridians:
+- [System Administration](./07-sysadmin/README.md) :cloud:
+- [Desktop Apps](./08-desktop-apps/README.md) :computer:
 - Data Science
 - Internet of Things
 - Videogames
@@ -44,11 +44,11 @@ Testing | Carlos Blé
 ## Links
 The following are some important links about this course:
 
-· [Unofficial Course Content Index](https://github.com/jsrq/my-eoi/tree/master/courses/py-spec/00-index/ucci.md) made by José Requena ([me!](https://twitter.com/joserequenaidv) :mailbox_with_mail:) in order to ease the review of the online sessions recorded by the faculty. You have access to it on [PDF].
+· [Unofficial Course Content Index](./00-index/README.md) made by José Requena ([me!](https://twitter.com/joserequenaidv) :mailbox_with_mail:) in order to ease the review of the online sessions recorded by the faculty. You have access to it on [PDF].
 
 · The [Python Canarias Repository](https://github.com/pythoncanarias/eoi), where you can find the modules, every teachers' notes and everything we studied in the course.
 
-### Friendly statement
+### Friendly reminder
 The content of this course was fully in Spanish, therefore some of the links above will be in that language. Even though in my repository I try to translate as much as I can, there are some files that are not completely translated.
 
 Any feedback is more than welcome! :bowtie: :bookmark:

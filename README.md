@@ -7,7 +7,7 @@ In this repository, I share what I've learned and created while at [Spain's Scho
 - Icons
 - To-dos
 ## Courses
-- [Python Specialization Course](./py-spec-course/)
+- [Python Specialization Course](./pysp/README.md)
 
 ## Icons
 The icons I use in all my documents and commits are found in [the complete list of GitHub emoji markup](https://gist.github.com/rxaviers/7360908) and describe the following activities.
@@ -26,6 +26,8 @@ The icons I use in all my documents and commits are found in [the complete list 
   - Description
   - Picture
   - Social media / Personal web / Where to contact them
+
+- Do a more interactive repository by linking README's instead of directories.
 
 - Add more content to index
   - Language
