@@ -103,7 +103,11 @@ Desktop.ini
 # Thumbnails
 ._*
 Thumbs.db
+#Project's dependencies
+md-tools/
 # More
+*.swp
 *.odt
 *.odt#
 *.pdf
+todos*
