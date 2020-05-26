@@ -18,7 +18,6 @@ There are twelve modules:
 
 ## Faculty
 #### Alejandro Samarín
-![](https://avatars2.githubusercontent.com/u/2415715?s=400&u=399e55459f06bc8c5404d251c4ee17a825638020&v=4)
 #### Carlos Blé
 #### Daniel Álvarez
 #### Juan Ignacio Rodríguez
