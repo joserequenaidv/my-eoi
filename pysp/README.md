@@ -1,4 +1,4 @@
-# Specialization in Python :snake:
+# Python Specialization :snake:
 This is the [Python Specialization Course](https://www.eoi.es/es/cursos/34426/curso-de-especializacion-en-python-la-laguna-santa-cruz-de-tenerife) funded by the Spain's School for Industrial Organization and given by Python Canarias. 
 
 ## Modules
@@ -47,7 +47,7 @@ The following are some important links about this course:
 
 · The [Python Canarias Repository](https://github.com/pythoncanarias/eoi), where you can find the modules, every teachers' notes and everything we studied in the course.
 
-### Friendly reminder
+### Friendly Reminder
 The content of this course was fully in Spanish, therefore some of the links above will be in that language. Even though in my repository I try to translate as much as I can, there are some files that are not completely translated.
 
 Any feedback is more than welcome! :bowtie: :bookmark:

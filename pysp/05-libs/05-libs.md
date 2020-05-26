@@ -105,7 +105,7 @@
 ◦ OrderedDict
 ◦ defaultdict
 
-- Librería **csv** (02:32:40 – 02:58:15)
+- Librería **csv** [:orange_book:](https://docs.python.org/3/library/csv.html?highlight=csv#module-csv)(02:32:40 – 02:58:15)
 *(Intercambio de información de hojas de cálculo o bases de datos)*
 ◦ reader
 ◦ writer
