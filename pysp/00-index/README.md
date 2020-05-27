@@ -2,7 +2,7 @@
 This is the Unofficial Course Content Index (from now on, 'UCCI') of the online sessions of the Python Specialization Course that took place from April to July, 2020.
 
 * [To Consider](#to-consider)
-* [Core](#core)
+* [Language Core](#core)
 * [Employability](#emp)
 * [Libraries](#libs)
 * [Design Patterns](#patterns)
@@ -25,7 +25,8 @@ The following are the icons included all along the UCCI:
 
 If not specified, the link to Wikipedia, books or any other content will be in English.
 
-# Core :abc:
+<a name="core"></a>
+# Language Core :abc:
 ## Friday, April 3rd
 
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/06351d80ce5c468d99d18dadb93329fb)
@@ -42,6 +43,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/cafc1c4cdb4241398bfd7351b6671b11)
 
+<a name="emp"></a>
 # Employability :necktie:
 
 ## Monday, April 13th
@@ -238,7 +240,6 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - scatter
 
 ## Tuesday, April 21st
-
 #### [Link to the recorded session :beginner:](https://us.bbcollab.com/recording/1fbd9ff57ac946099a24fa27213ad203 )
 
 ### Content
@@ -268,7 +269,6 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - Session()
 
 ## Wednesday, April 22nd
-
 #### [Link to the recorded session :beginner:](https://us.bbcollab.com/recording/9b6b74c1e54f49da92b2fb87f0893f88)
 
 ### Content
@@ -291,7 +291,6 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - resize
 
 ## Thursday, April 23rd
-
 #### [Link to the recorded session :beginner:](https://us.bbcollab.com/recording/f17c2054875241678981d2312edeee87)
 
 #### External libraries
@@ -339,7 +338,6 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 - **Project:** Backup script (03:45:00 – 04:01:50)
 
 ## Friday, April 24th
-
 #### [Link to the recorded session :beginner:](https://us.bbcollab.com/recording/e531751ef17f44589223fbfd4f7de5e8)
 
 ### Content
@@ -360,9 +358,9 @@ If not specified, the link to Wikipedia, books or any other content will be in E
         - stop
         - join
 
+<a name="patterns"></a>
 # Design Patterns :globe_with_meridians:
 ## Monday, April 27th
-
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/9f8fa8bb2743448cbc333656e420cc4b)
 
 ### Content
@@ -383,7 +381,6 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 - **Builder** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/04-Builder.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Builder_pattern) (03:46:50 - 03:57:30)
 
 ## Tuesday, April 28th
-
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/ec154a2062c94378b79f90c5f1a65a09)
 
 ### Content
@@ -397,81 +394,67 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 - **Strategy** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/12-Strategy.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Strategy_pattern) (03:18:25 - 04:01:30)
 
+<a name="web"></a>
 # Web Design :globe_with_meridians:
 ## Wednesday, April 29th
-
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/e2642b90baf24c3c88ece7f992185a18)
 
 ## Thursday, April 30th
-
 #### [Link to the recorded session :vhs:]()
 
 ## Monday, May 4th
-
 #### [Link to the recorded session :vhs:]()
 
 ## Tuesday, May 5th
-
 #### [Link to the recorded session :vhs:]()
 
 ## Wednesday, May 6th
-
 #### [Link to the recorded session :vhs:]()
 
 ## Thursday, May 7th
-
 #### [Link to the recorded session :vhs:]()
 
+<a name="libs"></a>
 # System Administration :cloud:
 ## Friday, May 8th
-
 #### [Link to the recorded session :vhs:]()
 
 ## Monday, May 11th
-
 #### [Link to the recorded session :vhs:]()
 
 ## Tuesday, May 12th
 
 ## Wednesday, May 13th
-
 #### [Link to the recorded session :vhs:]()
 
 ## Thursday, May 14th
-
 #### [Link to the recorded session :vhs:]()
 
 ## Friday, May 15th
-
 #### [Link to the recorded session :vhs:]()
 
 ## Tuesday, May 19th
-
 #### [Link to the recorded session :vhs:]()
 
 ## Wednesday, May 20th
-
 #### [Link to the recorded session :vhs:]()
 
 ## Thursday, May 21st
-
 #### [Link to the recorded session :vhs:]()
 
+<a name="libs"></a>
 # Desktop Apps :computer:
 ## Friday, May 22nd
-
 #### [Link to the recorded session :vhs:]()
 
 ## Monday, May 25th
-
 #### [Link to the recorded session :vhs:]()
 
 ## Tuesday, May 26th
-
 #### [Link to the recorded session :vhs:]()
 
+<a name="libs"></a>
 # Data Science :bar_chart:
 ## Wednesday, May 27th
-
 #### [Link to the recorded session :vhs:]()
 
