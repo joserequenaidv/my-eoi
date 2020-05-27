@@ -3,15 +3,15 @@ This is the [Python Specialization Course](https://www.eoi.es/es/cursos/34426/cu
 
 ## Modules
 There are twelve modules:
-- [Environment](./01-environment/README.md) :deciduous_tree:
-- [Core](https://github.com/pythoncanarias/eoi/blob/master/02-core/README.md) :abc: - (Content in :es:)
+- **Environment** :deciduous_tree: [01-environment](./01-environment/README.md)
+- [Core](./02-core/README.md) :abc:
 - [Employability](./03-employability/README.md) :necktie:
 - [Design Patterns](./04-patterns/README.md) :wrench:
 - [Libraries](./05-libs/README.md) :aerial_tramway:
 - [Web Development](./06-web/README.md) :globe_with_meridians:
 - [System Administration](./07-sysadmin/README.md) :cloud:
 - [Desktop Apps](./08-desktop-apps/README.md) :computer:
-- Data Science
+- [Data Science](./09-data/README.md) :bar_chart:
 - Internet of Things
 - Videogames
 - Testing
