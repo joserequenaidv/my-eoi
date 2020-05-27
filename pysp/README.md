@@ -3,7 +3,7 @@ This is the [Python Specialization Course](https://www.eoi.es/es/cursos/34426/cu
 
 ## Modules
 There are twelve modules:
-- **Environment** :deciduous_tree: [01-environment](./01-environment/README.md)
+- [Environment](./01-environment/README.md) :deciduous_tree:
 - [Core](./02-core/README.md) :abc:
 - [Employability](./03-employability/README.md) :necktie:
 - [Design Patterns](./04-patterns/README.md) :wrench:
