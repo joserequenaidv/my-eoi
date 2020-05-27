@@ -33,6 +33,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/06351d80ce5c468d99d18dadb93329fb)
 
 <div style="text-align: right">[:top:](#top)</div>
+
 ## Monday, April 6th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/b91a2b1057a547d084894d7030a075ad)
 
