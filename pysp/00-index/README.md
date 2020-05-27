@@ -1,3 +1,4 @@
+<a name="top"></a>
 # Unofficial Course Content Index (UCCI)
 This is the Unofficial Course Content Index (from now on, 'UCCI') of the online sessions of the Python Specialization Course that took place from April to July, 2020.
 
@@ -20,6 +21,7 @@ The following are the icons included all along the UCCI:
 - :orange_book: - Link to official documentation
 - :es: - Link to Spanish content
 - :us: - Link to English content
+- :top: - Back to file index
 
 **Also:**
 
@@ -30,6 +32,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 ## Friday, April 3rd
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/06351d80ce5c468d99d18dadb93329fb)
 
+<div style="text-align: right">[:top:](#top)</div>
 ## Monday, April 6th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/b91a2b1057a547d084894d7030a075ad)
 
@@ -403,7 +406,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 ## Thursday, May 7th (from 4 to 5 pm)
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/3bb26e08d7834484acfba5f222330a02)
 
-<a name="libs"></a>
+<a name="sys-admin"></a>
 # System Administration :cloud:
 ## Friday, May 8th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/72385b99b2494ae094c124d4f6fd03e2)
@@ -433,7 +436,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 ## Thursday, May 21st
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/d45e54343d2041a69e01daffc66b9217)
 
-<a name="libs"></a>
+<a name="desktop-apps"></a>
 # Desktop Apps :computer:
 ## Friday, May 22nd
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/33c1cc8f2e7647d8b171238fc9137a41)
@@ -444,7 +447,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 ## Tuesday, May 26th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/7a9bd9b0710e4630b90182995d91c6d5)
 
-<a name="libs"></a>
+<a name="data"></a>
 # Data Science :bar_chart:
 ## Wednesday, May 27th
 #### [Link to the recorded session :vhs:]()
