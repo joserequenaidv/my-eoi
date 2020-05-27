@@ -1,13 +1,16 @@
 # Unofficial Course Content Index (UCCI)
 This is the Unofficial Course Content Index (from now on, 'UCCI') of the online sessions of the Python Specialization Course that took place from April to July, 2020.
 
-- Core
-- Employability
-- [Libs](../05-libs/05-libs.md) :aerial_tramway:
-- [Design Patterns]() :wrench:
-- Web Development
-- System Administration
-- Desktop Apps
+## Table of Contents
+* [To Consider](#to-consider)
+* [Core](#core)
+* [Employability](#employability)
+* [Libraries](#libraries)
+* [Design Patterns](#design-patterns)
+* [Web Development](#web-development)
+* [System Administration](#system-administration)
+* [Desktop Apps](#desktop-apps)
+* [Data Science](#data-science)
 
 ## To Consider
 The following are the icons included all along the UCCI:
@@ -21,7 +24,7 @@ The following are the icons included all along the UCCI:
 
 **Also:**
 
-If not specified, the link to Wikipedia, books or any other content will be in English :us:.
+If not specified, the link to Wikipedia, books or any other content will be in English.
 
 # Core :abc:
 ## Friday, April 3rd
@@ -401,4 +404,74 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 ## Thursday, April 30th
 
+#### [Link to the recorded session :vhs:]()
+
 ## Monday, May 4th
+
+#### [Link to the recorded session :vhs:]()
+
+## Tuesday, May 5th
+
+#### [Link to the recorded session :vhs:]()
+
+## Wednesday, May 6th
+
+#### [Link to the recorded session :vhs:]()
+
+## Thursday, May 7th
+
+#### [Link to the recorded session :vhs:]()
+
+# System Administration :cloud:
+## Friday, May 8th
+
+#### [Link to the recorded session :vhs:]()
+
+## Monday, May 11th
+
+#### [Link to the recorded session :vhs:]()
+
+## Tuesday, May 12th
+
+## Wednesday, May 13th
+
+#### [Link to the recorded session :vhs:]()
+
+## Thursday, May 14th
+
+#### [Link to the recorded session :vhs:]()
+
+## Friday, May 15th
+
+#### [Link to the recorded session :vhs:]()
+
+## Tuesday, May 19th
+
+#### [Link to the recorded session :vhs:]()
+
+## Wednesday, May 20th
+
+#### [Link to the recorded session :vhs:]()
+
+## Thursday, May 21st
+
+#### [Link to the recorded session :vhs:]()
+
+# Desktop Apps :computer:
+## Friday, May 22nd
+
+#### [Link to the recorded session :vhs:]()
+
+## Monday, May 25th
+
+#### [Link to the recorded session :vhs:]()
+
+## Tuesday, May 26th
+
+#### [Link to the recorded session :vhs:]()
+
+# Data Science :bar_chart:
+## Wednesday, May 27th
+
+#### [Link to the recorded session :vhs:]()
+
