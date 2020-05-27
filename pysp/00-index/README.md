@@ -1,16 +1,15 @@
 # Unofficial Course Content Index (UCCI)
 This is the Unofficial Course Content Index (from now on, 'UCCI') of the online sessions of the Python Specialization Course that took place from April to July, 2020.
 
-## Table of Contents
 * [To Consider](#to-consider)
 * [Core](#core)
-* [Employability](#employability)
-* [Libraries](#libraries)
-* [Design Patterns](#design-patterns)
-* [Web Development](#web-development)
-* [System Administration](#system-administration)
+* [Employability](#emp)
+* [Libraries](#libs)
+* [Design Patterns](#patterns)
+* [Web Development](#web)
+* [System Administration](#sys-admin)
 * [Desktop Apps](#desktop-apps)
-* [Data Science](#data-science)
+* [Data Science](#data)
 
 ## To Consider
 The following are the icons included all along the UCCI:
@@ -57,6 +56,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/2014a86fbeaa4439be5e0d87360669ad)
 
+<a name="libs"></a>
 # Libraries :aerial_tramway:
 ## Tuesday, April 14th
 
@@ -118,7 +118,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - gmtime()
     - mktime()
 
-- **datetime** [:beginner:]() [:orange_notebook:](https://docs.python.org/3/library/datetime.html?highlight=datetime#module-datetime) (02:25:10 – 03:17:45) *(Basic date and time types)*
+- **datetime** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/datetime.html?highlight=datetime#module-datetime) (02:25:10 – 03:17:45) *(Basic date and time types)*
     - date
         - today, day, month, year
         - fromtimestamp
@@ -126,7 +126,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
         - now()
         - minute, year…
 
-- **base64** [:beginner:]() [:orange_notebook:](https://docs.python.org/3/library/base64.html?highlight=base64#module-base64) (03:23:40 – 04:00:00) *(Data encodings)* *(part I)*
+- **base64** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/base64.html?highlight=base64#module-base64) (03:23:40 – 04:00:00) *(Data encodings)* *(part I)*
     - what econding is and what is not
     - b64encode
     - decode
@@ -137,17 +137,17 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 ### Content
 #### Standard libraries
-- **base64** [:beginner:]() [:orange_notebook:](https://docs.python.org/3/library/base64.html?highlight=base64#module-base64) (04:00 - 16:00) *(Data encodings)* *(part II)*
+- **base64** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/base64.html?highlight=base64#module-base64) (04:00 - 16:00) *(Data encodings)* *(part II)*
     - HTML module
 
-- **statistics** [:beginner:]() [:orange_notebook:](https://docs.python.org/3/library/statistics.html?highlight=statistics#module-statistics) (16:40 – 01:19:20) *(Mathematical statistics functions)*
+- **statistics** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/statistics.html?highlight=statistics#module-statistics) (16:40 – 01:19:20) *(Mathematical statistics functions)*
     - mean
     - geometric_mean
     - median
     - mode
     - stdev & variance
 
-- **collections** [:beginner:]() [:orange_notebook:](https://docs.python.org/3/library/collections.html?highlight=collections#module-collections) (01:32:35 – 02:32:20) *(Container datatypes)*
+- **collections** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/collections.html?highlight=collections#module-collections) (01:32:35 – 02:32:20) *(Container datatypes)*
     - namedtuple
     - deque
     - Counter
