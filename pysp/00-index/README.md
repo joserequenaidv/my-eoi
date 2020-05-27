@@ -32,7 +32,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 ## Friday, April 3rd
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/06351d80ce5c468d99d18dadb93329fb)
 
-<div style="text-align: right">[:top:](#top)</div>
+[:top:](#top)
 
 ## Monday, April 6th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/b91a2b1057a547d084894d7030a075ad)
@@ -86,6 +86,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 - **gzip** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/gzip.html?highlight=gzip#module-gzip) (03:11:40 – 03:49:50) *(Compression and decompression)*
     - open
     - writelines()
+[:top:](#top)
 
 ## Wednesday, April 15th
 #### [Link to the recorded session :beginner:](https://us.bbcollab.com/recording/6a5eccadc94248d39f73e587677f7442)
@@ -372,6 +373,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 - **Factory Method** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/03-Factory.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Factory_method_pattern) (03:25:30 - 03:44:50)
 
 - **Builder** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/04-Builder.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Builder_pattern) (03:46:50 - 03:57:30)
+[:top:](#top)
 
 ## Tuesday, April 28th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/ec154a2062c94378b79f90c5f1a65a09)
