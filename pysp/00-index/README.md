@@ -37,11 +37,17 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 ## Monday, April 6th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/b91a2b1057a547d084894d7030a075ad)
 
+[:top:](#top)
+
 ## Tuesday, April 7th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/3187b282ec49445ba0148f6267990c5c)
 
+[:top:](#top)
+
 ## Wednesday, April 8th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/cafc1c4cdb4241398bfd7351b6671b11)
+
+[:top:](#top)
 
 <a name="emp"></a>
 # Employability :necktie:
@@ -49,11 +55,17 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/dd00af71738a4f949711b3d9cd5997b3) 
 
-## Thusday, May 7th (from 5 to 8 pm)
+[:top:](#top)
+
+## Thursday, May 7th (from 5 to 8 pm)
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/d003cf53abc5400e866b754e64513981)
+
+[:top:](#top)
 
 ## Monday, May 18th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/2014a86fbeaa4439be5e0d87360669ad)
+
+[:top:](#top)
 
 <a name="libs"></a>
 # Libraries :aerial_tramway:
@@ -86,6 +98,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 - **gzip** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/gzip.html?highlight=gzip#module-gzip) (03:11:40 – 03:49:50) *(Compression and decompression)*
     - open
     - writelines()
+
 [:top:](#top)
 
 ## Wednesday, April 15th
@@ -129,6 +142,8 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - b64encode
     - decode
 
+[:top:](#top)
+
 ## Thursday, April 16th
 #### [Link to the recorded session :beginner:](https://us.bbcollab.com/recording/c9a64768efd04e05b72af6afdb5647a1)
 
@@ -157,6 +172,8 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 - **re** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/re.html?highlight=re#module-re) (03:20:40 – 04:00:00) *(Regular expression operations)* *(part I)*
     - compile
+
+[:top:](#top)
 
 ## Friday, April 17th
 #### [Link to the recorded session :beginner:](https://us.bbcollab.com/recording/022e4743fea4480793cb5ffa3b9b19d4)
@@ -194,6 +211,8 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - return
 
 - **threading** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/threading.html?highlight=threading#module-threading) (03:20:45 – 03:59:20) *(Thread-based parallelism)*
+
+[:top:](#top)
 
 ## Monday, April 20th
 #### [Link to the recorded session :beginner:](https://us.bbcollab.com/recording/a27814b5362f40ac9e7a30adad68d1b5)
@@ -233,6 +252,8 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - barh
     - scatter
 
+[:top:](#top)
+
 ## Tuesday, April 21st
 #### [Link to the recorded session :beginner:](https://us.bbcollab.com/recording/1fbd9ff57ac946099a24fa27213ad203 )
 
@@ -262,6 +283,8 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - options
     - Session()
 
+[:top:](#top)
+
 ## Wednesday, April 22nd
 #### [Link to the recorded session :beginner:](https://us.bbcollab.com/recording/9b6b74c1e54f49da92b2fb87f0893f88)
 
@@ -283,6 +306,8 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - split
     - merge
     - resize
+
+[:top:](#top)
 
 ## Thursday, April 23rd
 #### [Link to the recorded session :beginner:](https://us.bbcollab.com/recording/f17c2054875241678981d2312edeee87)
@@ -331,6 +356,8 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 - **Project:** Backup script (03:45:00 – 04:01:50)
 
+[:top:](#top)
+
 ## Friday, April 24th
 #### [Link to the recorded session :beginner:](https://us.bbcollab.com/recording/e531751ef17f44589223fbfd4f7de5e8)
 
@@ -351,6 +378,8 @@ If not specified, the link to Wikipedia, books or any other content will be in E
         - schedule
         - stop
         - join
+
+[:top:](#top)
 
 <a name="patterns"></a>
 # Design Patterns :globe_with_meridians:
@@ -373,6 +402,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 - **Factory Method** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/03-Factory.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Factory_method_pattern) (03:25:30 - 03:44:50)
 
 - **Builder** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/04-Builder.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Builder_pattern) (03:46:50 - 03:57:30)
+
 [:top:](#top)
 
 ## Tuesday, April 28th
@@ -389,66 +419,104 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 - **Strategy** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/12-Strategy.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Strategy_pattern) (03:18:25 - 04:01:30)
 
+[:top:](#top)
+
 <a name="web"></a>
 # Web Development :globe_with_meridians:
 ## Wednesday, April 29th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/e2642b90baf24c3c88ece7f992185a18)
 
+[:top:](#top)
+
 ## Thursday, April 30th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/cdf0892c8371415f9c7f578473c9e42d)
+
+[:top:](#top)
 
 ## Monday, May 4th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/c24ba33d639e432cbdb0a1bee13aa8fd)
 
+[:top:](#top)
+
 ## Tuesday, May 5th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/05e378acefe248b8b9b1035ceaefeb6c)
+
+[:top:](#top)
 
 ## Wednesday, May 6th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/045f3e440399499a837e7e7015dc0fb7)
 
+[:top:](#top)
+
 ## Thursday, May 7th (from 4 to 5 pm)
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/3bb26e08d7834484acfba5f222330a02)
+
+[:top:](#top)
 
 <a name="sys-admin"></a>
 # System Administration :cloud:
 ## Friday, May 8th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/72385b99b2494ae094c124d4f6fd03e2)
 
+[:top:](#top)
+
 ## Monday, May 11th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/ac8cbe6c42fe463182dabc49c7f51f87)
+
+[:top:](#top)
 
 ## Tuesday, May 12th
 #### Link to the... OH, WAIT
 <img src="https://i.imgur.com/di6JDM4.png" width="300" height="300">
 
+[:top:](#top)
+
 ## Wednesday, May 13th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/47920fa56aff4cc2aec12c1b60cdb283)
+
+[:top:](#top)
 
 ## Thursday, May 14th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/16518623a8e147f58d13ac27d13a22ce)
 
+[:top:](#top)
+
 ## Friday, May 15th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/b14e55898cce4b0d9eaa75e5c22981bb)
+
+[:top:](#top)
 
 ## Tuesday, May 19th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/52697d436fdb4841936a18f2813f9219)
 
+[:top:](#top)
+
 ## Wednesday, May 20th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/195ae5ddee1f4bc39ebee09ac8c8d8da)
 
+[:top:](#top)
+
 ## Thursday, May 21st
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/d45e54343d2041a69e01daffc66b9217)
+
+[:top:](#top)
 
 <a name="desktop-apps"></a>
 # Desktop Apps :computer:
 ## Friday, May 22nd
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/33c1cc8f2e7647d8b171238fc9137a41)
 
+[:top:](#top)
+
 ## Monday, May 25th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/72c64d134385426fb17a17c457f2d3ee)
 
+[:top:](#top)
+
 ## Tuesday, May 26th
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/7a9bd9b0710e4630b90182995d91c6d5)
+
+[:top:](#top)
 
 <a name="data"></a>
 # Data Science :bar_chart:
