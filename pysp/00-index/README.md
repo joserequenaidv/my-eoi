@@ -506,6 +506,8 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 ## Friday, May 22nd
 #### [Link to the recorded session :vhs:](https://us.bbcollab.com/recording/33c1cc8f2e7647d8b171238fc9137a41)
 
+- **Qt for Python** [:page_with_curl:](https://doc.qt.io/qtforpython/) ( - ) *()*
+
 [:top:](#top)
 
 ## Monday, May 25th
@@ -518,7 +520,36 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 [:top:](#top)
 
+## Wednesday, May 27th (from 4 to 7 pm)
+#### [Link to the recorded session :vhs]()
+
+- **Kivy** [:page_with_curl:](https://kivy.org/doc/stable/)(00:07 - 02:40:00) *(Open source software for the rapid development of applications equipped with novel user interfaces, such as multi-touch apps)*
+
+[:top:](#top)
+
 <a name="data"></a>
 # Data Science :bar_chart:
-## Wednesday, May 27th
+## Wednesday, May 27th (from 7 to 8 pm)
 #### [Link to the recorded session :vhs:]()
+
+- [Python Data Science Handbook](jakevdp.github.io/PythonDataScienceHandbook)
+- IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html) (02:54:00 - 04:00:00)
+    - Help and Documentation in IPython:
+	- ?
+	- TAB
+	- dir(library)
+	- globals(), locals()
+	- **Built-in Functions in Python** [:page_with_curl:](https://docs.python.org/3/library/functions.html)
+    - Keyboard Shortcuts
+	- standard shortcuts
+	    - CTRL + A (go to bol)
+	    - CTRL + K 
+	    - CTRL + E (go to eol)
+	    - CTRL + U
+	- [installing vim commands on IPython](stackoverflow.com/a/38329940/1911099)
+    - Magic Commands
+	- timeit
+	- ½lsmagic
+    - Input and Output
+    - IPython and Shell Commands
+    - Errors and Debugging
