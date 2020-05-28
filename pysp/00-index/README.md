@@ -15,7 +15,6 @@ This is the Unofficial Course Content Index (from now on, 'UCCI') of the online 
 ## To Consider
 The following are the icons included all along the UCCI:
 
-- :vhs: - Link to the recorded classes
 - :beginner: - Link to the notes of the official repository, written in Spanish :es:
 - :page_with_curl: - Link to information on Wikipedia
 - :orange_book: - Link to official documentation
@@ -108,8 +107,6 @@ If not specified, the link to Wikipedia, books or any other content will be in E
         - testzip()
         - write (filename, arcname=None, compress_type=None, compresslevel=None)
         - writestr (zinfo_or_arcname, data, compress_type=None, compresslevel=None)
-
-- **Project:** backup script
 
 - **time** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/time.html?highlight=time#module-time) *(Time access and conversions)*
     - definitions
@@ -220,7 +217,6 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - random()
     - choice()
     - seed()
-    - **Project:**  ‘rock, paper, scissors’
     - choices()
         - cum_weights
     - sample()
@@ -250,8 +246,6 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - text
     - xlabel
     - ylabel
-
-- **Project:** Analyze a file tree and make an horizontal bar graph of each type of file.
 
 - **requests** [:beginner:]() [:orange_book:](https://requests.readthedocs.io/en/master/) *(HTTP library for Python)*
     - get

@@ -43,9 +43,9 @@ Testing | Carlos Blé
 ## Links
 The following are some important links about this course:
 
-· [Unofficial Course Content Index](./00-index/README.md) made by José Requena ([me!](https://twitter.com/joserequenaidv) :mailbox_with_mail:) in order to ease the review of the online sessions recorded by the faculty. You have access to it on [PDF].
+· [The Unofficial Course Content Index](./00-index/README.md) made by José Requena ([me!](https://twitter.com/joserequenaidv) :mailbox_with_mail:)
 
-· The [Python Canarias Repository](https://github.com/pythoncanarias/eoi), where you can find the modules, every teachers' notes and everything we studied in the course.
+· The [Python Canarias Repository](https://github.com/pythoncanarias/eoi), where you can find the modules, every teachers' notes and everything we studied in the course
 
 ### Friendly Reminder
 The content of this course was fully in Spanish, therefore some of the links above will be in that language. Even though in my repository I try to translate as much as I can, there are some files that are not completely translated.
