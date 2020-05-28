@@ -111,4 +111,5 @@ md-tools/
 *.odt#
 *.pdf
 todos*
-drafts*
+drafts
+README-sessions.md
