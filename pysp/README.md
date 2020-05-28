@@ -1,6 +1,9 @@
 # Python Specialization :snake:
 This is the [Python Specialization Course](https://www.eoi.es/es/cursos/34426/curso-de-especializacion-en-python-la-laguna-santa-cruz-de-tenerife) funded by the Spain's School for Industrial Organization and given by Python Canarias. 
 
+![](../img/pysp-logo.png)
+> **Unofficial Course Logo.** Jose Requena
+
 ## Modules
 There are twelve modules:
 - [Environment](./01-environment/README.md) :deciduous_tree:
