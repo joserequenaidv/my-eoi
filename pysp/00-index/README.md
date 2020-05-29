@@ -487,7 +487,6 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 <a name="data"></a>
 # Data Science :bar_chart:
 ## Wednesday, May 27th (from 7 to 8 pm)
-#### [Link to the recorded session :vhs:]()
 
 - [Python Data Science Handbook](jakevdp.github.io/PythonDataScienceHandbook)
 - IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html)
@@ -498,7 +497,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 	- globals(), locals()
 	- **Built-in Functions in Python** [:page_with_curl:](https://docs.python.org/3/library/functions.html)
     - Keyboard Shortcuts
-	- standard shortcuts
+	- Standard Shortcuts
 	    - CTRL + A (go to bol)
 	    - CTRL + K 
 	    - CTRL + E (go to eol)
@@ -510,3 +509,26 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - Input and Output
     - IPython and Shell Commands
     - Errors and Debugging
+
+## Thursday, April 28th
+- IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html)
+    - IPython and Shell Commands
+	- Shell Commands in IPython
+	    - !
+	- Shell-Related **Magic Commands**
+	    - ½cd
+    - Errors and Debugging
+	- Controlling Exceptions
+    - Profiling and Timing Code
+    - More IPython Resources
+
+- Introduction to NumPy []()
+    - Understanding Data Types in Python
+    - The Basics of NumPy Arrays
+    - Computation on NumPy Arrays: Universal Functions
+    - Aggregations: Min, Max, and Everything In Between
+    - Computation on Arrays: Broadcasting
+    - Comparisons, Masks, and Boolean Logic
+    - Fancy Indexing
+    - Sorting Arrays
+    - Structured Data: NumPy's Structured Arrays
