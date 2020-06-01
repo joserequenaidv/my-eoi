@@ -24,7 +24,8 @@ The following are the icons included all along the UCCI:
 
 **Also:**
 
-If not specified, the link to Wikipedia, books or any other content will be in English.
+- *(XX:XX - XX:XX:XX)* - This refers to the timeframes of the recorded session of the course
+- If not specified, the link to Wikipedia, books or any other content will be in English.
 
 <a name="core"></a>
 # Core :abc:
@@ -65,27 +66,27 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 ### Content
 #### Standard libraries
 
-- **os** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/os/os.ipynb) [:orange_book:](https://docs.python.org/3/library/os.html) *(Miscellaneous operating system interfaces)*
+- **os** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/os/os.ipynb) [:orange_book:](https://docs.python.org/3/library/os.html) (05:40 - 01:30:10) *(Miscellaneous operating system interfaces)*
     - path
     - name
     - listdir()
     - walk()
 
-- **sys** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/sys/sys.ipynb) [:orange_book:](https://docs.python.org/3/library/sys.html?highlight=sys#module-sys) *(System-specific parameters and functions)*
+- **sys** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/sys/sys.ipynb) [:orange_book:](https://docs.python.org/3/library/sys.html?highlight=sys#module-sys) (01:31:10 - 01:55:50) *(System-specific parameters and functions)*
     - argv
     - exc_info()
     - path
     - version
     - platform
 
-- **zlib** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/zlib.html?highlight=zlib#module-zlib) *(Compression and decompression)*
+- **zlib** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/zlib.html?highlight=zlib#module-zlib) (01:57:25 - 03:00:00) *(Compression and decompression)*
     - compress
     - decompress
     - checksums
         - adler32
 	    - crc32
 
-- **gzip** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/gzip.html?highlight=gzip#module-gzip) *(Compression and decompression)*
+- **gzip** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/gzip.html?highlight=gzip#module-gzip) (03:11:40 – 03:49:50) *(Compression and decompression)*
     - open
     - writelines()
 
@@ -95,7 +96,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 ### Content
 #### Standard libraries
-- **zipfile** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/zipfile.html?highlight=zipfile#module-zipfile) *(Compression and decompression of ZIP archives)*
+- **zipfile** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/zipfile.html?highlight=zipfile#module-zipfile) (01:00 – 42:20) *(Compression and decompression of ZIP archives)*
     - is_zipfile()
     - ZipFile class
         - getinfo(name)
@@ -108,7 +109,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
         - write (filename, arcname=None, compress_type=None, compresslevel=None)
         - writestr (zinfo_or_arcname, data, compress_type=None, compresslevel=None)
 
-- **time** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/time.html?highlight=time#module-time) *(Time access and conversions)*
+- **time** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/time.html?highlight=time#module-time) (01:35:40 – 02:22:30) *(Time access and conversions)*
     - definitions
     - time()
     - asctime()
@@ -116,7 +117,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - gmtime()
     - mktime()
 
-- **datetime** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/datetime.html?highlight=datetime#module-datetime) *(Basic date and time types)*
+- **datetime** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/datetime.html?highlight=datetime#module-datetime) (02:25:10 – 03:17:45) *(Basic date and time types)*
     - date
         - today, day, month, year
         - fromtimestamp
@@ -124,7 +125,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
         - now()
         - minute, year…
 
-- **base64** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/base64.html?highlight=base64#module-base64) *(Data encodings)* *(part I)*
+- **base64** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/base64.html?highlight=base64#module-base64) (03:23:40 – 04:00:00) *(Data encodings)* *(part I)*
     - what econding is and what is not
     - b64encode
     - decode
@@ -135,28 +136,28 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 ### Content
 #### Standard libraries
-- **base64** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/base64.html?highlight=base64#module-base64) *(Data encodings)* *(part II)*
+- **base64** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/base64.html?highlight=base64#module-base64) (04:00 - 16:00) *(Data encodings)* *(part II)*
     - HTML module
 
-- **statistics** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/statistics.html?highlight=statistics#module-statistics) *(Mathematical statistics functions)*
+- **statistics** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/statistics.html?highlight=statistics#module-statistics) (16:40 – 01:19:20) *(Mathematical statistics functions)*
     - mean
     - geometric_mean
     - median
     - mode
     - stdev & variance
 
-- **collections** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/collections.html?highlight=collections#module-collections) *(Container datatypes)*
+- **collections** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/collections.html?highlight=collections#module-collections) (01:32:35 – 02:32:20) *(Container datatypes)*
     - namedtuple
     - deque
     - Counter
     - OrderedDict
     - defaultdict
 
-- **csv** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/csv.html?highlight=csv#module-csv) *(CSV file reading and writing)*
+- **csv** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/csv.html?highlight=csv#module-csv) (02:32:40 – 02:58:15) *(CSV file reading and writing)*
     - reader
     - writer
 
-- **re** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/re.html?highlight=re#module-re) *(Regular expression operations)* *(part I)*
+- **re** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/re.html?highlight=re#module-re) (03:20:40 – 04:00:00) *(Regular expression operations)* *(part I)*
     - compile
 
 [:top:](#top)
@@ -165,7 +166,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 ### Content
 #### Standard libraries
-- **re** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/re.html?highlight=re#module-re) *(Regular expression operations)* *(part II)*
+- **re** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/re.html?highlight=re#module-re) (02:45 - 01:29:40) *(Regular expression operations)* *(part II)*
     - special characters
         - ^
         - ?
@@ -180,14 +181,14 @@ If not specified, the link to Wikipedia, books or any other content will be in E
         - ( & )
     - search, match & findall
 
-- **logging** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/logging.html?highlight=logging#module-logging) *(Logging facility for Python)*
+- **logging** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/logging.html?highlight=logging#module-logging) (01:41:40 – 02:38:35) *(Logging facility for Python)*
     - debug()
     - info()
     - warning()
     - error()
     - critical()
 
-- **pdb** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/pdb.html?highlight=pdb#module-pdb) *(The Python debugger)*
+- **pdb** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/pdb.html?highlight=pdb#module-pdb) (02:40:00 – 03:04:00) *(The Python debugger)*
     - list
     - help
     - where
@@ -195,7 +196,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - next
     - return
 
-- **threading** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/threading.html?highlight=threading#module-threading) *(Thread-based parallelism)*
+- **threading** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/threading.html?highlight=threading#module-threading) (03:20:45 – 03:59:20) *(Thread-based parallelism)*
 
 [:top:](#top)
 
@@ -203,7 +204,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 ### Content
 #### External libraries
-- **arrow** [:beginner:]() [:orange_book:](https://pypi.org/project/arrow/) *(Create, manipulate, format and convert dates, times and timestamps)*
+- **arrow** [:beginner:]() [:orange_book:](https://pypi.org/project/arrow/) (03:30 – 01:30:15) *(Create, manipulate, format and convert dates, times and timestamps)*
     - get
     - utcnow
         - span
@@ -213,7 +214,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - replace
 
 #### Standard libraries
-- **random** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/random.html?highlight=random#module-random) *(Generate pseudo-random numbers)*
+- **random** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/random.html?highlight=random#module-random) (01:53:25 – 03:30:10) *(Generate pseudo-random numbers)*
     - random()
     - choice()
     - seed()
@@ -228,7 +229,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - gauss()
 
 #### External libraries
-- **matplotlib** [:beginner:]() [:orange_book:](https://matplotlib.org/3.2.1/contents.html) *(Data visualization tool)* (part I)
+- **matplotlib** [:beginner:]() [:orange_book:](https://matplotlib.org/3.2.1/contents.html) (03:30:30 – 04:02:40) *(Data visualization tool)* (part I)
     - plot
     - bar
     - hist
@@ -241,13 +242,13 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 ### Content
 #### External libraries
-- **matplotlib** [:beginner:]() [:orange_book:](https://matplotlib.org/3.2.1/contents.html) *(Data visualization tool)* (part II)
+- **matplotlib** [:beginner:]() [:orange_book:](https://matplotlib.org/3.2.1/contents.html) (28:20 – 01:08:40) *(Data visualization tool)* (part II)
     - title
     - text
     - xlabel
     - ylabel
 
-- **requests** [:beginner:]() [:orange_book:](https://requests.readthedocs.io/en/master/) *(HTTP library for Python)*
+- **requests** [:beginner:]() [:orange_book:](https://requests.readthedocs.io/en/master/) (02:05:30 – 04:00:30) *(HTTP library for Python)*
     - get
         - status_code
         - headers
@@ -269,12 +270,12 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 ### Content
 #### Standard libraries
-- **json** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/json.html?highlight=json#module-json) *(JSON encoder and decoder)*
+- **json** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/json.html?highlight=json#module-json) (05:30 – 56:00) *(JSON encoder and decoder)*
     - dumps
     - Public APIs *(Application Programming Interface)*
 
 #### External libraries
-- **pillow** [:beginner:]() [:orange_book:](https://pillow.readthedocs.io/en/stable/) *(Support for opening, manipulating and saving images)* *(part I)*
+- **pillow** [:beginner:]() [:orange_book:](https://pillow.readthedocs.io/en/stable/) (02:01:17 – 04:01:05) *(Support for opening, manipulating and saving images)* *(part I)*
     - format, size y mode
     - open
     - save
@@ -292,7 +293,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 #### External libraries
 ### Content
-- **pillow** [:beginner:]() [:orange_book:](https://pillow.readthedocs.io/en/stable/) *(Support for opening, manipulating and saving images)* *(part II)*
+- **pillow** [:beginner:]() [:orange_book:](https://pillow.readthedocs.io/en/stable/) (08:00 – 02:27:50) *(Support for opening, manipulating and saving images)* *(part II)*
     - rotate
     - convert
     - ImageFilter()
@@ -322,7 +323,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - Image.new()
     - paste
 
-- **numpy** [:beginner:]() [:orange_book:](https://numpy.org/doc/) *(Scientific computing with Python)*
+- **numpy** [:beginner:]() [:orange_book:](https://numpy.org/doc/) (02:29:20 – 03:43:00) *(Scientific computing with Python)*
     - array
     - dtype
     - reshape
@@ -340,17 +341,17 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 
 ### Content
 #### External libraries
-- **pandas** [:beginner:]() [:orange_book:](https://pandas.pydata.org/docs/) *(Data structures and data analysis tools for Python)*
+- **pandas** [:beginner:]() [:orange_book:](https://pandas.pydata.org/docs/) (05:20 - 02:25:10) *(Data structures and data analysis tools for Python)*
     - read_csv()
     - to_numeric()
 
-- **qrcode** [:beginner:]() [:orange_book:](https://pypi.org/project/qrcode/) *(QR code generator)*
+- **qrcode** [:beginner:]() [:orange_book:](https://pypi.org/project/qrcode/) (02:25:40 – 02.58:15) *(QR code generator)*
 
-- **Links of interest**:
+- **Links of interest** (02:59:00 – 03:05:00):
     - [Github Trendings](https://github.com/trending/python) (practice Python on GitHub)
     - [Awesome Python repository](https://github.com/vinta/awesome-python)
 
-- **watchdog** [:beginner:]() [:orange_book:](https://pythonhosted.org/watchdog/) *(File system events monitor)*
+- **watchdog** [:beginner:]() [:orange_book:](https://pythonhosted.org/watchdog/) (03:06:30 – 03:55:00) *(File system events monitor)*
     - Observer()
         - schedule
         - stop
@@ -363,7 +364,7 @@ If not specified, the link to Wikipedia, books or any other content will be in E
 ## Monday, April 27th
 
 ### Content
-- **Introduction** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/00-Introduction.ipynb)
+- **Introduction** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/00-Introduction.ipynb) (04:00 - 02:00:50)
     - Definition [:page_with_curl:](https://en.wikipedia.org/wiki/Software_design_pattern)
     - History
     - Book: [Design Patterns: Elements of Reusable Object-Oriented Software](https://en.wikipedia.org/wiki/Design_Patterns)
@@ -371,28 +372,28 @@ If not specified, the link to Wikipedia, books or any other content will be in E
     - Design principles
     - How not to use the design patterns
 
-- **Singleton** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/01-Singleton.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Singleton_pattern)
+- **Singleton** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/01-Singleton.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Singleton_pattern) (02:02:02 - 02:50:30)
 
-- **Prototype** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/01-Singleton.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Prototype_pattern)
+- **Prototype** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/01-Singleton.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Prototype_pattern) (02:50:45 - 03:25:15)
 
-- **Factory Method** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/03-Factory.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Factory_method_pattern)
+- **Factory Method** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/03-Factory.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Factory_method_pattern) (03:25:30 - 03:44:50)
 
-- **Builder** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/04-Builder.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Builder_pattern)
+- **Builder** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/04-Builder.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Builder_pattern) (03:46:50 - 03:57:30)
 
 [:top:](#top)
 
 ## Tuesday, April 28th
 
 ### Content
-- **Adapter** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/05_Adapter.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Adapter_pattern)
+- **Adapter** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/05_Adapter.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Adapter_pattern) (07:49 - 38:15)
 
-- **Bridge** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/06-Bridge.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Bridge_pattern)
+- **Bridge** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/06-Bridge.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Bridge_pattern) (38:20 - 01:32:50)
 
-- **Façade** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/09-Facade.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Facade_pattern)
+- **Façade** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/09-Facade.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Facade_pattern) (01:56:00 - 02:28:05)
 
-- **Flyweight** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/10-Flyweight.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Flyweight_pattern)
+- **Flyweight** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/10-Flyweight.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Flyweight_pattern) (02:28:20 - 03:02:05)
 
-- **Strategy** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/12-Strategy.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Strategy_pattern)
+- **Strategy** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/12-Strategy.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Strategy_pattern) (03:18:25 - 04:01:30)
 
 [:top:](#top)
 
