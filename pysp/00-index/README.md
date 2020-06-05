@@ -59,6 +59,10 @@ The following are the icons included all along the UCCI:
 
 [:top:](#top)
 
+## Wednesday, June 3rd
+
+[:top:](#top)
+
 <a name="libs"></a>
 # Libraries :aerial_tramway:
 ## Tuesday, April 14th
@@ -79,14 +83,14 @@ The following are the icons included all along the UCCI:
     - version
     - platform
 
-- **zlib** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/zlib.html?highlight=zlib#module-zlib) (01:57:25 - 03:00:00) *(Compression and decompression)*
+- **zlib** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/zlib/zlib.ipynb) [:orange_book:](https://docs.python.org/3/library/zlib.html?highlight=zlib#module-zlib) (01:57:25 - 03:00:00) *(Compression and decompression)*
     - compress
     - decompress
     - checksums
         - adler32
 	    - crc32
 
-- **gzip** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/gzip.html?highlight=gzip#module-gzip) (03:11:40 – 03:49:50) *(Compression and decompression)*
+- **gzip** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/gzip/gzip.ipynb) [:orange_book:](https://docs.python.org/3/library/gzip.html?highlight=gzip#module-gzip) (03:11:40 – 03:49:50) *(Compression and decompression)*
     - open
     - writelines()
 
@@ -96,7 +100,7 @@ The following are the icons included all along the UCCI:
 
 ### Content
 #### Standard libraries
-- **zipfile** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/zipfile.html?highlight=zipfile#module-zipfile) (01:00 – 42:20) *(Compression and decompression of ZIP archives)*
+- **zipfile** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/zipfile/zipfile.ipynb) [:orange_book:](https://docs.python.org/3/library/zipfile.html?highlight=zipfile#module-zipfile) (01:00 – 42:20) *(Compression and decompression of ZIP archives)*
     - is_zipfile()
     - ZipFile class
         - getinfo(name)
@@ -109,7 +113,7 @@ The following are the icons included all along the UCCI:
         - write (filename, arcname=None, compress_type=None, compresslevel=None)
         - writestr (zinfo_or_arcname, data, compress_type=None, compresslevel=None)
 
-- **time** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/time.html?highlight=time#module-time) (01:35:40 – 02:22:30) *(Time access and conversions)*
+- **time** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/time/time.ipynb) [:orange_book:](https://docs.python.org/3/library/time.html?highlight=time#module-time) (01:35:40 – 02:22:30) *(Time access and conversions)*
     - definitions
     - time()
     - asctime()
@@ -117,7 +121,7 @@ The following are the icons included all along the UCCI:
     - gmtime()
     - mktime()
 
-- **datetime** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/datetime.html?highlight=datetime#module-datetime) (02:25:10 – 03:17:45) *(Basic date and time types)*
+- **datetime** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/datetime/datetime.ipynb) [:orange_book:](https://docs.python.org/3/library/datetime.html?highlight=datetime#module-datetime) (02:25:10 – 03:17:45) *(Basic date and time types)*
     - date
         - today, day, month, year
         - fromtimestamp
@@ -125,7 +129,7 @@ The following are the icons included all along the UCCI:
         - now()
         - minute, year…
 
-- **base64** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/base64.html?highlight=base64#module-base64) (03:23:40 – 04:00:00) *(Data encodings)* *(part I)*
+- **base64** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/base64/base64.ipynb) [:orange_book:](https://docs.python.org/3/library/base64.html?highlight=base64#module-base64) (03:23:40 – 04:00:00) *(Data encodings)* *(part I)*
     - what econding is and what is not
     - b64encode
     - decode
@@ -136,28 +140,28 @@ The following are the icons included all along the UCCI:
 
 ### Content
 #### Standard libraries
-- **base64** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/base64.html?highlight=base64#module-base64) (04:00 - 16:00) *(Data encodings)* *(part II)*
+- **base64** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/base64/base64.ipynb) [:orange_book:](https://docs.python.org/3/library/base64.html?highlight=base64#module-base64) (04:00 - 16:00) *(Data encodings)* *(part II)*
     - HTML module
 
-- **statistics** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/statistics.html?highlight=statistics#module-statistics) (16:40 – 01:19:20) *(Mathematical statistics functions)*
+- **statistics** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/statistics/statistics.ipynb) [:orange_book:](https://docs.python.org/3/library/statistics.html?highlight=statistics#module-statistics) (16:40 – 01:19:20) *(Mathematical statistics functions)*
     - mean
     - geometric_mean
     - median
     - mode
     - stdev & variance
 
-- **collections** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/collections.html?highlight=collections#module-collections) (01:32:35 – 02:32:20) *(Container datatypes)*
+- **collections** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/collections/collections.ipynb) [:orange_book:](https://docs.python.org/3/library/collections.html?highlight=collections#module-collections) (01:32:35 – 02:32:20) *(Container datatypes)*
     - namedtuple
     - deque
     - Counter
     - OrderedDict
     - defaultdict
 
-- **csv** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/csv.html?highlight=csv#module-csv) (02:32:40 – 02:58:15) *(CSV file reading and writing)*
+- **csv** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/csv/csv.ipynb) [:orange_book:](https://docs.python.org/3/library/csv.html?highlight=csv#module-csv) (02:32:40 – 02:58:15) *(CSV file reading and writing)*
     - reader
     - writer
 
-- **re** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/re.html?highlight=re#module-re) (03:20:40 – 04:00:00) *(Regular expression operations)* *(part I)*
+- **re** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/re/re.ipynb) [:orange_book:](https://docs.python.org/3/library/re.html?highlight=re#module-re) (03:20:40 – 04:00:00) *(Regular expression operations)* *(part I)*
     - compile
 
 [:top:](#top)
@@ -166,7 +170,7 @@ The following are the icons included all along the UCCI:
 
 ### Content
 #### Standard libraries
-- **re** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/re.html?highlight=re#module-re) (02:45 - 01:29:40) *(Regular expression operations)* *(part II)*
+- **re** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/re/re.ipynb) [:orange_book:](https://docs.python.org/3/library/re.html?highlight=re#module-re) (02:45 - 01:29:40) *(Regular expression operations)* *(part II)*
     - special characters
         - ^
         - ?
@@ -181,14 +185,14 @@ The following are the icons included all along the UCCI:
         - ( & )
     - search, match & findall
 
-- **logging** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/logging.html?highlight=logging#module-logging) (01:41:40 – 02:38:35) *(Logging facility for Python)*
+- **logging** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/logging/logging.ipynb) [:orange_book:](https://docs.python.org/3/library/logging.html?highlight=logging#module-logging) (01:41:40 – 02:38:35) *(Logging facility for Python)*
     - debug()
     - info()
     - warning()
     - error()
     - critical()
 
-- **pdb** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/pdb.html?highlight=pdb#module-pdb) (02:40:00 – 03:04:00) *(The Python debugger)*
+- **pdb** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/pdb/pdb.ipynb) [:orange_book:](https://docs.python.org/3/library/pdb.html?highlight=pdb#module-pdb) (02:40:00 – 03:04:00) *(The Python debugger)*
     - list
     - help
     - where
@@ -196,7 +200,7 @@ The following are the icons included all along the UCCI:
     - next
     - return
 
-- **threading** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/threading.html?highlight=threading#module-threading) (03:20:45 – 03:59:20) *(Thread-based parallelism)*
+- **threading** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/threading/threading.ipynb) [:orange_book:](https://docs.python.org/3/library/threading.html?highlight=threading#module-threading) (03:20:45 – 03:59:20) *(Thread-based parallelism)*
 
 [:top:](#top)
 
@@ -204,7 +208,7 @@ The following are the icons included all along the UCCI:
 
 ### Content
 #### External libraries
-- **arrow** [:beginner:]() [:orange_book:](https://pypi.org/project/arrow/) (03:30 – 01:30:15) *(Create, manipulate, format and convert dates, times and timestamps)*
+- **arrow** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/external/arrow/arrow.ipynb) [:orange_book:](https://pypi.org/project/arrow/) (03:30 – 01:30:15) *(Create, manipulate, format and convert dates, times and timestamps)*
     - get
     - utcnow
         - span
@@ -214,7 +218,7 @@ The following are the icons included all along the UCCI:
     - replace
 
 #### Standard libraries
-- **random** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/random.html?highlight=random#module-random) (01:53:25 – 03:30:10) *(Generate pseudo-random numbers)*
+- **random** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/random/random.ipynb) [:orange_book:](https://docs.python.org/3/library/random.html?highlight=random#module-random) (01:53:25 – 03:30:10) *(Generate pseudo-random numbers)*
     - random()
     - choice()
     - seed()
@@ -229,7 +233,7 @@ The following are the icons included all along the UCCI:
     - gauss()
 
 #### External libraries
-- **matplotlib** [:beginner:]() [:orange_book:](https://matplotlib.org/3.2.1/contents.html) (03:30:30 – 04:02:40) *(Data visualization tool)* (part I)
+- **matplotlib** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/external/matplotlib/matplotlib.ipynb) [:orange_book:](https://matplotlib.org/3.2.1/contents.html) (03:30:30 – 04:02:40) *(Data visualization tool)* (part I)
     - plot
     - bar
     - hist
@@ -242,13 +246,13 @@ The following are the icons included all along the UCCI:
 
 ### Content
 #### External libraries
-- **matplotlib** [:beginner:]() [:orange_book:](https://matplotlib.org/3.2.1/contents.html) (28:20 – 01:08:40) *(Data visualization tool)* (part II)
+- **matplotlib** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/external/matplotlib/matplotlib.ipynb) [:orange_book:](https://matplotlib.org/3.2.1/contents.html) (28:20 – 01:08:40) *(Data visualization tool)* (part II)
     - title
     - text
     - xlabel
     - ylabel
 
-- **requests** [:beginner:]() [:orange_book:](https://requests.readthedocs.io/en/master/) (02:05:30 – 04:00:30) *(HTTP library for Python)*
+- **requests** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/external/requests/requests.ipynb) [:orange_book:](https://requests.readthedocs.io/en/master/) (02:05:30 – 04:00:30) *(HTTP library for Python)*
     - get
         - status_code
         - headers
@@ -270,12 +274,12 @@ The following are the icons included all along the UCCI:
 
 ### Content
 #### Standard libraries
-- **json** [:beginner:]() [:orange_book:](https://docs.python.org/3/library/json.html?highlight=json#module-json) (05:30 – 56:00) *(JSON encoder and decoder)*
+- **json** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/standard/json/json.ipynb) [:orange_book:](https://docs.python.org/3/library/json.html?highlight=json#module-json) (05:30 – 56:00) *(JSON encoder and decoder)*
     - dumps
     - Public APIs *(Application Programming Interface)*
 
 #### External libraries
-- **pillow** [:beginner:]() [:orange_book:](https://pillow.readthedocs.io/en/stable/) (02:01:17 – 04:01:05) *(Support for opening, manipulating and saving images)* *(part I)*
+- **pillow** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/external/pillow/pillow.ipynb) [:orange_book:](https://pillow.readthedocs.io/en/stable/) (02:01:17 – 04:01:05) *(Support for opening, manipulating and saving images)* *(part I)*
     - format, size y mode
     - open
     - save
@@ -293,7 +297,7 @@ The following are the icons included all along the UCCI:
 
 #### External libraries
 ### Content
-- **pillow** [:beginner:]() [:orange_book:](https://pillow.readthedocs.io/en/stable/) (08:00 – 02:27:50) *(Support for opening, manipulating and saving images)* *(part II)*
+- **pillow** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/external/pillow/pillow.ipynb) [:orange_book:](https://pillow.readthedocs.io/en/stable/) (08:00 – 02:27:50) *(Support for opening, manipulating and saving images)* *(part II)*
     - rotate
     - convert
     - ImageFilter()
@@ -323,7 +327,7 @@ The following are the icons included all along the UCCI:
     - Image.new()
     - paste
 
-- **numpy** [:beginner:]() [:orange_book:](https://numpy.org/doc/) (02:29:20 – 03:43:00) *(Scientific computing with Python)*
+- **numpy** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/external/numpy/numpy.ipynb) [:orange_book:](https://numpy.org/doc/) (02:29:20 – 03:43:00) *(Scientific computing with Python)*
     - array
     - dtype
     - reshape
@@ -341,17 +345,17 @@ The following are the icons included all along the UCCI:
 
 ### Content
 #### External libraries
-- **pandas** [:beginner:]() [:orange_book:](https://pandas.pydata.org/docs/) (05:20 - 02:25:10) *(Data structures and data analysis tools for Python)*
+- **pandas** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/external/pandas/pandas.ipynb) [:orange_book:](https://pandas.pydata.org/docs/) (05:20 - 02:25:10) *(Data structures and data analysis tools for Python)*
     - read_csv()
     - to_numeric()
 
-- **qrcode** [:beginner:]() [:orange_book:](https://pypi.org/project/qrcode/) (02:25:40 – 02.58:15) *(QR code generator)*
+- **qrcode** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/external/qrcode/qrcode.ipynb) [:orange_book:](https://pypi.org/project/qrcode/) (02:25:40 – 02.58:15) *(QR code generator)*
 
 - **Links of interest** (02:59:00 – 03:05:00):
     - [Github Trendings](https://github.com/trending/python) (practice Python on GitHub)
     - [Awesome Python repository](https://github.com/vinta/awesome-python)
 
-- **watchdog** [:beginner:]() [:orange_book:](https://pythonhosted.org/watchdog/) (03:06:30 – 03:55:00) *(File system events monitor)*
+- **watchdog** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/05-libs/external/watchdog/watchdog.ipynb) [:orange_book:](https://pythonhosted.org/watchdog/) (03:06:30 – 03:55:00) *(File system events monitor)*
     - Observer()
         - schedule
         - stop
@@ -511,7 +515,7 @@ The following are the icons included all along the UCCI:
     - IPython and Shell Commands
     - Errors and Debugging
 
-## Thursday, April 28th
+## Thursday, May 28th
 - IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html)
     - IPython and Shell Commands
 	- Shell Commands in IPython
@@ -533,3 +537,40 @@ The following are the icons included all along the UCCI:
     - Fancy Indexing
     - Sorting Arrays
     - Structured Data: NumPy's Structured Arrays
+
+
+## Friday, May 29th
+
+[:top:](#top)
+
+## Monday, June 1st
+
+[:top:](#top)
+
+## Tuesday, June 2nd
+
+[:top:](#top)
+
+## Thursday, June 4th
+
+[:top:](#top)
+
+## Friday, June 5th
+
+[:top:](#top)
+
+## Monday, June 8th
+
+[:top:](#top)
+
+## Tuesday, June 9th
+
+[:top:](#top)
+
+## Wednesday, June 10th
+
+[:top:](#top)
+
+## Thursday, June 11th (from 4 to 6 pm)
+
+[:top:](#top)
