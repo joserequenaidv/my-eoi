@@ -1,13 +1,11 @@
-# :gem: :page_facing_up: :scissors: :lizard: :alien: Rock, Paper, Scissors, Lizard and Spock
+# Rock, Paper, Scissors, Lizard and Spock :gem: :page_facing_up: :scissors: :lizard: :alien:  
 This is my 2nd project for the Libraries module of the [Python Specialization Course](https://github.com/joserequenaidv/my-eoi/blob/master/pysp/README.md).
-
-## Links
 
 ## Project Journal
 ### Introduction
-This is the game called Rock, Paper, Scissors, Lizard and Spock. You can access to the raw code [here](main.py)
+This is the game called Rock, Paper, Scissors, Lizard and Spock. You can access to the raw code [here](main.py).
 
-The rules are the following:
+**The rules are the following:**
 - :scissors: Scissors cuts :page_facing_up: paper
 - :page_facing_up: Paper covers :gem: rock
 - :gem: Rock crushes :lizard: lizard
@@ -20,13 +18,12 @@ The rules are the following:
 - :gem: Rock crushes :scissors: scissors
 
 ### Troubleshooting the Project
-We need to follow several steps:
 - Get the player's choice
 - Get the cpu's choice
 - Create the logic and apply the rules
 
 ### Challenges on the Way
-First version of the project:
+**First version of the project:**
 - An input to get the player's choice
 - random.randint(1,5) to get the cpu's choice
 - Seventeen conditionals to apply the rules
