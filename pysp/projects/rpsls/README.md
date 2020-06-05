@@ -17,12 +17,14 @@ This is the game called Rock, Paper, Scissors, Lizard and Spock. You can access 
 - :alien: Spock vaporizes :gem: rock
 - :gem: Rock crushes :scissors: scissors
 
-### Troubleshooting the Project
-- Get the player's choice
-- Get the cpu's choice
-- Create the logic and apply the rules
+### List of Tasks
+**We need to follow several steps**
+- First version:
+    - Get the player's choice
+    - Get the cpu's choice
+    - Create the logic and apply the rules
 
-### Challenges on the Way
+### Troubleshooting the Project
 **First version of the project:**
 - An input to get the player's choice
 - random.randint(1,5) to get the cpu's choice
