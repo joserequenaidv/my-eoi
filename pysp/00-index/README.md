@@ -99,6 +99,7 @@ The following are the icons included throughout the UCCI:
 # Employability :necktie:
 ## Monday, April 13th
 
+
 [:top:](#top)
 
 ## Thursday, May 7th (from 5 to 8 pm)
@@ -481,9 +482,45 @@ The following are the icons included throughout the UCCI:
 # System Administration :cloud:
 ## Friday, May 8th
 
+### Content
+- **Hardware** (25:00 - 01:31:00)
+    - Central Processing Unit
+    - Random-Access Memory
+    - Hard Disk Drive
+    - Net
+- **Software Information** (01:33:20 - 03:24:00)
+    - lscpu
+    - uptime
+    - htop
+    - free
+    - lsblk
+- **File System Permissions** (03:24:15 - 03:54:00)
+    - chmod
+    - chown
+    - chgrp
+- **Installing Virtual Box** (03:59:50 - 04:04:00)
+
 [:top:](#top)
 
 ## Monday, May 11th
+
+### Content
+
+- **Installing Virtual Box** (10:00 - 52:00)
+- **What Is The OSI Model?** (53:58 - 04:00:00)
+    - Physical Layer
+    - Data Link Layer
+        - MAC (01:10:35 - 01:26:30)
+    - Network Layer
+        - IP (01:28:10 - 03:29:00)
+        - NAT (03:29:35 - 03:38:00)
+    - Transport Layer
+        - Ports (03:39:45 - 04:00:00)
+            - TCP
+            - UDP
+    - Session Layer
+    - Presentation Layer
+    - Application Layer
 
 [:top:](#top)
 
