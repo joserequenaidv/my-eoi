@@ -31,21 +31,18 @@ The following are the icons included throughout the UCCI:
 # Core :abc:
 ## Friday, April 3rd
 
-###Content
-####Review of the Past Classes
+### Content
+#### Review of the Past Classes
 (12:30 - 01:10:55)
-- Datatypes 
-    - int
-    - float
-    - string
-    - tuple
-    - dict
-    - list
-    - set
-- Conditionals
-- Loops
+- Datatypes [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/01-data/01-data.ipynb)
+    - numbers [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/02-numbers/02-numbers.ipynb)
+    - string [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/03-strings/03-strings.ipynb)
+    - lists and tuples [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/06-lists/06-lists.ipynb)
+    - dicts and sets [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/07-dicts/07-dicts.ipynb)
+- Conditionals [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/04-conditionals/04-conditionals.ipynb)
+- Loops [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/05-loops/05-loops.ipynb)
 
-####Functions
+#### Functions [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/08-functions/08-functions.ipynb)
 (01:11:20 - 04:00:00)
 - What Do I Need Them for?
 - Arguments and Parameters
@@ -61,8 +58,8 @@ The following are the icons included throughout the UCCI:
 
 ## Monday, April 6th
 
-###Content
-####Objects and Classes
+### Content
+#### Objects and Classes [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/09-objects/09-objects.ipynb)
 (18:00 - 04:00:00)
 - What Are Objects? (18:00 - 01:35:00)
 - Inheritance (01:35:05 - 03:40:00)
@@ -72,11 +69,11 @@ The following are the icons included throughout the UCCI:
 
 ## Tuesday, April 7th
 
-###Content
-####Objects and Classes
+### Content
+#### Objects and Classes [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/09-objects/09-objects.ipynb)
 - Object-Oriented Programming (05:00 - 03:18:00)
 
-####File Handling 
+#### File Handling [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/10-files/10-files.ipynb)
 (03:23:00 - 04:01:15)
 - Open and Create Files
 - Write Files
@@ -86,9 +83,9 @@ The following are the icons included throughout the UCCI:
 
 ## Wednesday, April 8th
 
-###Content
-####File Handling
-(01:30 - )
+### Content
+#### File Handling [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/10-files/10-files.ipynb)
+(01:30 - 02:38:40)
 - Close Files Automatically
 - Iterate Files
 - **Import** Modules (01:27:30 - 01:44:20)
