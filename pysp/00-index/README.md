@@ -13,7 +13,7 @@ This is the Unofficial Course Content Index (from now on, 'UCCI') of the online 
 * [Data Science](#data)
 
 ## To Consider
-The following are the icons included all along the UCCI:
+The following are the icons included throughout the UCCI:
 
 - :beginner: - Link to the notes of the official repository, written in Spanish :es:
 - :page_with_curl: - Link to information on Wikipedia
@@ -31,17 +31,70 @@ The following are the icons included all along the UCCI:
 # Core :abc:
 ## Friday, April 3rd
 
+###Content
+####Review of the Past Classes
+(12:30 - 01:10:55)
+- Datatypes 
+    - int
+    - float
+    - string
+    - tuple
+    - dict
+    - list
+    - set
+- Conditionals
+- Loops
+
+####Functions
+(01:11:20 - 04:00:00)
+- What Do I Need Them for?
+- Arguments and Parameters
+- Docstrings
+- Functions Are Also Objects
+- Inner Functions
+- Lambda Functions
+- Generators
+- Recursion
+- Error Exceptions
+
 [:top:](#top)
 
 ## Monday, April 6th
+
+###Content
+####Objects and Classes
+(18:00 - 04:00:00)
+- What Are Objects? (18:00 - 01:35:00)
+- Inheritance (01:35:05 - 03:40:00)
+- Accessing Attributes (03:40:35 - 04:00:00)
 
 [:top:](#top)
 
 ## Tuesday, April 7th
 
+###Content
+####Objects and Classes
+- Object-Oriented Programming (05:00 - 03:18:00)
+
+####File Handling 
+(03:23:00 - 04:01:15)
+- Open and Create Files
+- Write Files
+- Read Files
+
 [:top:](#top)
 
 ## Wednesday, April 8th
+
+###Content
+####File Handling
+(01:30 - )
+- Close Files Automatically
+- Iterate Files
+- **Import** Modules (01:27:30 - 01:44:20)
+- How to Organize a Script on Python (01:44:25 - 02:38:40)
+    - sys.argv
+- Project (02:39:00 - 03:03:03)
 
 [:top:](#top)
 
