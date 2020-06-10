@@ -532,7 +532,7 @@ The following are the icons included throughout the UCCI:
 
 ## Wednesday, May 13th
 
-###Content
+### Content
 
 - **May 12th Review**
     - Connecting to remote machine
@@ -552,6 +552,17 @@ The following are the icons included throughout the UCCI:
 [:top:](#top)
 
 ## Thursday, May 14th
+
+### Content
+
+- **Client/Server Activity** (15:00 - 03:00:00)
+    - ngrok (36:00 - 48:00)
+    - client.py and server.py
+- **How to Connect to a Remote Server through SSH** (03:09:30 - 04:00:00)
+    - ssh remote-user@remote-ip
+    - fabric [:page_with_curl:](http://www.fabfile.org/) (03:15:00 - 03:31:30) *(Execute shell commands remotely over SSH, yielding useful Python objects in return)*
+        - Connection 
+    - SSH Keys (03:33:00 - 04:00:00)
 
 [:top:](#top)
 
