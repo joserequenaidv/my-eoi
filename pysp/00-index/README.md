@@ -532,6 +532,23 @@ The following are the icons included throughout the UCCI:
 
 ## Wednesday, May 13th
 
+###Content
+
+- **May 12th Review**
+    - Connecting to remote machine
+        - bridge, ping, host
+        - networking
+    - The OSI Model (08:00 - )
+        - Application Layer
+            - DNS Protocol (12:30 - 19:30)
+                - dig 
+                - RR (Resource Records)
+            - HTTP (20:40 - 43:05)
+
+- **How Do Requests Work?** (43:10 - 03:29:00)
+    - socket [:page_with_curl:](https://docs.python.org/3/library/socket.html) (1:01:40 - 03:29:00) *(Access provider to the BSD socket interface in Python)*
+    - psutil [:page_with_curl:](https://psutil.readthedocs.io/en/latest/) (03:30:00 - 04:00:00) *(Retrieving information on running processes and system utilization (CPU, memory, disks, network, sensors) in Python)*
+
 [:top:](#top)
 
 ## Thursday, May 14th
@@ -548,6 +565,7 @@ The following are the icons included throughout the UCCI:
 
 ## Wednesday, May 20th
 
+Ansible (02)
 [:top:](#top)
 
 ## Thursday, May 21st
