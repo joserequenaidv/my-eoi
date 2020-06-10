@@ -568,6 +568,19 @@ The following are the icons included throughout the UCCI:
 
 ## Friday, May 15th
 
+### Content
+
+- **Review SSH** (09:00 - 25:45)
+- **Working with Fabric** (30:00 - 01:43:20)
+    - invoke and paramIT
+    - getpass
+- **Installing Shield on Remote Machine** (01:44:00 - 02:04:40)
+- **How Does Our Server Work Internally?** (02:12:50 - 02:49:00)
+    - Common Gateway Interface (CGI)
+    - Web Server Gateway Interface (WSGI)
+    - nginx
+- **Project Configuration on The Server** (03:06:00 - 04:00:00)
+
 [:top:](#top)
 
 ## Tuesday, May 19th
