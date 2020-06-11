@@ -603,6 +603,23 @@ The following are the icons included throughout the UCCI:
 
 ## Wednesday, May 20th
 
+### Content
+
+Finishig Details(13:00 - 01:51:10)
+- **Ansible** (02:25:00 - )
+    - Installation (02:41:00 - 02:43:00)
+    - Concepts (02:43:20 - 02:47:55)
+        - Control Node and Nodes
+        - Inventory File
+        - Playbook
+            - What Is a Playbook? (02:48:00 - 02:54:00)
+                - Tasks
+                - Role: Playbook Set
+    - Starting The Project (02:54:00 - )
+        - Add IP to /etc/ansible/hosts
+        - ansible all -m ping -u 
+
+
 [:top:](#top)
 
 ## Thursday, May 21st
