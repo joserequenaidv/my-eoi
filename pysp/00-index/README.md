@@ -585,11 +585,24 @@ The following are the icons included throughout the UCCI:
 
 ## Tuesday, May 19th
 
+### Content
+
+- **How Does Nginx Work?** (01:50 - 16:00)
+- **Trying uWSGI** (23:20 - 58:00)
+- **Installing NGINX** (58:05 - 01:29:30)
+    - mysite_nginx.conf/shield.conf (01:33:16 - 01:40:30) *(Configuration of the server)*
+        - upstream
+            - server_name
+            - locations
+    - Project configuration (01:30:00 - 03:23:00)
+        - collectstatic
+        - **More about:** nginx and uwsgi ~ File Permissions (03:00:00 - 03:23:00)
+    - Configuring mysite_uwsgi.ini file
+
 [:top:](#top)
 
 ## Wednesday, May 20th
 
-Ansible (02)
 [:top:](#top)
 
 ## Thursday, May 21st
