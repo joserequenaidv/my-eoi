@@ -15,7 +15,7 @@ There are twelve modules:
 - [System Administration](./07-sysadmin/README.md) :cloud:
 - [Desktop Apps](./08-desktop-apps/README.md) :computer:
 - [Data Science](./09-data/README.md) :bar_chart:
-- Internet of Things
+- [Internet of Things](./10-iot/README.md) :robot:
 - Videogames
 - Testing
 
