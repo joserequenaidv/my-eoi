@@ -9,3 +9,4 @@
 - [**What is OSI Model?**](https://www.youtube.com/watch?v=Ilk7UXzV_Qc)
 - [**What is a MAC Address?**](https://www.youtube.com/watch?v=UrG7RTWIJak)
 - [**NAT and Firewall Explained**](https://www.youtube.com/watch?v=2llWuivdS7w)
+- [**Setting up Django and your web server with uWSGI and nginx**](https://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html)
