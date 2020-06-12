@@ -647,7 +647,7 @@ The following are the icons included throughout the UCCI:
                 - boolean
                 - object
                 - array
-        - YAML [:page_with_curl](https://yaml.org/spec/1.2/spec.html) (46:00 - 01:44:40) *(Yet Another Markup Language)*
+        - YAML [:page_with_curl:](https://yaml.org/spec/1.2/spec.html) (46:00 - 01:44:40) *(Yet Another Markup Language)*
             - Indentation -> Two spaces
             - Datatypes
                 - dict -> key: value
@@ -668,18 +668,17 @@ The following are the icons included throughout the UCCI:
         - First Play: **nginx_install.yaml** (01:45:00 - 02:01:20)
             - hosts (Whom)
             - tasks (Playbooks)
-                **(1)**
-                - task_name
-                - module
-                    - parameters
-                **(2)**
-                - task_name
-                - module
-                    - parameters
+                - **(1)**
+                    - task_name
+                    - module
+                        - parameters
+                - **(2)**
+                    - task_name
+                    - module
+                        - parameters
             - ansible-playbook
-            - **IMPORTANT (01:54:20 - 01:54:45)**
-                - install **cowsay** [:page_with_curl:](https://en.wikipedia.org/wiki/Cowsay)
-                ![](../../images/cowsay.png)
+            - **IMPORTANT** (01:54:20 - 01:54:45)
+                - install [:cow:] **cowsay** [:cow2:] [:page_with_curl:](https://en.wikipedia.org/wiki/Cowsay) <\n>![](../../images/cowsay.png)
             - ansible-lint (02:24:30 - 02:26:20)
             - change nginx welcome page (02:28:10 - )
                 - copy [:page_with_curl:](https://docs.ansible.com/ansible/latest/modules/copy_module.html#copy-module) (02:28:10 - 02:41:30)
