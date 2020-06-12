@@ -606,8 +606,8 @@ The following are the icons included throughout the UCCI:
 
 ### Content
 
-Finishig Details(13:00 - 01:51:10)
-- **Ansible** (02:25:00 - )
+- **Finishig Details** (13:00 - 01:51:10)
+- **Ansible** (02:25:00 - 04:02:00)
     - Installation (02:41:00 - 02:43:00)
     - Concepts (02:43:20 - 02:47:55)
         - Control Node and Nodes
@@ -616,10 +616,23 @@ Finishig Details(13:00 - 01:51:10)
             - What Is a Playbook? (02:48:00 - 02:54:00)
                 - Tasks
                 - Role: Playbook Set
-    - Starting The Project (02:54:00 - )
+    - Starting The Project (02:54:00 - 03:30:00)
         - Add IP to /etc/ansible/hosts
-        - ansible all -m ping -u 
-
+        - ping [:page_with_curl:](https://docs.ansible.com/ansible/latest/modules/ping_module.html)
+            - ansible all -m ping -u username
+            - ssh-copy-id -i ~/.ssh/mykey user@host *(remember to run ssh-keygen first in order to have a new key to connect with)*
+            - [yourmachine:vars]
+        ansible_python_interpreter=/usr/bin/python3
+        - **Controlling Nodes** ansible all -a 'apt update' -u username -b -K/--ask-become-pass (03:35:00 - 03:40:00)
+        - service [:page_with_curl:](https://docs.ansible.com/ansible/latest/modules/service_module.html)
+            - name (wpa_supplicant)
+            - state (stopped/started/restarted/reloaded)
+            - ...
+        - apt [:page_with_curl:](https://docs.ansible.com/ansible/latest/modules/apt_module.html)
+            - name
+            - update_cache
+            - state
+            - ...
 
 [:top:](#top)
 
