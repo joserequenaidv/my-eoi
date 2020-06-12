@@ -11,6 +11,7 @@ This is the Unofficial Course Content Index (from now on, 'UCCI') of the online 
 * [System Administration](#sys-admin)
 * [Desktop Apps](#desktop-apps)
 * [Data Science](#data)
+* [Internet of Things](#iot)
 
 ## To Consider
 The following are the icons included throughout the UCCI:
@@ -731,5 +732,43 @@ Finishig Details(13:00 - 01:51:10)
 [:top:](#top)
 
 ## Thursday, June 11th (from 4 to 6 pm)
+
+[:top:](#top)
+
+<a name="iot"></a>
+# Internet of Things :robot:
+## Thursday, June 11th (from 6 to 8 pm)
+
+### Content
+- **Introduction**
+    - **ESP-12E**
+
+- **MicroPython** [:page_with_curl:](https://docs.micropython.org/en/latest/)
+    - machine [:page_with_curl:](https://docs.micropython.org/en/latest/library/machine.html)
+    - esp
+    - utime
+    - pymakr ~ VSCode Plugin
+    -
+## Friday, June 12th
+
+[:top:](#top)
+
+## Monday, June 15th
+
+[:top:](#top)
+
+## Tuesday, June 16th
+
+[:top:](#top)
+
+## Wednesday, June 17th
+
+[:top:](#top)
+
+## Thursday, June 18th
+
+[:top:](#top)
+
+## Friday, June 19th
 
 [:top:](#top)
