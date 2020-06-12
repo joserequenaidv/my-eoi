@@ -1,0 +1,21 @@
+- hosts: all
+  user: marxist
+  tasks:
+    - name: install important dependencies
+      apt:
+        name:
+          - nginx
+          - git
+          - jq
+    - name: ensure nginx is at the latest version
+      apt:
+        state: latest
+    - name: start nginx
+      service:
+        name: nginx
+        state: started
+    - name: change ngnix welcome page
+      copy:
+        src: ~/Dropbox/Programación/my-eoi/pysp/07-sysadmin/files/index.nginx-debian.html
+        dest: /var/www/html/index.nginx-debian.html
+
