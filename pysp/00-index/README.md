@@ -627,16 +627,62 @@ The following are the icons included throughout the UCCI:
         - service [:page_with_curl:](https://docs.ansible.com/ansible/latest/modules/service_module.html)
             - name (wpa_supplicant)
             - state (stopped/started/restarted/reloaded)
-            - ...
         - apt [:page_with_curl:](https://docs.ansible.com/ansible/latest/modules/apt_module.html)
             - name
             - update_cache
             - state
-            - ...
 
 [:top:](#top)
 
 ## Thursday, May 21st
+
+### Content
+- **Ansible** (37:10 - )
+    - Playbook
+        - JSON [:page_with_curl:](https://www.json.org/json-en.html)
+            - Datatypes
+                - number
+                - string
+                - null
+                - boolean
+                - object
+                - array
+        - YAML [:page_with_curl](https://yaml.org/spec/1.2/spec.html) (46:00 - 01:44:40) *(Yet Another Markup Language)*
+            - Indentation -> Two spaces
+            - Datatypes
+                - dict -> key: value
+                - number: 456
+                - list:
+                    - one
+                    - two
+                    - three
+                - object: 
+                    - key:
+                        - one
+                        - two
+                        - three
+                        number: 234
+                        something: "hehe"
+            - jq *(validation and formatting)*
+            - yq *(transform YAML file to JSON and give to jq)*
+        - First Play: **nginx_install.yaml** (01:45:00 - 02:01:20)
+            - hosts (Whom)
+            - tasks (Playbooks)
+                **(1)**
+                - task_name
+                - module
+                    - parameters
+                **(2)**
+                - task_name
+                - module
+                    - parameters
+            - ansible-playbook
+            - **IMPORTANT (01:54:20 - 01:54:45)**
+                - install **cowsay** [:page_with_curl:](https://en.wikipedia.org/wiki/Cowsay)
+                ![](../../images/cowsay.png)
+            - ansible-lint (02:24:30 - 02:26:20)
+            - change nginx welcome page (02:28:10 - )
+                - copy [:page_with_curl:](https://docs.ansible.com/ansible/latest/modules/copy_module.html#copy-module) (02:28:10 - 02:41:30)
 
 [:top:](#top)
 
