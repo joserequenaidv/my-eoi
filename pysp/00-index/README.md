@@ -481,7 +481,7 @@ The following are the icons included throughout the UCCI:
 
 <a name="sys-admin"></a>
 # System Administration :cloud:
-## Friday, May 8th
+## :cloud: Friday, May 8th
 
 ### Content
 - **Hardware** (25:00 - 01:31:00)
@@ -503,7 +503,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Monday, May 11th
+## :cloud: Monday, May 11th
 
 ### Content
 
@@ -525,13 +525,13 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Tuesday, May 12th
+## :cloud: Tuesday, May 12th
 #### Link to the... OH, WAIT
 <img src="https://i.imgur.com/di6JDM4.png" width="300" height="300">
 
 [:top:](#top)
 
-## Wednesday, May 13th
+## :cloud: Wednesday, May 13th
 
 ### Content
 
@@ -552,7 +552,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Thursday, May 14th
+## :cloud: Thursday, May 14th
 
 ### Content
 
@@ -567,7 +567,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Friday, May 15th
+## :cloud: Friday, May 15th
 
 ### Content
 
@@ -584,7 +584,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Tuesday, May 19th
+## :cloud: Tuesday, May 19th
 
 ### Content
 
@@ -602,7 +602,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Wednesday, May 20th
+## :cloud: Wednesday, May 20th
 
 ### Content
 
@@ -634,10 +634,10 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Thursday, May 21st
+## :cloud: Thursday, May 21st (from 16 to 19)
 
 ### Content
-- **Ansible** (37:10 - )
+- **Ansible** (37:10 - 03:09:20)
     - Playbook
         - JSON [:page_with_curl:](https://www.json.org/json-en.html)
             - Datatypes
@@ -678,15 +678,27 @@ The following are the icons included throughout the UCCI:
                         - parameters
             - ansible-playbook
             - **IMPORTANT** (01:54:20 - 01:54:45)
-                - install [:cow:] **cowsay** [:cow2:] [:page_with_curl:](https://en.wikipedia.org/wiki/Cowsay) <\n>![](../../images/cowsay.png)
+                - install :cow: **cowsay** :cow2: [:page_with_curl:](https://en.wikipedia.org/wiki/Cowsay)
+                - ![](../../images/cowsay.png)
             - ansible-lint (02:24:30 - 02:26:20)
-            - change nginx welcome page (02:28:10 - )
+            - change nginx welcome page (02:28:10 - 02:46:00)
                 - copy [:page_with_curl:](https://docs.ansible.com/ansible/latest/modules/copy_module.html#copy-module) (02:28:10 - 02:41:30)
+            - playbooks (02:46:30 - 03:09:20)
+                - install nginx (apt)
+                - install uwsgi (pip)
+                - clone shield project (git)
+                - replace /etc/ssh/sshd_config
 
 [:top:](#top)
 
 <a name="desktop-apps"></a>
 # Desktop Apps :computer:
+## Thursday, May 21st (from 19 to 20)
+
+### Content
+
+[:top:](#top)
+
 ## Friday, May 22nd
 
 - **Qt for Python** [:page_with_curl:](https://doc.qt.io/qtforpython/)
