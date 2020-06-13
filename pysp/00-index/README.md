@@ -30,7 +30,7 @@ The following are the icons included throughout the UCCI:
 
 <a name="core"></a>
 # Core :abc:
-## Friday, April 3rd
+## :abc: Friday, April 3rd
 
 ### Content
 #### Review of the Past Classes
@@ -57,7 +57,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Monday, April 6th
+## :abc: Monday, April 6th
 
 ### Content
 #### Objects and Classes [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/09-objects/09-objects.ipynb)
@@ -68,7 +68,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Tuesday, April 7th
+## :abc: Tuesday, April 7th
 
 ### Content
 #### Objects and Classes [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/09-objects/09-objects.ipynb)
@@ -82,7 +82,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Wednesday, April 8th
+## :abc: Wednesday, April 8th
 
 ### Content
 #### File Handling [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/10-files/10-files.ipynb)
@@ -98,26 +98,26 @@ The following are the icons included throughout the UCCI:
 
 <a name="emp"></a>
 # Employability :necktie:
-## Monday, April 13th
+## :necktie: Monday, April 13th
 
 
 [:top:](#top)
 
-## Thursday, May 7th (from 5 to 8 pm)
+## :necktie: Thursday, May 7th (from 5 to 8 pm)
 
 [:top:](#top)
 
-## Monday, May 18th
+## :necktie: Monday, May 18th
 
 [:top:](#top)
 
-## Wednesday, June 3rd
+## :necktie: Wednesday, June 3rd
 
 [:top:](#top)
 
 <a name="libs"></a>
 # Libraries :aerial_tramway:
-## Tuesday, April 14th
+## :aerial_tramway: Tuesday, April 14th
 
 ### Content
 #### Standard libraries
@@ -148,7 +148,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Wednesday, April 15th
+## :aerial_tramway: Wednesday, April 15th
 
 ### Content
 #### Standard libraries
@@ -188,7 +188,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Thursday, April 16th
+## :aerial_tramway: Thursday, April 16th
 
 ### Content
 #### Standard libraries
@@ -218,7 +218,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Friday, April 17th
+## :aerial_tramway: Friday, April 17th
 
 ### Content
 #### Standard libraries
@@ -256,7 +256,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Monday, April 20th
+## :aerial_tramway: Monday, April 20th
 
 ### Content
 #### External libraries
@@ -294,7 +294,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Tuesday, April 21st
+## :aerial_tramway: Tuesday, April 21st
 
 ### Content
 #### External libraries
@@ -322,7 +322,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Wednesday, April 22nd
+## :aerial_tramway: Wednesday, April 22nd
 
 ### Content
 #### Standard libraries
@@ -345,7 +345,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Thursday, April 23rd
+## :aerial_tramway: Thursday, April 23rd
 
 #### External libraries
 ### Content
@@ -393,7 +393,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Friday, April 24th
+## :aerial_tramway: Friday, April 24th
 
 ### Content
 #### External libraries
@@ -416,8 +416,8 @@ The following are the icons included throughout the UCCI:
 [:top:](#top)
 
 <a name="patterns"></a>
-# Design Patterns :globe_with_meridians:
-## Monday, April 27th
+# Design Patterns :wrench:
+## :wrench: Monday, April 27th
 
 ### Content
 - **Introduction** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/00-Introduction.ipynb) (04:00 - 02:00:50)
@@ -438,7 +438,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Tuesday, April 28th
+## :wrench: Tuesday, April 28th
 
 ### Content
 - **Adapter** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/05_Adapter.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Adapter_pattern) (07:49 - 38:15)
@@ -455,27 +455,27 @@ The following are the icons included throughout the UCCI:
 
 <a name="web"></a>
 # Web Development :globe_with_meridians:
-## Wednesday, April 29th
+## :globe_with_meridians: Wednesday, April 29th
 
 [:top:](#top)
 
-## Thursday, April 30th
+## :globe_with_meridians: Thursday, April 30th
 
 [:top:](#top)
 
-## Monday, May 4th
+## :globe_with_meridians: Monday, May 4th
 
 [:top:](#top)
 
-## Tuesday, May 5th
+## :globe_with_meridians: Tuesday, May 5th
 
 [:top:](#top)
 
-## Wednesday, May 6th
+## :globe_with_meridians: Wednesday, May 6th
 
 [:top:](#top)
 
-## Thursday, May 7th (from 4 to 5 pm)
+## :globe_with_meridians: Thursday, May 7th (from 4 to 5 pm)
 
 [:top:](#top)
 
@@ -693,27 +693,27 @@ The following are the icons included throughout the UCCI:
 
 <a name="desktop-apps"></a>
 # Desktop Apps :computer:
-## Thursday, May 21st (from 19 to 20)
+## :computer: Thursday, May 21st (from 19 to 20)
 
 ### Content
 
 [:top:](#top)
 
-## Friday, May 22nd
+## :computer: Friday, May 22nd
 
 - **Qt for Python** [:page_with_curl:](https://doc.qt.io/qtforpython/)
 
 [:top:](#top)
 
-## Monday, May 25th
+## :computer: Monday, May 25th
 
 [:top:](#top)
 
-## Tuesday, May 26th
+## :computer: Tuesday, May 26th
 
 [:top:](#top)
 
-## Wednesday, May 27th (from 4 to 7 pm)
+## :computer: Wednesday, May 27th (from 4 to 7 pm)
 
 - **Kivy** [:page_with_curl:](https://kivy.org/doc/stable/)(00:07 - 02:40:00) *(Open source software for the rapid development of applications equipped with novel user interfaces, such as multi-touch apps)*
 
@@ -721,7 +721,7 @@ The following are the icons included throughout the UCCI:
 
 <a name="data"></a>
 # Data Science :bar_chart:
-## Wednesday, May 27th (from 7 to 8 pm)
+## :bar_chart: Wednesday, May 27th (from 7 to 8 pm)
 
 - [Python Data Science Handbook](jakevdp.github.io/PythonDataScienceHandbook)
 - IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html)
@@ -745,7 +745,7 @@ The following are the icons included throughout the UCCI:
     - IPython and Shell Commands
     - Errors and Debugging
 
-## Thursday, May 28th
+## :bar_chart: Thursday, May 28th
 - IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html)
     - IPython and Shell Commands
 	- Shell Commands in IPython
@@ -769,45 +769,45 @@ The following are the icons included throughout the UCCI:
     - Structured Data: NumPy's Structured Arrays
 
 
-## Friday, May 29th
+## :bar_chart: Friday, May 29th
 
 [:top:](#top)
 
-## Monday, June 1st
+## :bar_chart: Monday, June 1st
 
 [:top:](#top)
 
-## Tuesday, June 2nd
+## :bar_chart: Tuesday, June 2nd
 
 [:top:](#top)
 
-## Thursday, June 4th
+## :bar_chart: Thursday, June 4th
 
 [:top:](#top)
 
-## Friday, June 5th
+## :bar_chart: Friday, June 5th
 
 [:top:](#top)
 
-## Monday, June 8th
+## :bar_chart: Monday, June 8th
 
 [:top:](#top)
 
-## Tuesday, June 9th
+## :bar_chart: Tuesday, June 9th
 
 [:top:](#top)
 
-## Wednesday, June 10th
+## :bar_chart: Wednesday, June 10th
 
 [:top:](#top)
 
-## Thursday, June 11th (from 4 to 6 pm)
+## :bar_chart: Thursday, June 11th (from 4 to 6 pm)
 
 [:top:](#top)
 
 <a name="iot"></a>
 # Internet of Things :robot:
-## Thursday, June 11th (from 6 to 8 pm)
+## :robot: Thursday, June 11th (from 6 to 8 pm)
 
 ### Content
 - **Introduction**
@@ -819,26 +819,26 @@ The following are the icons included throughout the UCCI:
     - utime
     - pymakr ~ VSCode Plugin
     -
-## Friday, June 12th
+## :robot: Friday, June 12th
 
 [:top:](#top)
 
-## Monday, June 15th
+## :robot: Monday, June 15th
 
 [:top:](#top)
 
-## Tuesday, June 16th
+## :robot: Tuesday, June 16th
 
 [:top:](#top)
 
-## Wednesday, June 17th
+## :robot: Wednesday, June 17th
 
 [:top:](#top)
 
-## Thursday, June 18th
+## :robot: Thursday, June 18th
 
 [:top:](#top)
 
-## Friday, June 19th
+## :robot: Friday, June 19th
 
 [:top:](#top)
