@@ -1,9 +1,14 @@
-# System Administration :cloud:
+# :cloud: System Administration
 
-[:octocat: Link to the official repository](https://github.com/pythoncanarias/eoi/tree/master/07-sysadmin)
+[Link to the official repository :octocat:](https://github.com/pythoncanarias/eoi/tree/master/07-sysadmin)
 
 ## Dependencies
-
+- Ansible [:page_with_curl:](https://docs.ansible.com/ansible/latest/index.html)
+    - [Ansible, Best Practices](https://www.slideshare.net/bbaassssiiee/ansible-best-practices)
+- Vagrant [:page_with_curl:](https://www.vagrantup.com/docs)
+    - [Digital Ocean Vagrant Provider](https://github.com/devopsgroup-io/vagrant-digitalocean)
+    - [Vagrant in Five Minutes](https://www.youtube.com/watch?v=cx79jOpZVE8)
+    - [Getting Started in Vagrant](https://www.vagrantup.com/intro/getting-started)
 ## Links of interest
 - [**Hard Drives and RAM**](https://www.youtube.com/watch?v=kjD5OUroAh4)
 - [**What is OSI Model?**](https://www.youtube.com/watch?v=Ilk7UXzV_Qc)
