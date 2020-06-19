@@ -11,6 +11,7 @@ This is the Unofficial Course Content Index (from now on, 'UCCI') of the online 
 * [System Administration](#sys-admin)
 * [Desktop Apps](#desktop-apps)
 * [Data Science](#data)
+* [Internet of Things](#iot)
 
 ## To Consider
 The following are the icons included throughout the UCCI:
@@ -29,23 +30,20 @@ The following are the icons included throughout the UCCI:
 
 <a name="core"></a>
 # Core :abc:
-## Friday, April 3rd
+## :abc: Friday, April 3rd
 
-###Content
-####Review of the Past Classes
+### Content
+#### Review of the Past Classes
 (12:30 - 01:10:55)
-- Datatypes 
-    - int
-    - float
-    - string
-    - tuple
-    - dict
-    - list
-    - set
-- Conditionals
-- Loops
+- Datatypes [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/01-data/01-data.ipynb)
+    - numbers [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/02-numbers/02-numbers.ipynb)
+    - string [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/03-strings/03-strings.ipynb)
+    - lists and tuples [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/06-lists/06-lists.ipynb)
+    - dicts and sets [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/07-dicts/07-dicts.ipynb)
+- Conditionals [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/04-conditionals/04-conditionals.ipynb)
+- Loops [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/05-loops/05-loops.ipynb)
 
-####Functions
+#### Functions [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/08-functions/08-functions.ipynb)
 (01:11:20 - 04:00:00)
 - What Do I Need Them for?
 - Arguments and Parameters
@@ -59,10 +57,10 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Monday, April 6th
+## :abc: Monday, April 6th
 
-###Content
-####Objects and Classes
+### Content
+#### Objects and Classes [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/09-objects/09-objects.ipynb)
 (18:00 - 04:00:00)
 - What Are Objects? (18:00 - 01:35:00)
 - Inheritance (01:35:05 - 03:40:00)
@@ -70,13 +68,13 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Tuesday, April 7th
+## :abc: Tuesday, April 7th
 
-###Content
-####Objects and Classes
+### Content
+#### Objects and Classes [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/09-objects/09-objects.ipynb)
 - Object-Oriented Programming (05:00 - 03:18:00)
 
-####File Handling 
+#### File Handling [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/10-files/10-files.ipynb)
 (03:23:00 - 04:01:15)
 - Open and Create Files
 - Write Files
@@ -84,11 +82,11 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Wednesday, April 8th
+## :abc: Wednesday, April 8th
 
-###Content
-####File Handling
-(01:30 - )
+### Content
+#### File Handling [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/02-core/10-files/10-files.ipynb)
+(01:30 - 02:38:40)
 - Close Files Automatically
 - Iterate Files
 - **Import** Modules (01:27:30 - 01:44:20)
@@ -100,25 +98,26 @@ The following are the icons included throughout the UCCI:
 
 <a name="emp"></a>
 # Employability :necktie:
-## Monday, April 13th
+## :necktie: Monday, April 13th
+
 
 [:top:](#top)
 
-## Thursday, May 7th (from 5 to 8 pm)
+## :necktie: Thursday, May 7th (from 5 to 8 pm)
 
 [:top:](#top)
 
-## Monday, May 18th
+## :necktie: Monday, May 18th
 
 [:top:](#top)
 
-## Wednesday, June 3rd
+## :necktie: Wednesday, June 3rd
 
 [:top:](#top)
 
 <a name="libs"></a>
 # Libraries :aerial_tramway:
-## Tuesday, April 14th
+## :aerial_tramway: Tuesday, April 14th
 
 ### Content
 #### Standard libraries
@@ -149,7 +148,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Wednesday, April 15th
+## :aerial_tramway: Wednesday, April 15th
 
 ### Content
 #### Standard libraries
@@ -189,7 +188,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Thursday, April 16th
+## :aerial_tramway: Thursday, April 16th
 
 ### Content
 #### Standard libraries
@@ -219,7 +218,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Friday, April 17th
+## :aerial_tramway: Friday, April 17th
 
 ### Content
 #### Standard libraries
@@ -257,7 +256,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Monday, April 20th
+## :aerial_tramway: Monday, April 20th
 
 ### Content
 #### External libraries
@@ -295,7 +294,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Tuesday, April 21st
+## :aerial_tramway: Tuesday, April 21st
 
 ### Content
 #### External libraries
@@ -323,7 +322,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Wednesday, April 22nd
+## :aerial_tramway: Wednesday, April 22nd
 
 ### Content
 #### Standard libraries
@@ -346,7 +345,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Thursday, April 23rd
+## :aerial_tramway: Thursday, April 23rd
 
 #### External libraries
 ### Content
@@ -394,7 +393,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Friday, April 24th
+## :aerial_tramway: Friday, April 24th
 
 ### Content
 #### External libraries
@@ -417,8 +416,8 @@ The following are the icons included throughout the UCCI:
 [:top:](#top)
 
 <a name="patterns"></a>
-# Design Patterns :globe_with_meridians:
-## Monday, April 27th
+# Design Patterns :wrench:
+## :wrench: Monday, April 27th
 
 ### Content
 - **Introduction** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/00-Introduction.ipynb) (04:00 - 02:00:50)
@@ -439,7 +438,7 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## Tuesday, April 28th
+## :wrench: Tuesday, April 28th
 
 ### Content
 - **Adapter** [:beginner:](https://github.com/pythoncanarias/eoi/blob/master/04-patterns/05_Adapter.ipynb) [:page_with_curl:](https://en.wikipedia.org/wiki/Adapter_pattern) (07:49 - 38:15)
@@ -456,87 +455,265 @@ The following are the icons included throughout the UCCI:
 
 <a name="web"></a>
 # Web Development :globe_with_meridians:
-## Wednesday, April 29th
+## :globe_with_meridians: Wednesday, April 29th
 
 [:top:](#top)
 
-## Thursday, April 30th
+## :globe_with_meridians: Thursday, April 30th
 
 [:top:](#top)
 
-## Monday, May 4th
+## :globe_with_meridians: Monday, May 4th
 
 [:top:](#top)
 
-## Tuesday, May 5th
+## :globe_with_meridians: Tuesday, May 5th
 
 [:top:](#top)
 
-## Wednesday, May 6th
+## :globe_with_meridians: Wednesday, May 6th
 
 [:top:](#top)
 
-## Thursday, May 7th (from 4 to 5 pm)
+## :globe_with_meridians: Thursday, May 7th (from 4 to 5 pm)
 
 [:top:](#top)
 
 <a name="sys-admin"></a>
 # System Administration :cloud:
-## Friday, May 8th
+## :cloud: Friday, May 8th
+
+### Content
+- **Hardware** (25:00 - 01:31:00)
+    - Central Processing Unit
+    - Random-Access Memory
+    - Hard Disk Drive
+    - Net
+- **Software Information** (01:33:20 - 03:24:00)
+    - lscpu
+    - uptime
+    - htop
+    - free
+    - lsblk
+- **File System Permissions** (03:24:15 - 03:54:00)
+    - chmod
+    - chown
+    - chgrp
+- **Installing Virtual Box** (03:59:50 - 04:04:00)
 
 [:top:](#top)
 
-## Monday, May 11th
+## :cloud: Monday, May 11th
+
+### Content
+
+- **Installing Virtual Box** (10:00 - 52:00)
+- **What Is The OSI Model?** (53:58 - 04:00:00)
+    - Physical Layer
+    - Data Link Layer
+        - MAC (01:10:35 - 01:26:30)
+    - Network Layer
+        - IP (01:28:10 - 03:29:00)
+        - NAT (03:29:35 - 03:38:00)
+    - Transport Layer
+        - Ports (03:39:45 - 04:00:00)
+            - TCP
+            - UDP
+    - Session Layer
+    - Presentation Layer
+    - Application Layer
 
 [:top:](#top)
 
-## Tuesday, May 12th
+## :cloud: Tuesday, May 12th
 #### Link to the... OH, WAIT
 <img src="https://i.imgur.com/di6JDM4.png" width="300" height="300">
 
 [:top:](#top)
 
-## Wednesday, May 13th
+## :cloud: Wednesday, May 13th
+
+### Content
+
+- **May 12th Review**
+    - Connecting to remote machine
+        - bridge, ping, host
+        - networking
+    - The OSI Model (08:00 - )
+        - Application Layer
+            - DNS Protocol (12:30 - 19:30)
+                - dig 
+                - RR (Resource Records)
+            - HTTP (20:40 - 43:05)
+
+- **How Do Requests Work?** (43:10 - 03:29:00)
+    - socket [:page_with_curl:](https://docs.python.org/3/library/socket.html) (1:01:40 - 03:29:00) *(Access provider to the BSD socket interface in Python)*
+    - psutil [:page_with_curl:](https://psutil.readthedocs.io/en/latest/) (03:30:00 - 04:00:00) *(Retrieving information on running processes and system utilization (CPU, memory, disks, network, sensors) in Python)*
 
 [:top:](#top)
 
-## Thursday, May 14th
+## :cloud: Thursday, May 14th
+
+### Content
+
+- **Client/Server Activity** (15:00 - 03:00:00)
+    - ngrok (36:00 - 48:00)
+    - client.py and server.py
+- **How to Connect to a Remote Server through SSH** (03:09:30 - 04:00:00)
+    - ssh remote-user@remote-ip
+    - fabric [:page_with_curl:](http://www.fabfile.org/) (03:15:00 - 03:31:30) *(Execute shell commands remotely over SSH, yielding useful Python objects in return)*
+        - Connection 
+    - SSH Keys (03:33:00 - 04:00:00)
 
 [:top:](#top)
 
-## Friday, May 15th
+## :cloud: Friday, May 15th
+
+### Content
+
+- **Review SSH** (09:00 - 25:45)
+- **Working with Fabric** (30:00 - 01:43:20)
+    - invoke and paramIT
+    - getpass
+- **Installing Shield on Remote Machine** (01:44:00 - 02:04:40)
+- **How Does Our Server Work Internally?** (02:12:50 - 02:49:00)
+    - Common Gateway Interface (CGI)
+    - Web Server Gateway Interface (WSGI)
+    - nginx
+- **Project Configuration on The Server** (03:06:00 - 04:00:00)
 
 [:top:](#top)
 
-## Tuesday, May 19th
+## :cloud: Tuesday, May 19th
+
+### Content
+
+- **How Does Nginx Work?** (01:50 - 16:00)
+- **Trying uWSGI** (23:20 - 58:00)
+- **Installing NGINX** (58:05 - 01:29:30)
+    - mysite_nginx.conf/shield.conf (01:33:16 - 01:40:30) *(Configuration of the server)*
+        - upstream
+            - server_name
+            - locations
+    - Project configuration (01:30:00 - 03:23:00)
+        - collectstatic
+        - **More about:** nginx and uwsgi ~ File Permissions (03:00:00 - 03:23:00)
+    - Configuring mysite_uwsgi.ini file
 
 [:top:](#top)
 
-## Wednesday, May 20th
+## :cloud: Wednesday, May 20th
+
+### Content
+
+- **Finishig Details** (13:00 - 01:51:10)
+- **Ansible** (02:25:00 - 04:02:00)
+    - Installation (02:41:00 - 02:43:00)
+    - Concepts (02:43:20 - 02:47:55)
+        - Control Node and Nodes
+        - Inventory File
+        - Playbook
+            - What Is a Playbook? (02:48:00 - 02:54:00)
+                - Tasks
+                - Role: Playbook Set
+    - Starting The Project (02:54:00 - 03:30:00)
+        - Add IP to /etc/ansible/hosts
+        - ping [:page_with_curl:](https://docs.ansible.com/ansible/latest/modules/ping_module.html)
+            - ansible all -m ping -u username
+            - ssh-copy-id -i ~/.ssh/mykey user@host *(remember to run ssh-keygen first in order to have a new key to connect with)*
+            - [yourmachine:vars]
+        ansible_python_interpreter=/usr/bin/python3
+        - **Controlling Nodes** ansible all -a 'apt update' -u username -b -K/--ask-become-pass (03:35:00 - 03:40:00)
+        - service [:page_with_curl:](https://docs.ansible.com/ansible/latest/modules/service_module.html)
+            - name (wpa_supplicant)
+            - state (stopped/started/restarted/reloaded)
+        - apt [:page_with_curl:](https://docs.ansible.com/ansible/latest/modules/apt_module.html)
+            - name
+            - update_cache
+            - state
 
 [:top:](#top)
 
-## Thursday, May 21st
+## :cloud: Thursday, May 21st (from 16 to 19)
+
+### Content
+- **Ansible** (37:10 - 03:09:20)
+    - Playbook
+        - JSON [:page_with_curl:](https://www.json.org/json-en.html)
+            - Datatypes
+                - number
+                - string
+                - null
+                - boolean
+                - object
+                - array
+        - YAML [:page_with_curl:](https://yaml.org/spec/1.2/spec.html) (46:00 - 01:44:40) *(Yet Another Markup Language)*
+            - Indentation -> Two spaces
+            - Datatypes
+                - dict -> key: value
+                - number: 456
+                - list:
+                    - one
+                    - two
+                    - three
+                - object: 
+                    - key:
+                        - one
+                        - two
+                        - three
+                        number: 234
+                        something: "hehe"
+            - jq *(validation and formatting)*
+            - yq *(transform YAML file to JSON and give to jq)*
+        - First Play: **nginx_install.yaml** (01:45:00 - 02:01:20)
+            - hosts (Whom)
+            - tasks (Playbooks)
+                - **(1)**
+                    - task_name
+                    - module
+                        - parameters
+                - **(2)**
+                    - task_name
+                    - module
+                        - parameters
+            - ansible-playbook
+            - **IMPORTANT** (01:54:20 - 01:54:45)
+                - install :cow: **cowsay** :cow2: [:page_with_curl:](https://en.wikipedia.org/wiki/Cowsay)
+                - ![](../../images/cowsay.png)
+            - ansible-lint (02:24:30 - 02:26:20)
+            - change nginx welcome page (02:28:10 - 02:46:00)
+                - copy [:page_with_curl:](https://docs.ansible.com/ansible/latest/modules/copy_module.html#copy-module) (02:28:10 - 02:41:30)
+            - playbooks (02:46:30 - 03:09:20)
+                - install nginx (apt)
+                - install uwsgi (pip)
+                - clone shield project (git)
+                - replace /etc/ssh/sshd_config
 
 [:top:](#top)
 
 <a name="desktop-apps"></a>
 # Desktop Apps :computer:
-## Friday, May 22nd
+## :computer: Thursday, May 21st (from 19 to 20)
+
+### Content
+
+[:top:](#top)
+
+## :computer: Friday, May 22nd
 
 - **Qt for Python** [:page_with_curl:](https://doc.qt.io/qtforpython/)
 
 [:top:](#top)
 
-## Monday, May 25th
+## :computer: Monday, May 25th
 
 [:top:](#top)
 
-## Tuesday, May 26th
+## :computer: Tuesday, May 26th
 
 [:top:](#top)
 
-## Wednesday, May 27th (from 4 to 7 pm)
+## :computer: Wednesday, May 27th (from 4 to 7 pm)
 
 - **Kivy** [:page_with_curl:](https://kivy.org/doc/stable/)(00:07 - 02:40:00) *(Open source software for the rapid development of applications equipped with novel user interfaces, such as multi-touch apps)*
 
@@ -544,7 +721,7 @@ The following are the icons included throughout the UCCI:
 
 <a name="data"></a>
 # Data Science :bar_chart:
-## Wednesday, May 27th (from 7 to 8 pm)
+## :bar_chart: Wednesday, May 27th (from 7 to 8 pm)
 
 - [Python Data Science Handbook](jakevdp.github.io/PythonDataScienceHandbook)
 - IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html)
@@ -568,7 +745,7 @@ The following are the icons included throughout the UCCI:
     - IPython and Shell Commands
     - Errors and Debugging
 
-## Thursday, May 28th
+## :bar_chart: Thursday, May 28th
 - IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html)
     - IPython and Shell Commands
 	- Shell Commands in IPython
@@ -592,38 +769,76 @@ The following are the icons included throughout the UCCI:
     - Structured Data: NumPy's Structured Arrays
 
 
-## Friday, May 29th
+## :bar_chart: Friday, May 29th
 
 [:top:](#top)
 
-## Monday, June 1st
+## :bar_chart: Monday, June 1st
 
 [:top:](#top)
 
-## Tuesday, June 2nd
+## :bar_chart: Tuesday, June 2nd
 
 [:top:](#top)
 
-## Thursday, June 4th
+## :bar_chart: Thursday, June 4th
 
 [:top:](#top)
 
-## Friday, June 5th
+## :bar_chart: Friday, June 5th
 
 [:top:](#top)
 
-## Monday, June 8th
+## :bar_chart: Monday, June 8th
 
 [:top:](#top)
 
-## Tuesday, June 9th
+## :bar_chart: Tuesday, June 9th
 
 [:top:](#top)
 
-## Wednesday, June 10th
+## :bar_chart: Wednesday, June 10th
 
 [:top:](#top)
 
-## Thursday, June 11th (from 4 to 6 pm)
+## :bar_chart: Thursday, June 11th (from 4 to 6 pm)
+
+[:top:](#top)
+
+<a name="iot"></a>
+# Internet of Things :robot:
+## :robot: Thursday, June 11th (from 6 to 8 pm)
+
+### Content
+- **Introduction**
+    - **ESP-12E**
+
+- **MicroPython** [:page_with_curl:](https://docs.micropython.org/en/latest/)
+    - machine [:page_with_curl:](https://docs.micropython.org/en/latest/library/machine.html)
+    - esp
+    - utime
+    - pymakr ~ VSCode Plugin
+    -
+## :robot: Friday, June 12th
+
+[:top:](#top)
+
+## :robot: Monday, June 15th
+
+[:top:](#top)
+
+## :robot: Tuesday, June 16th
+
+[:top:](#top)
+
+## :robot: Wednesday, June 17th
+
+[:top:](#top)
+
+## :robot: Thursday, June 18th
+
+[:top:](#top)
+
+## :robot: Friday, June 19th
 
 [:top:](#top)
