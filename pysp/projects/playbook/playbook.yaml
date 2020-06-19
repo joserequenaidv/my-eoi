@@ -1,0 +1,278 @@
+# vim:ft=ansible:
+
+- hosts: virmac
+  user: vagrant
+  vars:
+    - project_name: shield
+      dbuser: vagrant
+      repo: https://github.com/joserequenaidv/my-eoi.git
+      prpath: /var/www/my-eoi/pysp/projects/{{ project_name }}
+      venv: '{{ prpath }}/venv'
+      app_path: '{{ prpath }}/{{ project_name }}'
+      data: '{{ prpath }}/metahumans/dumpdata.json'
+
+  tasks:
+
+  - name: update apt-packages
+    become: yes
+    apt:
+      update_cache: yes
+    tags:
+      - always
+
+  - name: install required apt-packages
+    become: yes
+    apt:
+      name:
+        - git
+        - python3
+        - python3-pip
+        - python3-venv
+        - nginx
+        - uwsgi
+      update_cache: yes
+      force: yes
+      state: latest
+    tags:
+      - apt
+      - sys-requirements
+      - test
+
+      # - name: upgrade apt-packages
+      #become: yes
+      #apt:
+      #upgrade: yes
+      #tags:
+      #- apt
+
+  - name: download repository from GitHub and create project directory
+    become: yes
+    git:
+      repo: '{{ repo }}'
+      version: master
+      dest: /var/www/my-eoi
+      force: yes
+    tags:
+      - github
+      - test
+  - name: add libs to requirements
+    become: yes
+    blockinfile:
+      path: '{{ prpath }}/requirements.txt'
+      block: |
+        six
+        wheel
+        virtualenv
+        uwsgi
+      state: present
+    tags:
+      - project libs
+      - uwsgi
+      - test
+  - name: install project requirements
+    become: yes
+    pip:
+      virtualenv: '{{ venv }}'
+      requirements: '{{ prpath }}/requirements.txt'
+      virtualenv_command: /usr/bin/python3 -m venv
+    tags:
+      - pip
+      - virtualenv
+      - test
+  - name: Add static files to Django app
+    lineinfile:
+      dest: '{{ app_path }}/settings.py'
+      state: present
+      insertafter: "STATIC_URL = 'static'\n"
+      line: "STATIC_ROOT = os.path.join(BASE_DIR, 'static')"
+    tags:
+      - django
+      - test
+  - name: collect static
+    become: yes
+    django_manage:
+      command: collectstatic
+    args:
+      app_path: '{{ prpath }}'
+      virtualenv: '{{ venv }}'
+    tags:
+      - django
+      - deployment
+      - test
+  - name: make migrations
+    become: yes
+    django_manage:
+      command: makemigrations
+      app_path: '{{ prpath }}'
+      virtualenv: '{{ venv }}'
+    tags:
+      - django
+      - deployment
+      - test
+  - name: migrate
+    become: yes
+    django_manage:
+      command: migrate
+      app_path: '{{ prpath }}'
+      virtualenv: '{{ venv }}'
+    tags:
+      - django
+      - deployment
+      - test
+  - name: load data
+    become: yes
+    django_manage:
+      command: loaddata
+      fixtures: '{{ data }}'
+      app_path: '{{ prpath }}'
+      virtualenv: '{{ venv }}'
+    tags:
+      - django
+      - deployment
+      - test
+
+  - name: create vassals folder
+    become: yes
+    file:
+      path: /etc/uwsgi/vassals
+      state: directory
+      mode: '0755'
+    tags:
+      - uwsgi
+      - test
+  - name: create /log/uwsgi directory
+    become: yes
+    file:
+      path: /var/log/uwsgi
+      state: directory
+      mode: '0755'
+    tags:
+      - uwsgi
+      - test
+  - name: create shield.log in /log/uwsgi directory and give privileges to nginx vassal
+    become: yes
+    file:
+      path: /var/log/uwsgi/shield.log
+      state: touch
+      mode: '0755'
+      owner: www-data
+    tags:
+      - uwsgi
+      - nginx
+      - test
+  - name: give project's owner privileges to nginx worker
+    become: yes
+    file:
+      path: /var/www/my-eoi
+      state: directory
+      recurse: yes
+      owner: www-data
+      group: www-data
+      mode: '0744'
+    tags:
+      - nginx
+      - test
+  - name: move emperor.ini to uwsgi directory
+    become: yes
+    copy:
+      src: /vagrant/templates/emperor.ini
+      remote_src: yes
+      dest: /etc/uwsgi/emperor.ini
+      follow: yes
+    tags:
+      - uwsgi
+      - test
+
+  - name: create a symbolic link
+    become: yes
+    file:
+      src: '{{ prpath }}/uwsgi.ini'
+      dest: /etc/uwsgi/vassals/shield.ini
+      force: yes
+      state: link
+    tags:
+      - uwsgi
+      - symbolic links
+      - debug
+
+  - name: set systemd and emperor's life cicle
+    become: yes
+    copy:
+      src: '{{ prpath }}/templates/uwsgi-emperor.service'
+      remote_src: yes
+      dest: /etc/systemd/system
+      follow: yes
+    tags:
+      - uwsgi
+      - debug
+
+  - name: start nginx
+    become: yes
+    service:
+      name: nginx
+      state: started
+    tags:
+      - nginx
+      - debug
+
+  - name: start service
+    become: yes
+    systemd:
+      enabled: true
+      state: started
+      name: uwsgi-emperor.service
+    tags:
+      - uwsgi
+      - debug
+
+  - name: let systemd know about changes and run emperor
+    become: yes
+    systemd:
+      daemon_reload: yes
+      name: uwsgi-emperor.service
+      state: restarted
+      enabled: yes
+    tags:
+      - uwsgi
+      - debug
+
+  - name: remove nginx default website
+    become: yes
+    file:
+      path: /etc/nginx/sites-enabled/default
+      state: absent
+    tags:
+      - nginx
+
+  - name: place shield.conf where it belongs
+    become: yes
+    copy:
+      src: /vagrant/templates/emperor.ini
+      remote_src: yes
+      dest: /etc/nginx/sites-available
+      follow: yes
+    tags:
+      - nginx
+      - fin
+
+  - name: restart nginx
+    become: yes
+    systemd:
+      name: nginx
+      state: reloaded
+      enabled: yes
+    tags:
+      - nginx
+      - fin
+
+  - name: create a symbolic link
+    become: yes
+    file:
+      src: /etc/nginx/sites-available/shield.conf
+      dest: /etc/nginx/sites-enabled/shield.conf
+      force: yes
+      state: link
+    tags:
+      - nginx
+      - symbolic links
+      - fin

@@ -1,0 +1,45 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# Vagrantfile API/syntax version.
+API_VERSION = "2"
+
+Vagrant.configure(API_VERSION) do |config|
+  # virmac
+  config.vm.define "virmac" do |config|
+    config.vm.provider :digital_ocean do |provider, override|
+      override.ssh.username = "vagrant"
+      override.ssh.private_key_path = "/home/joserequenaidv/.ssh/virmac/id_ed25519"
+      override.vm.box = 'digital_ocean'
+      override.vm.box_url = "https://github.com/devopsgroup-io/vagrant-digitalocean/raw/master/box/digital_ocean.box"
+      # virtual machine settings
+      provider.token = "06590a216db74d309bec51c1accf672cef12f01ac73162657679fd8a8b5474cc"
+      provider.image = "debian-10-x64"
+      provider.ssh_key_name = "controlNode"
+      provider.setup = true
+      provider.region = "fra1"
+      provider.size = "s-1vcpu-1gb"
+      provider.backups_enabled = false
+      provider.private_networking = false
+      provider.ipv6 = false
+      provider.monitoring = false
+      # change the network card hardware for better performance
+      provider.customize ["modifyvm", :id, "--nictype1", "virtio"]
+      provider.customize ["modifyvm", :id, "--nictype2", "virtio"]
+      # suggested fix for slow network performance
+      # see https://github.com/mitchellh/vagrant/issues/1807
+      provider.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+      provider.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
+    end
+
+    config.vm.provider "virtualbox" do |vb|      
+      vb.vm.box = "precise64"
+      vb.vm.network "forwarded_port", guest: 80, host: 8080
+    end
+  end
+
+  config.vm.provision "ansible" do |ansible|
+    ansible.playbook = "playbook.yaml"
+   # ansible.tags = "fin"
+  end 
+end
