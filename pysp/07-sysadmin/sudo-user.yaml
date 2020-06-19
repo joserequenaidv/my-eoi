@@ -1,0 +1,24 @@
+- hosts: virmac01
+  user: root
+  tasks:
+
+    - name: Create a 'sudo' group
+      group:
+      name: sudo
+      state: present
+
+    - name: Allow 'sudo' group to have passwordless sudo
+      lineinfile:
+      dest: /etc/sudoers
+      state: present
+      regexp: '^%sudo'
+      line: '%sudo ALL=(ALL) NOPASSWD: ALL'
+      validate: 'visudo -cf %s'
+
+      - name: Add sudoers user to sudo group
+        user: name=marx groups=sudo append=yes state=present createhome=yes
+
+      - name: Set up authorized keys for user
+        authorized_key: user=marx key="{{item}}"
+        with_file:
+        - /home/joserequenaidv/.ssh/virmac01/marx.pub
