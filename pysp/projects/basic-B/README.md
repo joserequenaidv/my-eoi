@@ -2,7 +2,7 @@
 This is my 1st project for the Libraries module of the [Python Specialization Course](https://github.com/joserequenaidv/my-eoi/blob/master/pysp/README.md).
 
 ## Links
-- [Weekly Backup](https://github.com/pythoncanarias/eoi/blob/master/05-libs/miniproyecto_backup) - Guidelines from the official repository to accomplish the tasks given by Juan Ignacio Rodríguez.
+- [Weekly Backup](https://github.com/pythoncanarias/eoi/blob/master/05-libs/miniproyecto_backup) - Guidelines from the official repository to accomplish the tasks given by **Juan Ignacio Rodríguez**.
 
 ## Project Journal
 ### Introduction
@@ -17,10 +17,11 @@ The project consists of making a backup script that weekly saves different types
 - Create a folder for each month
 
 ### Troubleshooting the Problems
-Firstly, we need to know what libraries would be necessary to address our tasks. **Regarding to Juan Ignacio's advice, we can choose some of the following:**
-    - os / sys
-    - zipfile / gzip / zlib
-    - time / datetime / arrow
+Firstly, we need to know what libraries would be necessary to address our tasks.
+**Regarding to Juan Ignacio's advice, we can choose some of the following:**
+- os / sys
+- zipfile / gzip / zlib
+- time / datetime / arrow
 
 Also we could use the library *shutil* and some others.
 ### Challenges on the Way
