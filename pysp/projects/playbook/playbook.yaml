@@ -239,7 +239,7 @@
   - name: place shield.conf where it belongs
     become: yes
     copy:
-      src: '{{ templates }}/shield_conf'
+      src: '{{ templates }}/shield.conf'
       remote_src: yes
       dest: /etc/nginx/sites-available
       follow: yes
