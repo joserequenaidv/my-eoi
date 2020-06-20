@@ -10,9 +10,9 @@
       venv: '{{ prpath }}/venv'
       app_path: '{{ prpath }}/{{ project_name }}'
       data: '{{ prpath }}/metahumans/dumpdata.json'
+      templates: '{{ prpath }}/templates'
 
   tasks:
-
   - name: update apt-packages
     become: yes
     apt:
@@ -173,7 +173,7 @@
   - name: move emperor.ini to uwsgi directory
     become: yes
     copy:
-      src: /vagrant/templates/emperor.ini
+      src: '{{ templates }}/emperor.ini'
       remote_src: yes
       dest: /etc/uwsgi/emperor.ini
       follow: yes
@@ -194,7 +194,7 @@
   - name: set systemd and emperor's life cicle
     become: yes
     copy:
-      src: '{{ prpath }}/templates/uwsgi-emperor.service'
+      src: '{{ templates }}/uwsgi-emperor.service'
       remote_src: yes
       dest: /etc/systemd/system
       follow: yes
@@ -239,19 +239,10 @@
   - name: place shield.conf where it belongs
     become: yes
     copy:
-      src: /vagrant/templates/emperor.ini
+      src: '{{ templates }}/shield_conf'
       remote_src: yes
       dest: /etc/nginx/sites-available
       follow: yes
-    tags:
-      - nginx
-
-  - name: restart nginx
-    become: yes
-    systemd:
-      name: nginx
-      state: reloaded
-      enabled: yes
     tags:
       - nginx
 
@@ -265,3 +256,12 @@
     tags:
       - nginx
       - symbolic links
+
+  - name: restart nginx
+    become: yes
+    systemd:
+      name: nginx
+      state: reloaded
+      enabled: yes
+    tags:
+      - nginx
