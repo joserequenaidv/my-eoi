@@ -1,2 +1,4 @@
 django
 django-leaflet
+six
+wheel

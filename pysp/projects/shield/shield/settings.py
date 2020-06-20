@@ -122,6 +122,7 @@ USE_TZ = True
 
 STATIC_PATH = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 LEAFLET_CONFIG = {
     'DEFAULT_CENTER': (28.48, -16.3),
