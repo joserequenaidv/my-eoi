@@ -12,6 +12,7 @@ This is the Unofficial Course Content Index (from now on, 'UCCI') of the online 
 * [Desktop Apps](#desktop-apps)
 * [Data Science](#data)
 * [Internet of Things](#iot)
+* [Videogames](#videogames)
 
 ## To Consider
 The following are the icons included throughout the UCCI:
@@ -840,5 +841,43 @@ The following are the icons included throughout the UCCI:
 [:top:](#top)
 
 ## :robot: Friday, June 19th
+
+[:top:](#top)
+
+<a name="videogames"></a>
+# Videogames :space_invader:
+## :space_invader: Monday, June 22nd
+
+[:top:](#top)
+
+## :space_invader: Tuesday, June 23rd
+
+[:top:](#top)
+
+## :space_invader: Wednesday, June 24th
+
+[:top:](#top)
+
+## :space_invader: Thursday, June 25th
+
+[:top:](#top)
+
+## :space_invader: Friday, June 26th
+
+[:top:](#top)
+
+## :space_invader: Monday, June 29th
+
+[:top:](#top)
+
+## :space_invader: Tuesday, June 30th
+
+[:top:](#top)
+
+## :space_invader: Wednesday, July 1st
+
+[:top:](#top)
+
+## :space_invader: Thursday, July 22nd
 
 [:top:](#top)

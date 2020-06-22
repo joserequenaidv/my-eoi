@@ -16,7 +16,7 @@ There are twelve modules:
 - [Desktop Apps](./08-desktop-apps/README.md) :computer:
 - [Data Science](./09-data/README.md) :bar_chart:
 - [Internet of Things](./10-iot/README.md) :robot:
-- Videogames
+- [Videogames](./11-videogames/README.md) :space_invader:
 - Testing
 
 ## Faculty
