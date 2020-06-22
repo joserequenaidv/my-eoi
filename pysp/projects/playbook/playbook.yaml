@@ -2,6 +2,8 @@
 
 - hosts: virmac
   user: vagrant
+  become: yes
+
   vars:
     - project_name: shield
       dbuser: vagrant
@@ -13,6 +15,9 @@
       templates: '{{ prpath }}/templates'
 
   tasks:
+
+  # SYSTEM REQUIREMENTS
+
   - name: update apt-packages
     become: yes
     apt:
@@ -30,19 +35,17 @@
         - python3-venv
         - nginx
         - uwsgi
+        - uwsgi-plugin-python3
+        - ufw
       update_cache: yes
-      force: yes
       state: present
     tags:
       - apt
       - sys-requirements
 
-  - name: upgrade apt-packages
-    become: yes
-    apt:
-      upgrade: yes
-    tags:
-      - apt
+  # PROJECT CONFIGURATION
+
+    # repository
 
   - name: download repository from GitHub and create project directory
     become: yes
@@ -54,19 +57,19 @@
     tags:
       - github
 
-  - name: add libs to requirements
+  - name: give owner privileges to nginx worker, www-data
     become: yes
-    blockinfile:
-      path: '{{ prpath }}/requirements.txt'
-      block: |
-        six
-        wheel
-        virtualenv
-        uwsgi
-      state: present
+    file:
+      path: /var/www/my-eoi
+      state: directory
+      recurse: yes
+      owner: www-data
+      group: www-data
+      mode: '0755'
     tags:
-      - project libs
-      - uwsgi
+      - nginx
+
+    # django requirements and commands
 
   - name: install project requirements
     become: yes
@@ -77,15 +80,6 @@
     tags:
       - pip
       - virtualenv
-
-  - name: Add static files to Django app
-    lineinfile:
-      dest: '{{ app_path }}/settings.py'
-      state: present
-      insertafter: "STATIC_URL = 'static'\n"
-      line: "STATIC_ROOT = os.path.join(BASE_DIR, 'static')"
-    tags:
-      - django
 
   - name: collect static
     become: yes
@@ -129,25 +123,38 @@
       - django
       - deployment
 
+  # UWSGI CONFIGURATION
+
+    # folders
+
   - name: create vassals folder
     become: yes
     file:
       path: /etc/uwsgi/vassals
       state: directory
-      mode: '0755'
     tags:
       - uwsgi
 
-  - name: create /log/uwsgi directory
+  - name: create var/log/uwsgi directory
     become: yes
     file:
       path: /var/log/uwsgi
       state: directory
-      mode: '0755'
+    tags:
+      - uwsgi
+      - logs
+
+    # files
+
+  - name: move emperor.ini to /etc/uwsgi
+    become: yes
+    copy:
+      src: '{{ templates }}/emperor.ini'
+      dest: /etc/uwsgi
     tags:
       - uwsgi
 
-  - name: create shield.log in /log/uwsgi directory and give privileges to nginx vassal
+  - name: create shield.log in var/log/uwsgi directory and change privileges
     become: yes
     file:
       path: /var/log/uwsgi/shield.log
@@ -157,76 +164,43 @@
     tags:
       - uwsgi
       - nginx
+      - logs
 
-  - name: give project's owner privileges to nginx worker
-    become: yes
-    file:
-      path: /var/www/my-eoi
-      state: directory
-      recurse: yes
-      owner: www-data
-      group: www-data
-      mode: '0744'
-    tags:
-      - nginx
-
-  - name: move emperor.ini to uwsgi directory
-    become: yes
-    copy:
-      src: '{{ templates }}/emperor.ini'
-      remote_src: yes
-      dest: /etc/uwsgi/emperor.ini
-      follow: yes
-    tags:
-      - uwsgi
+    # symlink
 
   - name: create a symbolic link
     become: yes
     file:
       src: '{{ prpath }}/uwsgi.ini'
       dest: /etc/uwsgi/vassals/shield.ini
-      force: yes
       state: link
     tags:
       - uwsgi
-      - symbolic links
+      - symlink
 
-  - name: set systemd and emperor's life cicle
+    # set service
+
+  - name: set systemd and emperor's service
     become: yes
     copy:
       src: '{{ templates }}/uwsgi-emperor.service'
-      remote_src: yes
       dest: /etc/systemd/system
-      follow: yes
     tags:
       - uwsgi
-
-  - name: start nginx
-    become: yes
-    service:
-      name: nginx
-      state: started
-    tags:
-      - nginx
 
   - name: start service
     become: yes
     systemd:
-      enabled: true
+      enabled: yes
       state: started
       name: uwsgi-emperor.service
+      daemon_reload: yes
     tags:
       - uwsgi
 
-  - name: let systemd know about changes and run emperor
-    become: yes
-    systemd:
-      daemon_reload: yes
-      name: uwsgi-emperor.service
-      state: restarted
-      enabled: yes
-    tags:
-      - uwsgi
+  # NGINX CONFIGURATION
+
+    # files
 
   - name: remove nginx default website
     become: yes
@@ -236,32 +210,33 @@
     tags:
       - nginx
 
-  - name: place shield.conf where it belongs
+  - name: place shield.conf in /etc/nginx/sites-available
     become: yes
     copy:
       src: '{{ templates }}/shield.conf'
-      remote_src: yes
       dest: /etc/nginx/sites-available
-      follow: yes
     tags:
       - nginx
+
+    # symlink
 
   - name: create a symbolic link
     become: yes
     file:
       src: /etc/nginx/sites-available/shield.conf
       dest: /etc/nginx/sites-enabled/shield.conf
-      force: yes
       state: link
     tags:
       - nginx
-      - symbolic links
+      - symlink
+
+    # restart
 
   - name: restart nginx
     become: yes
     systemd:
       name: nginx
-      state: reloaded
+      state: restarted
       enabled: yes
     tags:
       - nginx
