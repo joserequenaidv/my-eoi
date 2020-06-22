@@ -23,23 +23,11 @@ Vagrant.configure(API_VERSION) do |config|
       provider.private_networking = false
       provider.ipv6 = false
       provider.monitoring = false
-      # change the network card hardware for better performance
-      provider.customize ["modifyvm", :id, "--nictype1", "virtio"]
-      provider.customize ["modifyvm", :id, "--nictype2", "virtio"]
-      # suggested fix for slow network performance
-      # see https://github.com/mitchellh/vagrant/issues/1807
-      provider.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
-      provider.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
-    end
-
-    config.vm.provider "virtualbox" do |vb|      
-      vb.vm.box = "precise64"
-      vb.vm.network "forwarded_port", guest: 80, host: 8080
     end
   end
 
   config.vm.provision "ansible" do |ansible|
-    ansible.playbook = "playbook.yaml"
-   # ansible.tags = "fin"
+    ansible.playbook = "book.yaml"
+   # ansible.tags = "pruf"
   end 
 end
