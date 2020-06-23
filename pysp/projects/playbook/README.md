@@ -2,7 +2,7 @@
 This is my project for the System Administration module of the [Python Specialization Course](https://github.com/joserequenaidv/my-eoi/blob/master/pysp/README.md).
 
 ## Links
-- [Requirements](https://github.com/pythoncanarias/eoi/     blob/master/07-sysadmin/miniproyecto/django-deployment.ipynb) - How to build a server on Debian 10 with nginx and uWSGI, and deploy a Django application 
+- [Requirements](https://github.com/pythoncanarias/eoi/blob/master/07-sysadmin/miniproyecto/django-deployment.ipynb) - How to build a server with nginx and uWSGI, and deploy a Django application 
 - [Ansible Playbook](https://github.com/pythoncanarias/eoi/blob/master/07-sysadmin/miniproyecto/assignment.ipynb) - Guidelines from the official repository to accomplish the tasks given by Alejandro Samarín
 
 ## Project Journal
@@ -29,21 +29,52 @@ The steps we need to follow are the following:
         - makemigrations
         - migrate
         - change settings.py > ALLOWED_HOSTS
+        - collectstatic
+        - loaddata
+    - uWSGI
+        - Emperor and vassals
+            - config files and folders
+            - symlinks
+    - Nginx
+        - right privileges to nginx worker, www-data
+        - config file
+        - symlinks
 
 #### Modules to Consider
-- **Vagrant**
-    - Modules
-    - connect [:page_with_curl:](https://www.vagrantup.com/docs/cli/connect)
-    - ssh [:page_with_curl:](https://www.vagrantup.com/docs/cli/ssh)
-    - ssh-config [:page_with_curl:](https://www.vagrantup.com/docs/cli/ssh_config)
-    - status (optional) [:page_with_curl:](https://www.vagrantup.com/docs/cli/status)
 - **Ansible**
+    - become
     - lineinfile [:page_with_curl:](https://docs.ansible.com/ansible/latest/modules/lineinfile_module.html)
-    - replace [:page_with_curl:](https://docs.ansible.com/ansible/latest/modules/replace_module.html)
     - file [:page_with_curl:](https://docs.ansible.com/ansible/latest/modules/replace_module.html)
-        - 
+    - copy
+    - git
+    - django_manage
+    - pip
+    - apt
+    - systemd
+
 ### Challenges on the Way
+I got to face some issues in the process of making this project:
+- understand completely the uWSGI service cicle, emperor and vassals
+- uWSGI installation, apt vs pip, system-wide vs virtual env
+- Ansible documentation, applying the right module in each task
 
 ### Acquired Skills
+Even though I got a **502 BAD GATEWAY** error and I could not make the web accessible, I learnt:
 
-### What's Next
+- how to automate processes of CI and CD with Vagrant and Ansible
+- how to deploy a web regardless of the provider (Digital Ocean and Virtual Box)
+- how to internally secure the web (uWSGI) and build a proxy with Nginx
+- how to spell sytemctl, systectl, systemclt, systemtcl... :trollface:
+
+### What's Next :shipit:
+I would love to learn more about:
+- CI/CD cycle
+- Nginx
+- uWSGI
+- DNS
+- **SSL Certificates**
+
+#### Other:
+- **Jenkins**
+- **Docker**
+- Kubernetes
