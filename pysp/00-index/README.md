@@ -697,12 +697,31 @@ The following are the icons included throughout the UCCI:
 ## :computer: Thursday, May 21st (from 19 to 20)
 
 ### Content
+- Introduction (03:09:20 - 04:00:00)
+    - Multiplatform
+        - QT
+        - GTK
+    - Installation in venv
+        - python3 -m venv graphics-env
+        - pip3 install --upgrade pip
+        - PyQt5
+        - PySide2
 
 [:top:](#top)
 
 ## :computer: Friday, May 22nd
 
-- **Qt for Python** [:page_with_curl:](https://doc.qt.io/qtforpython/)
+- **Qt for Python** [:page_with_curl:](https://doc.qt.io/qtforpython/) (48:00 - 04:02:00)
+    - Qt init
+    - Signals and slots
+    - PyQt5
+    - Widgets
+        - QMainWindow()
+            - Menu Bar
+            - Status Bar
+            - Toolbars
+            - Dock Widgets
+            - Central Widget
 
 [:top:](#top)
 
