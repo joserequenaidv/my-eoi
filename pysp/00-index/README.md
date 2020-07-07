@@ -749,6 +749,21 @@ The following are the icons included throughout the UCCI:
 
 ## :computer: Tuesday, May 26th
 
+### Content
+    - Qt
+        - setDefaultFont (08:30 - 23:30)
+        - **fbs** ~ app packing and running [:page_with_curl:](https://github.com/mherrmann/fbs-tutorial) (24:00 - )
+            - startproject
+            - your app --> main.py
+                - appctxt = ApplicationContext()
+                - appctxt.app.exec()
+            - run
+            - freeze
+            - in case no fpm:
+                - apt-get install ruby ruby-dev rubygems build-essential
+                - gem install --no-document fpm
+            - installer
+        - QTree (01:32:45 - 04:00:00)
 [:top:](#top)
 
 ## :computer: Wednesday, May 27th (from 4 to 7 pm)
