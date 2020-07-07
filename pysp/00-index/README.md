@@ -711,6 +711,7 @@ The following are the icons included throughout the UCCI:
 
 ## :computer: Friday, May 22nd
 
+### Content
 - **Qt for Python** [:page_with_curl:](https://doc.qt.io/qtforpython/) (48:00 - 04:02:00)
     - Qt init
     - Signals and slots
@@ -727,6 +728,23 @@ The following are the icons included throughout the UCCI:
 
 ## :computer: Monday, May 25th
 
+### Content
+    - Qt 
+        - First half (00:03:00 - 02:00:00)
+            - Review
+            - QKeySecuence
+            - How to dive into the documentation
+            - QAction
+            - Slots
+            - QWidgetClass
+            - QMessageBox
+                - StandardButtons
+                - Binary numbers
+        - Second half (02:10:00 - 03:23:30)
+            - closeEvent
+            - QMainWindow inheritance (MyMainWindow)
+            - QMessageBox (message before closing)
+
 [:top:](#top)
 
 ## :computer: Tuesday, May 26th
@@ -735,6 +753,7 @@ The following are the icons included throughout the UCCI:
 
 ## :computer: Wednesday, May 27th (from 4 to 7 pm)
 
+### Content
 - **Kivy** [:page_with_curl:](https://kivy.org/doc/stable/)(00:07 - 02:40:00) *(Open source software for the rapid development of applications equipped with novel user interfaces, such as multi-touch apps)*
 
 [:top:](#top)
