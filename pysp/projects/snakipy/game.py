@@ -64,6 +64,7 @@ class Game:
             self.player.grow()
             fruit.teleport()
             self.score += 1
+            self.power_up()
 
         self.playing = self.player.alive
 
@@ -80,11 +81,21 @@ class Game:
         self.all_sprites.draw(self.screen)
         self.player.draw_tail(self.screen)
 
+        # titles
         score_text = self.small_font.render(f"Score: {self.score}", True, WHITE)
+        speed_text = self.small_font.render(f"Speed: {self.player.speed}", True, WHITE)
+
+        # titles position
         self.screen.blit(score_text, (10, 10))
+        self.screen.blit(speed_text, (310, 10))
 
         # Nothing else to draw, let's show it!
         pygame.display.flip()
+
+    # POWER UP
+    def power_up(self):
+        if self.score % 5 == 0:
+            self.player.speed += 1
 
     # MENU
     def main_menu(self):
