@@ -7,7 +7,8 @@ This is the list of the projects made in this course. Most of them were develope
 - [Weekly Backup](https://github.com/joserequenaidv/my-eoi/tree/master/pysp/projects/basic-B/)
 - [Rock, Paper, Scissors, Lizard and Spock](https://github.com/joserequenaidv/my-eoi/tree/master/pysp/projects/rpsls/)
 - [Deployment: Ansible and Vagrant](https://github.com/joserequenaidv/my-eoi/tree/master/pysp/projects/playbook)
-- [Markdown Editor](https://github.com/joserequenaidv/my-eoi/tree/master/pysp/projects/mded)
+- [WRITEME](https://github.com/joserequenaidv/my-eoi/tree/master/pysp/projects/writeme)
+- [Snakipy](https://github.com/joserequenaidv/my-eoi/tree/master/pysp/projects/snakipy)
 ### **During classes**
 - [Shield](https://github.com/joserequenaidv/my-eoi/tree/master/pysp/projects/shield/)
 
