@@ -49,8 +49,9 @@ class Game:
             if event.type == pygame.QUIT:
                 pygame.quit()
                 quit()
-            #if event.type == pygame.KEYDOWN:
-                #if event.key == pygame.K_SPACE:
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_SPACE:
+                    self.paused()
                     #self.player.grow()
 
     # UPDATE
@@ -109,11 +110,44 @@ class Game:
                     in_main_menu = False
         self.start_game()
 
+    # PAUSE
+    def paused(self):
+        pause = True
+
+        title_text = self.large_font.render("PAUSED", True, YELLOW)
+        continue_text = self.small_font.render(
+            f"[Press SPACE to continue]", True, WHITE)
+
+        self.screen.fill(LIGHTBROWN)
+        self.screen.blit(title_text, (WIDTH // 2 - title_text.get_rect().width//2, HEIGHT // 3 - title_text.get_rect().height//2))
+        self.screen.blit(continue_text, (WIDTH // 2 - continue_text.get_rect().width//2, HEIGHT // 2 - continue_text.get_rect().height//3))
+
+        while pause:
+            for event in pygame.event.get():
+
+                if event.type == pygame.QUIT:
+                    pygame.quit()
+                    quit()
+                if event.type == pygame.KEYDOWN:
+
+                    if event.key == pygame.K_SPACE:
+                        pause = False
+
+
+                #gameDisplay.fill(white)
+
+            #self.button("Continue",150,450,100,50,GREEN,WHITE,unpause)
+            #self.button("Quit",550,450,100,50,RED,WHITE,quitgame)
+
+            pygame.display.update()
+            self.clock.tick(15)
+
     # GAME OVER
     def game_over(self):
         title_text = self.large_font.render("GAME OVER", True, YELLOW)
         score_text = self.small_font.render(
-            f"Score: {self.score} [Press any key]", True, WHITE)
+            f"Score: {self.score}", True, WHITE)
+        any_key_text = self.small_font.render("[Press any key]", True, YELLOW)
 
         self.screen.fill(LIGHTBROWN)
         self.screen.blit(title_text, (WIDTH // 2 - title_text.get_rect().width//2, HEIGHT // 3 - title_text.get_rect().height//2))
@@ -121,8 +155,10 @@ class Game:
 
         self.screen.blit(score_text, (WIDTH // 2 - score_text.get_rect().width//2, HEIGHT // 2 - score_text.get_rect().height//3))
 
+        self.screen.blit(any_key_text, (WIDTH // 2 - any_key_text.get_rect().width//2, HEIGHT // 1.6 - any_key_text.get_rect().height//3))
+
         pygame.display.flip()
-        pygame.time.delay(1000)
+        pygame.time.delay(2000)
 
         in_game_over = True
 
@@ -133,7 +169,7 @@ class Game:
                     quit()
                 if event.type == pygame.KEYDOWN:
                     in_main_menu = False
-            self.start_game()
+                    self.start_game()
 
 
 
