@@ -10,9 +10,26 @@ window.setCentralWidget(editor)
 
 #FILE
 file_menu = window.menuBar().addMenu("&File")
+file_path = None
+
+class MyMainWindow(QMainWindow):
+    def closeEvent(self, e):
+        if not editor.document().isModified():
+            return
+        answer = QMessageBox.question(window, "Confirm", "You have unsaved changes. Are you sure you want to exit?",
+                                      QMessageBox.Save | QMessageBox.Discard | QMessageBox.Cancel)
+        if answer & QMessageBox.Save:
+            save()
+        elif answer == QMessageBox.Cancel:
+
+
+
+
+
 #Open file
 def show_open_dialog():
-    filename, _ = QFileDialog.getOpenFileName(window, 'Open file', '/home/joserequenaidv')
+    filename, _ = QFileDialog.getOpenFileName(window, 'Open...', filter= 'Images (*.png *.xpm *.jpg);;Text files (*.txt);;XML files (*.xml)')
+
     if filename:
         file_contents = open(filename, 'r').read()
         editor.setPlainText(file_contents)
@@ -42,7 +59,7 @@ def auto_save():
     else:
         with open(filename, 'w') as f:
                 f.write(editor.toPlainText())
-   
+
 save_action = QAction("&Save as...")
 save_action.triggered.connect(show_save_dialog)
 file_menu.addAction(save_action)
