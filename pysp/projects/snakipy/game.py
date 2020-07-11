@@ -8,8 +8,16 @@ class Game:
     # INIT
     def __init__(self):
         pygame.init()
+
+        # Screen
         self.screen = pygame.display.set_mode([WIDTH, HEIGHT])
+
+        # Background
+        self.background = pygame.image.load('snake_background.png')
+
+        # Caption
         pygame.display.set_caption("Snakipy")
+
         self.clock = pygame.time.Clock()
 
         self.all_sprites = pygame.sprite.Group()
@@ -71,12 +79,15 @@ class Game:
     # DRAW
     def draw(self):
         self.screen.fill(BGCOLOR)
-        # grid
 
-        for x in range(0, WIDTH, TILESIZE):
-            pygame.draw.line(self.screen, DARKGREY, (x, 0), (x, HEIGHT))
-        for y in range(0, HEIGHT, TILESIZE):
-            pygame.draw.line(self.screen, LIGHTGREY, (0, y), (WIDTH, y))
+        # Background Image
+        self.screen.blit(self.background, (0, 0))
+
+        # Grids
+        #for x in range(0, WIDTH, TILESIZE):
+        #    pygame.draw.line(self.screen, DARKGREY, (x, 0), (x, HEIGHT))
+        #for y in range(0, HEIGHT, TILESIZE):
+        #    pygame.draw.line(self.screen, LIGHTGREY, (0, y), (WIDTH, y))
 
         self.all_sprites.draw(self.screen)
         self.player.draw_tail(self.screen)
@@ -87,7 +98,7 @@ class Game:
 
         # titles position
         self.screen.blit(score_text, (10, 10))
-        self.screen.blit(speed_text, (310, 10))
+        self.screen.blit(speed_text, (330, 10))
 
         # Nothing else to draw, let's show it!
         pygame.display.flip()
