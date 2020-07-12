@@ -13,10 +13,10 @@ class Game:
         self.screen = pygame.display.set_mode([WIDTH, HEIGHT])
 
         # Background
-        self.background = pygame.image.load('snake_background.png')
+        #self.background = pygame.image.load('snake_background.png')
 
         # Caption
-        pygame.display.set_caption("Snakipy")
+        pygame.display.set_caption(GAME_TITLE)
 
         self.clock = pygame.time.Clock()
 
@@ -72,7 +72,7 @@ class Game:
             self.player.grow()
             fruit.teleport()
             self.score += 1
-            self.power_up()
+            self.speed_up()
 
         self.playing = self.player.alive
 
@@ -81,7 +81,7 @@ class Game:
         self.screen.fill(BGCOLOR)
 
         # Background Image
-        self.screen.blit(self.background, (0, 0))
+        #self.screen.blit(self.background, (0, 0))
 
         # Grids
         #for x in range(0, WIDTH, TILESIZE):
@@ -103,8 +103,8 @@ class Game:
         # Nothing else to draw, let's show it!
         pygame.display.flip()
 
-    # POWER UP
-    def power_up(self):
+    # SPEED UP
+    def speed_up(self):
         if self.score % 5 == 0:
             self.player.speed += 1
 
@@ -140,7 +140,12 @@ class Game:
         continue_text = self.small_font.render(
             f"[Press SPACE to continue]", True, WHITE)
 
-        self.screen.fill(LIGHTBROWN)
+        # Transparence
+        pause_window = pygame.Surface((WIDTH, HEIGHT))
+        pause_window.set_alpha(TRANS)
+        pause_window.fill((WHITE))
+        self.screen.blit(pause_window, (0, 0))
+
         self.screen.blit(title_text, (WIDTH // 2 - title_text.get_rect().width//2, HEIGHT // 3 - title_text.get_rect().height//2))
         self.screen.blit(continue_text, (WIDTH // 2 - continue_text.get_rect().width//2, HEIGHT // 2 - continue_text.get_rect().height//3))
 
@@ -154,12 +159,6 @@ class Game:
 
                     if event.key == pygame.K_SPACE:
                         pause = False
-
-
-                #gameDisplay.fill(white)
-
-            #self.button("Continue",150,450,100,50,GREEN,WHITE,unpause)
-            #self.button("Quit",550,450,100,50,RED,WHITE,quitgame)
 
             pygame.display.update()
             self.clock.tick(15)
@@ -197,4 +196,4 @@ class Game:
 
 game = Game()
 game.main_menu()
-game.run()
+game.start_game()
