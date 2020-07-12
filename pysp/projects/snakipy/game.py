@@ -1,8 +1,9 @@
 import math
 import pygame
 
+from maps import Map
 from settings import *
-from sprites import Player, Fruit
+from sprites import Player, Fruit, Wall
 
 class Game:
     # INIT
@@ -13,7 +14,7 @@ class Game:
         self.screen = pygame.display.set_mode([WIDTH, HEIGHT])
 
         # Background
-        #self.background = pygame.image.load('snake_background.png')
+        self.background = pygame.image.load('snake_background.png')
 
         # Caption
         pygame.display.set_caption(GAME_TITLE)
@@ -23,7 +24,7 @@ class Game:
         self.all_sprites = pygame.sprite.Group()
         self.fruits = pygame.sprite.Group()
 
-        self.player = Player(self, 10, 10)
+        #self.player = Player(self, 10, 10)
         self.fruit = Fruit(self)
 
         self.large_font = pygame.font.SysFont("chicken_pie", 80)
@@ -31,6 +32,21 @@ class Game:
 
         self.score = 0
         self.font = pygame.font.SysFont("chicken_pie", 24)
+
+        self.playing = False
+
+        self.load_data()
+
+    # LOAD DATA
+    def load_data(self):
+        self.all_sprites = pygame.sprite.Group()
+        self.walls = pygame.sprite.Group()
+
+        self.map = Map()
+        self.map.load_from_file('map.txt')
+        self.map.create_sprites_from_map_data(self)
+
+        # self.player = Player(self, 10, 10, self.map.player_entry_point)
 
     # RUN
     def run(self):
@@ -45,10 +61,14 @@ class Game:
     # START GAME
     def start_game(self):
         self.all_sprites = pygame.sprite.Group()
+
+        self.load_data()
+
         self.fruits = pygame.sprite.Group()
-        self.player = Player(self, 10, 10)
+        self.player = Player(self, 10, 10, self.map.player_entry_point)
         self.fruit = Fruit(self)
         self.score = 0
+
         self.run()
 
     # EVENTS
@@ -81,7 +101,7 @@ class Game:
         self.screen.fill(BGCOLOR)
 
         # Background Image
-        #self.screen.blit(self.background, (0, 0))
+        self.screen.blit(self.background, (0, 0))
 
         # Grids
         #for x in range(0, WIDTH, TILESIZE):
@@ -92,11 +112,11 @@ class Game:
         self.all_sprites.draw(self.screen)
         self.player.draw_tail(self.screen)
 
-        # titles
+        # Titles
         score_text = self.small_font.render(f"Score: {self.score}", True, WHITE)
         speed_text = self.small_font.render(f"Speed: {self.player.speed}", True, WHITE)
 
-        # titles position
+        # Titles position
         self.screen.blit(score_text, (10, 10))
         self.screen.blit(speed_text, (330, 10))
 
@@ -134,11 +154,8 @@ class Game:
 
     # PAUSE
     def paused(self):
-        pause = True
 
-        title_text = self.large_font.render("PAUSED", True, YELLOW)
-        continue_text = self.small_font.render(
-            f"[Press SPACE to continue]", True, WHITE)
+        pause = True
 
         # Transparence
         pause_window = pygame.Surface((WIDTH, HEIGHT))
@@ -146,6 +163,12 @@ class Game:
         pause_window.fill((WHITE))
         self.screen.blit(pause_window, (0, 0))
 
+        # Pause window indications
+        title_text = self.large_font.render("PAUSED", True, YELLOW)
+        continue_text = self.small_font.render(
+            f"[Press SPACE to continue]", True, WHITE)
+
+        # Pause window indications location
         self.screen.blit(title_text, (WIDTH // 2 - title_text.get_rect().width//2, HEIGHT // 3 - title_text.get_rect().height//2))
         self.screen.blit(continue_text, (WIDTH // 2 - continue_text.get_rect().width//2, HEIGHT // 2 - continue_text.get_rect().height//3))
 
@@ -191,7 +214,6 @@ class Game:
                 if event.type == pygame.KEYDOWN:
                     in_main_menu = False
                     self.start_game()
-
 
 
 game = Game()
