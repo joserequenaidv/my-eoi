@@ -12,21 +12,30 @@ from settings import *
      #   self.rect = self.image.get_rect()
       #  self.rect.left, self.rect.top = location
 
-
+#######################################
+# PLAYER
+#######################################
 class Player(pygame.sprite.Sprite):
-    def __init__(self, game, x, y):
+    def __init__(self, game, x, y, position):
         self.groups = game.all_sprites
         pygame.sprite.Sprite.__init__(self, self.groups)
         self.game = game
         self.image = pygame.Surface((TILESIZE, TILESIZE))
-        self.image.fill(BLACK)
+        self.image.fill(YELLOW)
         self.rect = self.image.get_rect()
         self.tail_image = pygame.Surface((TILESIZE, TILESIZE))
-        self.tail_image.fill(WHITE)
+        self.tail_image.fill(LIGHTBLUE)
+
+        self.position = position
+
         self.x = x
         self.y = y
         self.dx = 0
         self.dy = 0
+
+        self.rect.x = position.x * TILESIZE
+        self.rect.y = position.y * TILESIZE
+
         self.speed = 10
         self.turn = 0
         self.tail = []
@@ -96,6 +105,9 @@ class Player(pygame.sprite.Sprite):
             self.alive = False
             print("OUCH!")
 
+#######################################
+# FRUIT
+#######################################
 class Fruit(pygame.sprite.Sprite):
     def __init__(self, game):
         self.groups = game.all_sprites, game.fruits
@@ -110,3 +122,18 @@ class Fruit(pygame.sprite.Sprite):
         y = random.randint(0, GRIDHEIGHT-1)
         self.rect.x = x * TILESIZE
         self.rect.y = y * TILESIZE
+
+#######################################
+# WALL
+#######################################
+class Wall(pygame.sprite.Sprite):
+    def __init__(self, game, x, y):
+        self.groups = game.all_sprites, game.walls
+        pygame.sprite.Sprite.__init__(self, self.groups)
+        self.game = game
+        self.image = pygame.Surface((TILESIZE, TILESIZE))
+        self.image.fill(WHITE)
+        self.rect = self.image.get_rect()
+        self.x, self.y = x, y
+        self.rect.x, self.rect.y = x * TILESIZE, y * TILESIZE
+
