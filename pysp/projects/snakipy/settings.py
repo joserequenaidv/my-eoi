@@ -1,4 +1,4 @@
-# define some colors (R, G, B)
+# Some colors (R, G, B)
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 DARKGREY = (40, 40, 40)
@@ -7,13 +7,18 @@ GREEN = (0, 255, 0)
 RED = (255, 0, 0)
 YELLOW = (255, 255, 0)
 LIGHTBROWN = (175, 126, 47)
+LIGHTBLUE = (75, 175, 250)
+DARKBEIGE = (228, 198, 134)
 
-# game settings
+BGCOLOR = LIGHTBROWN
+TRANS = 64
+
+# Game settings
 WIDTH = 480   # 16 * 64 or 32 * 32 or 64 * 16
 HEIGHT = 480  # 16 * 48 or 32 * 24 or 64 * 12
 FPS = 30
+GAME_TITLE = "SNAKIPY"
 TITLE = "Tilemap Demo"
-BGCOLOR = LIGHTBROWN
 
 TILESIZE = 16
 GRIDWIDTH = WIDTH / TILESIZE
