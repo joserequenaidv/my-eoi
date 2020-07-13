@@ -20,11 +20,15 @@ class Player(pygame.sprite.Sprite):
         self.groups = game.all_sprites
         pygame.sprite.Sprite.__init__(self, self.groups)
         self.game = game
-        self.image = pygame.Surface((TILESIZE, TILESIZE))
-        self.image.fill(YELLOW)
+
+        #self.image = pygame.Surface((TILESIZE, TILESIZE))
+        self.image = game.head_image
+        #self.image.fill(YELLOW)
+
         self.rect = self.image.get_rect()
-        self.tail_image = pygame.Surface((TILESIZE, TILESIZE))
-        self.tail_image.fill(LIGHTBLUE)
+        #self.tail_image = pygame.Surface((TILESIZE, TILESIZE))
+        self.tail_image = game.body_image
+        #self.tail_image.fill(LIGHTBLUE)
 
         self.position = position
 
@@ -38,11 +42,15 @@ class Player(pygame.sprite.Sprite):
 
         self.speed = 10
         self.turn = 0
+
+        self.eating_sound = pygame.mixer.Sound("sound/fruta.wav")
+
         self.tail = []
         self.tail_length = 1
         self.alive = True
 
     def grow(self):
+        self.eating_sound.play()
         self.tail_length += 1
 
     def update(self):
@@ -92,7 +100,6 @@ class Player(pygame.sprite.Sprite):
             self.tail.pop()
         self.tail.insert(0, (self.x, self.y))
 
-
     def draw_tail(self, surface):
         for i in range(0, len(self.tail)):
             x = self.tail[i][0] * TILESIZE
@@ -112,8 +119,9 @@ class Fruit(pygame.sprite.Sprite):
     def __init__(self, game):
         self.groups = game.all_sprites, game.fruits
         pygame.sprite.Sprite.__init__(self, self.groups)
-        self.image = pygame.Surface((TILESIZE, TILESIZE))
-        self.image.fill(RED)
+        #self.image = pygame.Surface((TILESIZE, TILESIZE))
+        #self.image.fill(RED)
+        self.image = game.fruit_image
         self.rect = self.image.get_rect()
         self.teleport()
 
