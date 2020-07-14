@@ -12,7 +12,7 @@ class Game:
         pygame.init()
 
         # Screen
-        self.screen = pygame.display.set_mode([WIDTH, HEIGHT])
+        self.screen = pygame.display.set_mode([SCREEN_WIDTH, SCREEN_HEIGHT])
 
         # Background
         self.background = pygame.image.load(BACKGROUND_IMG)
@@ -70,6 +70,19 @@ class Game:
 
         pygame.mixer.music.play(3)
 
+    # -- Fruit collisions: place it on the right spot
+    def avoid_walls(self):
+        fruit_placed_successfully = False
+        # Keep trying until success
+
+        while not fruit_placed_successfully:
+            self.fruit.teleport()
+
+            fruit_hits_wall = pygame.sprite.spritecollide(self.fruit, self.walls, False)
+
+            if len(fruit_hits_wall) == 0:
+                fruit_placed_successfully = True
+
     # RUN
     def run(self):
         self.playing = True
@@ -83,8 +96,8 @@ class Game:
     # START GAME
     def start_game(self):
         self.load_data()
-        self.player = Player(self, 10, 10, self.map.player_entry_point)
         self.fruit = Fruit(self)
+        self.player = Player(self, 10, 10, self.map.player_entry_point)
         self.score = 0
         self.run()
 
@@ -103,15 +116,17 @@ class Game:
     def update(self):
         self.all_sprites.update()
 
+        # SNAKE COLLISIONS
         # Collision with fruits
         hits_with_fruit = pygame.sprite.spritecollide(
             self.player, self.fruits, False)
         for fruit in hits_with_fruit:
             self.player.grow()
-            fruit.teleport()
+            self.avoid_walls()
             self.score += 1
             self.speed_up()
 
+        # Collision with walls
         hits_with_wall = pygame.sprite.spritecollide(self.player, self.walls, False)
         for crash in hits_with_wall:
             self.game_over()
@@ -126,10 +141,10 @@ class Game:
         self.screen.blit(self.background, (0, 0))
 
         # Grids
-        #for x in range(0, WIDTH, TILESIZE):
-        #    pygame.draw.line(self.screen, WHITE, (x, 0), (x, HEIGHT))
-        #for y in range(0, HEIGHT, TILESIZE):
-        #    pygame.draw.line(self.screen, WHITE, (0, y), (WIDTH, y))
+        #for x in range(0, SCREEN_WIDTH, TILESIZE):
+        #    pygame.draw.line(self.screen, WHITE, (x, 0), (x, SCREEN_HEIGHT))
+        #for y in range(0, SCREEN_HEIGHT, TILESIZE):
+        #    pygame.draw.line(self.screen, WHITE, (0, y), (SCREEN_WIDTH, y))
 
         self.all_sprites.draw(self.screen)
         self.player.draw_tail(self.screen)
@@ -174,20 +189,20 @@ class Game:
         # MAIN
         # Outline
         title_text = self.large_font.render(GAME_TITLE, True, TEXT_OUTLINE_COLOR)
-        self.screen.blit(title_text, (WIDTH // 2 - title_text.get_rect().width//2, HEIGHT // 3 - title_text.get_rect().height//2))
+        self.screen.blit(title_text, (SCREEN_WIDTH // 2 - title_text.get_rect().width//2, SCREEN_HEIGHT // 3 - title_text.get_rect().height//2))
 
         # Text
         title_text = self.large_font.render(GAME_TITLE, True, YELLOW)
-        self.screen.blit(title_text, (WIDTH // 2 - title_text.get_rect().width//2, HEIGHT // 3.05 - title_text.get_rect().height//2))
+        self.screen.blit(title_text, (SCREEN_WIDTH // 2 - title_text.get_rect().width//2, SCREEN_HEIGHT // 3.05 - title_text.get_rect().height//2))
 
         # INSTRUCTIONS
         # Outline
         instructions_text = self.small_font.render("Press any key to begin", True, TEXT_OUTLINE_COLOR)
-        self.screen.blit(instructions_text, (WIDTH // 2 - instructions_text.get_rect().width//2, HEIGHT // 2 - instructions_text.get_rect().height//3))
+        self.screen.blit(instructions_text, (SCREEN_WIDTH // 2 - instructions_text.get_rect().width//2, SCREEN_HEIGHT // 2 - instructions_text.get_rect().height//3))
 
         # Text
         instructions_text = self.small_font.render("Press any key to begin", True, WHITE)
-        self.screen.blit(instructions_text, (WIDTH // 2 - instructions_text.get_rect().width//2, HEIGHT // 2.02 - instructions_text.get_rect().height//3))
+        self.screen.blit(instructions_text, (SCREEN_WIDTH // 2 - instructions_text.get_rect().width//2, SCREEN_HEIGHT // 2.02 - instructions_text.get_rect().height//3))
 
 
         pygame.display.flip()
@@ -209,7 +224,7 @@ class Game:
         pause = True
 
         # Transparence
-        pause_window = pygame.Surface((WIDTH, HEIGHT))
+        pause_window = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
         pause_window.set_alpha(LOW_TRANS)
         pause_window.fill((WHITE))
         self.screen.blit(pause_window, (0, 0))
@@ -217,22 +232,22 @@ class Game:
         # MAIN
         # Outline
         title_text = self.large_font.render("PAUSED", True, TEXT_OUTLINE_COLOR)
-        self.screen.blit(title_text, (WIDTH // 2 - title_text.get_rect().width//2, HEIGHT // 3 - title_text.get_rect().height//2))
+        self.screen.blit(title_text, (SCREEN_WIDTH // 2 - title_text.get_rect().width//2, SCREEN_HEIGHT // 3 - title_text.get_rect().height//2))
 
         # Text
         title_text = self.large_font.render("PAUSED", True, YELLOW)
-        self.screen.blit(title_text, (WIDTH // 2 - title_text.get_rect().width//2, HEIGHT // 3.05 - title_text.get_rect().height//2))
+        self.screen.blit(title_text, (SCREEN_WIDTH // 2 - title_text.get_rect().width//2, SCREEN_HEIGHT // 3.05 - title_text.get_rect().height//2))
 
         # CONTINUE_TEXT
         # Outline
         continue_text = self.small_font.render(
             f"[Press SPACE to continue]", True, TEXT_OUTLINE_COLOR)
-        self.screen.blit(continue_text, (WIDTH // 2 - continue_text.get_rect().width//2, HEIGHT // 2 - continue_text.get_rect().height//3))
+        self.screen.blit(continue_text, (SCREEN_WIDTH // 2 - continue_text.get_rect().width//2, SCREEN_HEIGHT // 2 - continue_text.get_rect().height//3))
 
         # Text
         continue_text = self.small_font.render(
             f"[Press SPACE to continue]", True, WHITE)
-        self.screen.blit(continue_text, (WIDTH // 2 - continue_text.get_rect().width//2, HEIGHT // 2.02 - continue_text.get_rect().height//3))
+        self.screen.blit(continue_text, (SCREEN_WIDTH // 2 - continue_text.get_rect().width//2, SCREEN_HEIGHT // 2.02 - continue_text.get_rect().height//3))
 
         while pause:
             for event in pygame.event.get():
@@ -258,31 +273,31 @@ class Game:
         # MAIN
         # Outline
         main_text = self.large_font.render("GAME OVER", True, TEXT_OUTLINE_COLOR)
-        self.screen.blit(main_text, (WIDTH // 2 - main_text.get_rect().width//2, HEIGHT // 3 - main_text.get_rect().height//2))
+        self.screen.blit(main_text, (SCREEN_WIDTH // 2 - main_text.get_rect().width//2, SCREEN_HEIGHT // 3 - main_text.get_rect().height//2))
 
         # Text
         main_text = self.large_font.render("GAME OVER", True, YELLOW)
-        self.screen.blit(main_text, (WIDTH // 2 - main_text.get_rect().width//2, HEIGHT // 3.05 - main_text.get_rect().height//2))
+        self.screen.blit(main_text, (SCREEN_WIDTH // 2 - main_text.get_rect().width//2, SCREEN_HEIGHT // 3.05 - main_text.get_rect().height//2))
 
         # FINAL SCORE
         # Outline
         score_text = self.small_font.render(
             f"Score: {self.score}", True, TEXT_OUTLINE_COLOR)
-        self.screen.blit(score_text, (WIDTH // 2 - score_text.get_rect().width//2, HEIGHT // 2 - score_text.get_rect().height//3))
+        self.screen.blit(score_text, (SCREEN_WIDTH // 2 - score_text.get_rect().width//2, SCREEN_HEIGHT // 2 - score_text.get_rect().height//3))
 
         # Text
         score_text = self.small_font.render(
             f"Score: {self.score}", True, WHITE)
-        self.screen.blit(score_text, (WIDTH // 2 - score_text.get_rect().width//2, HEIGHT // 2.02 - score_text.get_rect().height//3))
+        self.screen.blit(score_text, (SCREEN_WIDTH // 2 - score_text.get_rect().width//2, SCREEN_HEIGHT // 2.02 - score_text.get_rect().height//3))
 
         # INDICATIONS
         # Outline
         any_key_text = self.small_font.render("[Press any key]", True, TEXT_OUTLINE_COLOR)
-        self.screen.blit(any_key_text, (WIDTH // 2 - any_key_text.get_rect().width//2, HEIGHT // 1.6 - any_key_text.get_rect().height//3))
+        self.screen.blit(any_key_text, (SCREEN_WIDTH // 2 - any_key_text.get_rect().width//2, SCREEN_HEIGHT // 1.6 - any_key_text.get_rect().height//3))
 
         # Text
         any_key_text = self.small_font.render("[Press any key]", True, YELLOW)
-        self.screen.blit(any_key_text, (WIDTH // 2 - any_key_text.get_rect().width//2, HEIGHT // 1.62 - any_key_text.get_rect().height//3))
+        self.screen.blit(any_key_text, (SCREEN_WIDTH // 2 - any_key_text.get_rect().width//2, SCREEN_HEIGHT // 1.62 - any_key_text.get_rect().height//3))
 
         pygame.display.flip()
         pygame.time.delay(2000)

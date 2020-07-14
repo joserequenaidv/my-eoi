@@ -131,6 +131,18 @@ class Fruit(pygame.sprite.Sprite):
         self.rect.x = x * TILESIZE
         self.rect.y = y * TILESIZE
 
+    def avoid_walls(self):
+        fruit_placed_successfully = False
+        # Keep trying until success
+
+        while not fruit_placed_successfully:
+            self.teleport()
+
+            fruit_hits_wall = pygame.sprite.spritecollide(self.fruit, self.walls, False)
+
+            if len(fruit_hits_wall) == 0:
+                fruit_placed_successfully = True
+
 #######################################
 # WALL
 #######################################
