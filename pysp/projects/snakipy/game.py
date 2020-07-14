@@ -51,8 +51,8 @@ class Game:
 
         # MAPS WITHOUT COLLISION
         self.map = Map()
-        #self.map.load_from_file('map.txt')
-        #self.map.create_sprites_from_map_data(self)
+        self.map.load_from_file('map.txt')
+        self.map.create_sprites_from_map_data(self)
 
         # Load images
         self.head_image = pygame.image.load(
@@ -85,6 +85,7 @@ class Game:
         self.load_data()
         self.player = Player(self, 10, 10, self.map.player_entry_point)
         self.fruit = Fruit(self)
+        self.score = 0
         self.run()
 
     # EVENTS
@@ -102,13 +103,18 @@ class Game:
     def update(self):
         self.all_sprites.update()
 
-        hits = pygame.sprite.spritecollide(
+        # Collision with fruits
+        hits_with_fruit = pygame.sprite.spritecollide(
             self.player, self.fruits, False)
-        for fruit in hits:
+        for fruit in hits_with_fruit:
             self.player.grow()
             fruit.teleport()
             self.score += 1
             self.speed_up()
+
+        hits_with_wall = pygame.sprite.spritecollide(self.player, self.walls, False)
+        for crash in hits_with_wall:
+            self.game_over()
 
         self.playing = self.player.alive
 
