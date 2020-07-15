@@ -114,3 +114,4 @@ todos*
 drafts
 README-sessions.md
 .vagrant
+*.svg
