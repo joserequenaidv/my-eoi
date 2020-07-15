@@ -17,7 +17,7 @@ There are twelve modules:
 - [Data Science](./09-data/README.md) :bar_chart:
 - [Internet of Things](./10-iot/README.md) :robot:
 - [Videogames](./11-videogames/README.md) :space_invader:
-- Testing
+- [Testing](./12-testing/README.md) :beetle:
 
 ## Faculty
 #### Alejandro Samarín

@@ -13,6 +13,7 @@ This is the Unofficial Course Content Index (from now on, 'UCCI') of the online 
 * [Data Science](#data)
 * [Internet of Things](#iot)
 * [Videogames](#videogames)
+* [Testing](#testing)
 
 ## To Consider
 The following are the icons included throughout the UCCI:
@@ -931,6 +932,25 @@ The following are the icons included throughout the UCCI:
 
 [:top:](#top)
 
-## :space_invader: Thursday, July 22nd
+## :space_invader: Thursday, July 2nd
 
 [:top:](#top)
+
+<a name="testing"></a>
+# Testing :beetle:
+## :beetle: Friday, July 3rd
+
+[:top:](#top)
+
+## :beetle: Monday, July 6th
+
+[:top:](#top)
+
+## :beetle: Tuesday, July 7th
+
+[:top:](#top)
+
+## :beetle: Wednesday, July 8th (from 4 to 7 pm)
+
+[:top:](#top)
+
