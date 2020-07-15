@@ -2,6 +2,8 @@ from sprites import Wall
 from os import path
 from pygame import Vector2
 
+from settings import *
+
 #######################################
 # MAP GENERATOR
 #######################################
@@ -21,8 +23,10 @@ class Map:
         for row, tiles in enumerate(self.map_data):
             for col, tile in enumerate(tiles):
                 if tile == '1':
-                    Wall(game, col, row)
-                #if tile == '2':
-                    #Sand(game, col, row)
+                    Wall(game, col, row, WALL_FRONT)
+                if tile == '2':
+                    Wall(game, col, row, WALL_LEFT)
+                if tile == '3':
+                    Wall(game, col, row, WALL_RIGHT)
                 if tile == 'P':
                     self.player_entry_point = Vector2(col, row)

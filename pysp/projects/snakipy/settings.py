@@ -46,5 +46,10 @@ IMG_FOLDER = path.join(ROOT_FOLDER, "images")
 FX_FOLDER = path.join(ROOT_FOLDER, "sound")
 
 ICON = 'images/bally-head.png'
-BACKGROUND_MUSIC = 'BeepBox-Song.wav'
+BACKGROUND_MUSIC = 'BeepBox-Song.mp3'
 BACKGROUND_IMG = 'images/cloudy-river.png'
+
+MAP = 'map1.txt'
+WALL_FRONT = 'brick_brown_front.png'
+WALL_LEFT = 'brick_brown_left.png'
+WALL_RIGHT = 'brick_brown_right.png'

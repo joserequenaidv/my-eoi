@@ -43,15 +43,15 @@ class Player(pygame.sprite.Sprite):
         self.speed = 10
         self.turn = 0
 
-        self.eating_sound = pygame.mixer.Sound("sound/fruta.wav")
+ #       self.eating_sound = pygame.mixer.Sound("sound/fruta.wav")
 
         self.tail = []
         self.tail_length = 1
         self.alive = True
 
     def grow(self):
-        self.eating_sound.play()
-        self.tail_length += 1
+#        self.eating_sound.play()
+        self.tail_length += 3
 
     def update(self):
         self.move()
@@ -147,12 +147,15 @@ class Fruit(pygame.sprite.Sprite):
 # WALL
 #######################################
 class Wall(pygame.sprite.Sprite):
-    def __init__(self, game, x, y):
+    def __init__(self, game, x, y, img):
         self.groups = game.all_sprites, game.walls
         pygame.sprite.Sprite.__init__(self, self.groups)
         self.game = game
-        self.image = pygame.Surface((TILESIZE, TILESIZE))
-        self.image.fill(WHITE)
+        #self.image = pygame.Surface((TILESIZE, TILESIZE))
+        self.image = pygame.image.load(
+            path.join(IMG_FOLDER, img)).convert_alpha()
+
+        #self.image.fill(WHITE)
         self.rect = self.image.get_rect()
         self.x, self.y = x, y
         self.rect.x, self.rect.y = x * TILESIZE, y * TILESIZE

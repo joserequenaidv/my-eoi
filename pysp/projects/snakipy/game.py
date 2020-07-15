@@ -51,7 +51,7 @@ class Game:
 
         # MAPS WITHOUT COLLISION
         self.map = Map()
-        self.map.load_from_file('map.txt')
+        self.map.load_from_file(MAP)
         self.map.create_sprites_from_map_data(self)
 
         # Load images
@@ -64,11 +64,21 @@ class Game:
         self.fruit_image = pygame.image.load(
             path.join(IMG_FOLDER, FRUIT)).convert_alpha()
 
+       # self.wally_image = pygame.image.load(
+       #     path.join(IMG_FOLDER, WALL)).convert_alpha()
+
         # Load FX
         self.music = pygame.mixer.music.load(
             path.join(FX_FOLDER, BACKGROUND_MUSIC))
 
-        pygame.mixer.music.play(3)
+    #def music_on(self, pause, in_game_over):
+    #    pygame.mixer.music.play(3)
+
+    #    if pause or in_game_over:
+    #        pygame.mixer.music.pause()
+    #        if not pause or in_game_over:
+    #            pygame.mixer.music.unpause()
+
 
     # -- Fruit collisions: place it on the right spot
     def avoid_walls(self):
@@ -86,6 +96,7 @@ class Game:
     # RUN
     def run(self):
         self.playing = True
+    #    self.music_on(pause, in_game_over)
         while self.playing:
             self.dt = self.clock.tick(FPS) / 1000
             self.events()
@@ -263,7 +274,6 @@ class Game:
             pygame.display.update()
             self.clock.tick(15)
 
-
     # GAME OVER
     def game_over(self):
         # BACKGROUND
@@ -312,7 +322,6 @@ class Game:
                 if event.type == pygame.KEYDOWN:
                     in_main_menu = False
                     self.start_game()
-
 
 game = Game()
 game.main_menu()
