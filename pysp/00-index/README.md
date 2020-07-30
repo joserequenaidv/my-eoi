@@ -779,7 +779,7 @@ The following are the icons included throughout the UCCI:
 ## :bar_chart: Wednesday, May 27th (from 7 to 8 pm)
 
 - [Python Data Science Handbook](jakevdp.github.io/PythonDataScienceHandbook)
-- IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html)
+- IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html) (02:48:00 - 03:56:00)
     - Help and Documentation in IPython:
 	- ?
 	- TAB
@@ -787,32 +787,34 @@ The following are the icons included throughout the UCCI:
 	- globals(), locals()
 	- **Built-in Functions in Python** [:page_with_curl:](https://docs.python.org/3/library/functions.html)
     - Keyboard Shortcuts
-	- Standard Shortcuts
+	- Standard Shortcuts (03:01:35 - 03:05:30)
 	    - CTRL + A (go to bol)
 	    - CTRL + K 
 	    - CTRL + E (go to eol)
 	    - CTRL + U
-	- [installing vim commands on IPython](stackoverflow.com/a/38329940/1911099)
+	- [installing vim commands on IPython](stackoverflow.com/a/38329940/1911099) (03:06:30 - 03:19:15)
     - Magic Commands
-	- timeit
-	- ½lsmagic
-    - Input and Output
-    - IPython and Shell Commands
-    - Errors and Debugging
+	- timeit (03:27:00 - 03:33:00)
+	- ½lsmagic (03:33:25 - 03:35:00)
+    - Input and Output (03:35:50 - 03:48:30)
+        - In[x] and Out[x]
+    - **Create a jupyter notebook** (03:49:00 - 03:53:40): %notebook filename.ipynb
+
+[:top:](#top)
 
 ## :bar_chart: Thursday, May 28th
-- IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html)
-    - IPython and Shell Commands
-	- Shell Commands in IPython
-	    - !
-	- Shell-Related **Magic Commands**
-	    - ½cd
-    - Errors and Debugging
-	- Controlling Exceptions
-    - Profiling and Timing Code
-    - More IPython Resources
+- IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html) (04:50 - )
+    - IPython and Shell Commands (04:50 - )
+	    - Shell Commands in IPython
+	        - !
+	    - Shell-Related **Magic Commands**
+	        - ½cd
+        - Errors and Debugging
+	    - Controlling Exceptions
+        - Profiling and Timing Code
+        - More IPython Resources
 
-- Introduction to NumPy []()
+- Introduction to NumPy [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html)
     - Understanding Data Types in Python
     - The Basics of NumPy Arrays
     - Computation on NumPy Arrays: Universal Functions
@@ -823,6 +825,7 @@ The following are the icons included throughout the UCCI:
     - Sorting Arrays
     - Structured Data: NumPy's Structured Arrays
 
+[:top:](#top)
 
 ## :bar_chart: Friday, May 29th
 
