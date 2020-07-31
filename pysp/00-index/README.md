@@ -779,8 +779,11 @@ The following are the icons included throughout the UCCI:
 # Data Science :bar_chart:
 ## :bar_chart: Wednesday, May 27th (from 7 to 8 pm)
 
+### Book
 - [Python Data Science Handbook](jakevdp.github.io/PythonDataScienceHandbook)
-- IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html) (02:48:00 - 03:56:00)
+
+### Content
+- #### IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html) (02:48:00 - 03:56:00)
     - Help and Documentation in IPython:
 	- ?
 	- TAB
@@ -804,8 +807,10 @@ The following are the icons included throughout the UCCI:
 [:top:](#top)
 
 ## :bar_chart: Thursday, May 28th
-- IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html) (04:50 - )
-    - IPython and Shell Commands (04:50 - 01:08:00)
+
+### Content
+- #### IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html) (04:50 - 01:08:00)
+    - **IPython and Shell Commands** (04:50 - 01:08:00)
 	    - Shell Commands in IPython
 	        - ! (05:40 - 14:10)
 	    - Shell-Related **Magic Commands**
@@ -818,8 +823,8 @@ The following are the icons included throughout the UCCI:
             - Profiling Memory Use: **%memit** and **%mprun** (01:03:15 - 01:08:00)
         - More IPython Resources
 
-- Introduction to NumPy [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) (01:08:05 - )
-    - Understanding Data Types in Python (01:11:50 - 02:18:05)
+- #### Introduction to NumPy [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) (01:08:05 - 03:57:10)
+    - **Understanding Data Types in Python** (01:11:50 - 02:18:05)
         - A Python Integer Is More Than Just an Integer (01:27:25 - 01:28:30)
         - A Python List Is More Than Just a List (01:28:40 - 01:30:48)
         - Fixed-Type Arrays in Python
@@ -827,7 +832,8 @@ The following are the icons included throughout the UCCI:
             - np.array()
         - Creating Arrays from Scratch (01:44:00 - 01:58:15)
         - NumPy Standard Data Types (02:06:00 - 02:18:05)
-    - The Basics of NumPy Arrays (02:18:05 - )
+
+    - **The Basics of NumPy Arrays** (02:18:05 - 02:39:30)
         - NumPy Array Attributes (02:18:05 - 02:22:15)
         - Array Indexing: Accessing Single Elements (02:22:15 - 02:25:35)
         - Array Slicing: Accessing Subarrays (02:25:35 - 02:39:30)
@@ -840,7 +846,8 @@ The following are the icons included throughout the UCCI:
         - Array Concatenation and Splitting (02:44:05 - 02:56:25)
             - Concatenation of arrays
             - Splitting of arrays
-    - Computation on NumPy Arrays: Universal Functions (02:56:30 - )
+
+    - **Computation on NumPy Arrays: Universal Functions** (02:56:30 - 03:34:10)
         - The Slowness of Loops
         - Introducing UFuncs
         - Exploring NumPy's UFuncs (03:06:20 - 03:16:00)
@@ -854,7 +861,8 @@ The following are the icons included throughout the UCCI:
             - Aggregates (03:20:00 - 03:33:05)
             - Outer products (03:33:05 - 03:34:10)
         - Ufuncs: Learning More
-    - Aggregations: Min, Max, and Everything In Between (03:34:15 - 03:57:10)
+
+    - **Aggregations: Min, Max, and Everything In Between** (03:34:15 - 03:57:10)
         - Summing the Values in an Array (03:35:30 - 03:38:45)
         - Minimum and Maximum (03:38:45 - 03:48:25)
             - Multi dimensional aggregates
@@ -865,6 +873,19 @@ The following are the icons included throughout the UCCI:
 [:top:](#top)
 
 ## :bar_chart: Friday, May 29th
+
+### Content
+- #### Introduction to NumPy [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) (00:20 - )
+    - **Aggregations: Min, Max, and Everything In Between** (00:20 - 07:20)
+        - Example: What is the Average Height of US Presidents? (00:20 - 07:20)
+            - Plotting data with seaborn and matplotlib
+
+    - **Computation on Arrays: Broadcasting** (29:50 - 01:27:50)
+        - Introducing Broadcasting (29:50 - 01:02:45)
+        - Rules of Broadcasting (01:02:50 - 01:17:35)
+        - Broadcasting in Practice (01:17:45 - 01:27:50)
+            - Centering an array
+            - Plotting a two-dimensional function
 
 [:top:](#top)
 
