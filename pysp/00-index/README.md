@@ -730,41 +730,42 @@ The following are the icons included throughout the UCCI:
 ## :computer: Monday, May 25th
 
 ### Content
-    - Qt 
-        - First half (00:03:00 - 02:00:00)
-            - Review
-            - QKeySecuence
-            - How to dive into the documentation
-            - QAction
-            - Slots
-            - QWidgetClass
-            - QMessageBox
-                - StandardButtons
-                - Binary numbers
-        - Second half (02:10:00 - 03:23:30)
-            - closeEvent
-            - QMainWindow inheritance (MyMainWindow)
-            - QMessageBox (message before closing)
+- Qt 
+    - First half (00:03:00 - 02:00:00)
+        - Review
+        - QKeySecuence
+        - How to dive into the documentation
+        - QAction
+        - Slots
+        - QWidgetClass
+        - QMessageBox
+            - StandardButtons
+            - Binary numbers
+    - Second half (02:10:00 - 03:23:30)
+        - closeEvent
+        - QMainWindow inheritance (MyMainWindow)
+        - QMessageBox (message before closing)
 
 [:top:](#top)
 
 ## :computer: Tuesday, May 26th
 
 ### Content
-    - Qt
-        - setDefaultFont (08:30 - 23:30)
-        - **fbs** ~ app packing and running [:page_with_curl:](https://github.com/mherrmann/fbs-tutorial) (24:00 - )
-            - startproject
-            - your app --> main.py
-                - appctxt = ApplicationContext()
-                - appctxt.app.exec()
-            - run
-            - freeze
-            - in case no fpm:
-                - apt-get install ruby ruby-dev rubygems build-essential
-                - gem install --no-document fpm
-            - installer
-        - QTree (01:32:45 - 04:00:00)
+- Qt
+    - setDefaultFont (08:30 - 23:30)
+    - **fbs** ~ app packing and running [:page_with_curl:](https://github.com/mherrmann/fbs-tutorial) (24:00 - )
+        - startproject
+        - your app --> main.py
+            - appctxt = ApplicationContext()
+            - appctxt.app.exec()
+        - run
+        - freeze
+        - in case no fpm:
+            - apt-get install ruby ruby-dev rubygems build-essential
+            - gem install --no-document fpm
+        - installer
+    - QTree (01:32:45 - 04:00:00)
+
 [:top:](#top)
 
 ## :computer: Wednesday, May 27th (from 4 to 7 pm)
@@ -804,26 +805,62 @@ The following are the icons included throughout the UCCI:
 
 ## :bar_chart: Thursday, May 28th
 - IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html) (04:50 - )
-    - IPython and Shell Commands (04:50 - )
+    - IPython and Shell Commands (04:50 - 01:08:00)
 	    - Shell Commands in IPython
-	        - !
+	        - ! (05:40 - 14:10)
 	    - Shell-Related **Magic Commands**
-	        - ½cd
-        - Errors and Debugging
-	    - Controlling Exceptions
-        - Profiling and Timing Code
+	        - %cd (14:20 - 16:50)
+        - Errors and Debugging (17:00 - 52:15)
+	        - Controlling Exceptions
+        - Profiling and Timing Code (52:25 - 01:08:00)
+            - Profiling Full Scripts: **%prun** (54:20 - 58:25)
+            - Line-by-Line Profiling with **%lprun** (58:25 - 01:03:10)
+            - Profiling Memory Use: **%memit** and **%mprun** (01:03:15 - 01:08:00)
         - More IPython Resources
 
-- Introduction to NumPy [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html)
-    - Understanding Data Types in Python
-    - The Basics of NumPy Arrays
-    - Computation on NumPy Arrays: Universal Functions
-    - Aggregations: Min, Max, and Everything In Between
-    - Computation on Arrays: Broadcasting
-    - Comparisons, Masks, and Boolean Logic
-    - Fancy Indexing
-    - Sorting Arrays
-    - Structured Data: NumPy's Structured Arrays
+- Introduction to NumPy [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) (01:08:05 - )
+    - Understanding Data Types in Python (01:11:50 - 02:18:05)
+        - A Python Integer Is More Than Just an Integer (01:27:25 - 01:28:30)
+        - A Python List Is More Than Just a List (01:28:40 - 01:30:48)
+        - Fixed-Type Arrays in Python
+        - Creating Arrays from Python Lists (01:31:15 - 01:44:00)
+            - np.array()
+        - Creating Arrays from Scratch (01:44:00 - 01:58:15)
+        - NumPy Standard Data Types (02:06:00 - 02:18:05)
+    - The Basics of NumPy Arrays (02:18:05 - )
+        - NumPy Array Attributes (02:18:05 - 02:22:15)
+        - Array Indexing: Accessing Single Elements (02:22:15 - 02:25:35)
+        - Array Slicing: Accessing Subarrays (02:25:35 - 02:39:30)
+            - One-dimensional subarrays
+            - Multi-dimensional subarrays
+            - Subarrays as no-copy views
+            - Creating copies of arrays
+        - **Reshaping of Arrays** (02:39:30 - 02:44:05)
+            - np.arange(10) + np.arange(10).reshape((5,2))
+        - Array Concatenation and Splitting (02:44:05 - 02:56:25)
+            - Concatenation of arrays
+            - Splitting of arrays
+    - Computation on NumPy Arrays: Universal Functions (02:56:30 - )
+        - The Slowness of Loops
+        - Introducing UFuncs
+        - Exploring NumPy's UFuncs (03:06:20 - 03:16:00)
+            - Array arithmetic
+            - Absolute value
+            - Trigonometric functions
+            - Exponents and logarithms
+            - Specialized ufuncs
+        - Advanced Ufunc Features (03:16:00 - 03:34:10)
+            - Specifying output (03:16:00 - 03:20:00)
+            - Aggregates (03:20:00 - 03:33:05)
+            - Outer products (03:33:05 - 03:34:10)
+        - Ufuncs: Learning More
+    - Aggregations: Min, Max, and Everything In Between (03:34:15 - 03:57:10)
+        - Summing the Values in an Array (03:35:30 - 03:38:45)
+        - Minimum and Maximum (03:38:45 - 03:48:25)
+            - Multi dimensional aggregates
+            - Other aggregation functions
+        - Example: What is the Average Height of US Presidents? (03:48:30 - 03:57:10)
+            - **Manage data and csv files with numpy and pandas**
 
 [:top:](#top)
 
