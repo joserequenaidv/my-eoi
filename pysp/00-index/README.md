@@ -783,7 +783,7 @@ The following are the icons included throughout the UCCI:
 - [Python Data Science Handbook](jakevdp.github.io/PythonDataScienceHandbook)
 
 ### Content
-- #### IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html) (02:48:00 - 03:56:00)
+- ### IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html) (02:48:00 - 03:56:00)
     - Help and Documentation in IPython:
 	- ?
 	- TAB
@@ -809,7 +809,7 @@ The following are the icons included throughout the UCCI:
 ## :bar_chart: Thursday, May 28th
 
 ### Content
-- #### IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html) (04:50 - 01:08:00)
+- ### IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html) (04:50 - 01:08:00)
     - **IPython and Shell Commands** (04:50 - 01:08:00)
 	    - Shell Commands in IPython
 	        - ! (05:40 - 14:10)
@@ -823,7 +823,7 @@ The following are the icons included throughout the UCCI:
             - Profiling Memory Use: **%memit** and **%mprun** (01:03:15 - 01:08:00)
         - More IPython Resources
 
-- #### Introduction to NumPy [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) (01:08:05 - 03:57:10)
+- ### Introduction to NumPy [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) (01:08:05 - 03:57:10)
     - **Understanding Data Types in Python** (01:11:50 - 02:18:05)
         - A Python Integer Is More Than Just an Integer (01:27:25 - 01:28:30)
         - A Python List Is More Than Just a List (01:28:40 - 01:30:48)
@@ -875,7 +875,7 @@ The following are the icons included throughout the UCCI:
 ## :bar_chart: Friday, May 29th
 
 ### Content
-- #### Introduction to NumPy [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) (00:20 - )
+- ### Introduction to NumPy [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) (00:20 - 03:50:20)
     - **Aggregations: Min, Max, and Everything In Between** (00:20 - 07:20)
         - Example: What is the Average Height of US Presidents? (00:20 - 07:20)
             - Plotting data with seaborn and matplotlib
@@ -886,6 +886,41 @@ The following are the icons included throughout the UCCI:
         - Broadcasting in Practice (01:17:45 - 01:27:50)
             - Centering an array
             - Plotting a two-dimensional function
+
+    - **Comparisons, Masks, and Boolean Logic** (01:28:15 - 02:58:30)
+        - Example: Counting Rainy Days (01:28:15 - 01:40:40)
+            - How many rainy days were there in the year?
+            - What is the average precipitation on those rainy days?
+        - Comparison Operators as **ufuncs** (01:40:40 - 01:48:30)
+        - Working with Boolean Arrays (01:48:30 - 02:44:45)
+            - np.countnonzero()
+            - np.sum()
+            - axis=0/1
+            - any and all
+            - Boolean operators (02:13:20 - 02:44:45): 
+                - *bitwise logic*
+                    - & 
+                    - | 
+                    - ^ 
+                    - ~
+                - *boolean logic*
+                    - and
+                    - or
+                    - xor
+                    - not
+        - Boolean Arrays as Masks (02:44:45 - 02:58:30)
+            - x[x > 5] = array ([])
+            - np. mean / np.std / np.median
+            - np.median(rainfall[rainy & ~summer])
+
+    - **Fancy Indexing** (02:58:35 - 03:50:20)
+        - Exploring Fancy Indexing (02:58:35 - 03:12:00)
+        - Combined Indexing (03:12:00 - 03:16:00)
+        - Example: Selecting Random Points (03:16:00 - 03:35:00)
+            - plt.scatter
+            - subplots
+        - Modifying Values with Fancy Indexing (03:35:00 - 03:38:20)
+        - Bining Data (03:38:20 - 03:50:20)
 
 [:top:](#top)
 
