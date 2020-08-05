@@ -780,7 +780,7 @@ The following are the icons included throughout the UCCI:
 ## :bar_chart: Wednesday, May 27th (from 7 to 8 pm)
 
 ### Book
-- [Python Data Science Handbook](jakevdp.github.io/PythonDataScienceHandbook)
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
 ### Content
 - ### IPython: Beyond Normal Python [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html) (02:48:00 - 03:56:00)
@@ -920,11 +920,35 @@ The following are the icons included throughout the UCCI:
             - plt.scatter
             - subplots
         - Modifying Values with Fancy Indexing (03:35:00 - 03:38:20)
-        - Bining Data (03:38:20 - 03:50:20)
+        - Binning Data (03:38:20 - 03:50:20)
 
 [:top:](#top)
 
 ## :bar_chart: Monday, June 1st
+
+### Content
+- ### Introduction to NumPy [:page_with_curl:](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) (10:40)
+    - Previous Class Review (10:40 - 13:55)
+
+    - **Sorting Arrays** (13:55 - )
+        - Introduction (13:55 - 22:20)
+            - sorted([])
+        - Fast Sorting in NumPy: np.sort and np.argsort (22:30 - 39:00)
+            - Sorting along rows or columns
+        - Partial Sorts: Partitioning (39:00 - 47:50)
+            - np.partition
+        - Example: k-Nearest Neighbors (47:50 - 02:00:00)
+            - K-NN Algorithm
+            - Outlier concept (56:30)
+            - Salmon & Sea bass (01:01:50 - 01:10:01)
+            - show plots (01:19:00 - )
+                - shell -> %matplotlib qt5
+                - jupyter notebook -> %matplotlib inline
+                - plt.scatter()
+                - Pythagoras (01:24:20)
+                - np.newaxis (01:33:00 - 02:00:00)
+
+    - **EXTRA:** WEIRD PROGRAMMING LANGUAGES (02:21:10 - 02:31:00)
 
 [:top:](#top)
 
