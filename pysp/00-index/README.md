@@ -959,11 +959,18 @@ The following are the icons included throughout the UCCI:
         - More Advanced Compound Types (02:56:20 - 02:58:25)
         - RecordArrays: Structured Arrays with a Twist (02:58:30 - 02:59:00)
 
-    - **NumPy Exercises**, by *Alejandro Samarín* (02:59:30 - 03:57:00)
+    - **NumPy Exercises**, by *Alejandro Samarín* (03:01:20 - 03:57:00)
+        - data = numpy.loadtxt('')
+        - skiprows=1
+        - mean and std ~ data.T / data[:, 1] + np.mean, np.std
+        - year in which there were more lynx (03:17:00) ~ years[np.argmax(lynx)]
+        - years in which there are more carrots than hares (03:21:45) ~  years[carrots > hares]
+        - (03:39:50) ~ a. correlation = hares/lynxs, b. np.argpartition(correlation, 3), c. years[np.argpartition(correlation, -3)[3:]]
+        - extra exercises
 
 [:top:](#top)
 
-# :bar_chart: Tuesday, June 2nd
+## :bar_chart: Tuesday, June 2nd
 
 [:top:](#top)
 
