@@ -1,3 +1,4 @@
+![](images/eoi.png)
 # My EOI Experience
 In this repository, I share what I've learned and created while at [Spain's School for Industrial Organization](https://www.eoi.es/es).
 
